@@ -3,7 +3,7 @@ import { nextUtility } from "@/utility";
 import { useEffect } from "react";
 const Preloader = () => {
   useEffect(() => {
-    nextUtility.preloader();
+    // nextUtility.preloader();
   }, []);
   return (
     <div id="preloader" className="preloader">

@@ -114,13 +114,13 @@ const page = () => {
         </div>
       </section>
       {/* Service Section Start */}
-      <section className="service-section fix pt-80 pb-80 section-bg">
+      {/* <section className="service-section fix pt-80 pb-80 section-bg">
         <div className="container">
           <h4
             className="mb-5 text-white text-center wow fadeInUp"
             data-wow-delay=".3s"
           >
-            Preparing For Your Business Success With IT Solution
+            Preparing For Your Business Success With IT Solution sdfd
           </h4>
           <div className="row g-4">
             <div
@@ -191,7 +191,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* About Section Start */}
       <section className="about-section fix section-padding" id="about">
         <div className="container">
@@ -199,7 +199,7 @@ const page = () => {
             <div className="row g-4 align-items-center">
               <div className="col-lg-6">
                 <div className="about-image-items">
-                  <ul
+                  {/* <ul
                     className="experience-text wow fadeInUp"
                     data-wow-delay=".6s"
                   >
@@ -208,7 +208,7 @@ const page = () => {
                       <i className="fas fa-star" />
                     </li>
                     <li>Awards Winning Company</li>
-                  </ul>
+                  </ul> */}
                   <div className="row g-4 align-items-center">
                     <div className="col-md-6 wow fadeInUp" data-wow-delay=".2s">
                       <div className="about-image">
@@ -454,7 +454,7 @@ const page = () => {
         </div>
       </div>
       {/* Team Section Start */}
-      <section className="team-section fix section-padding" id="team">
+      {/* <section className="team-section fix section-padding" id="team">
         <div className="container">
           <div className="row g-4 align-items-center">
             <div className="col-lg-6">
@@ -698,9 +698,9 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Funfact Section Start */}
-      <section className="funfact-section section-padding pt-0">
+      <section className="funfact-section section-padding pt-60">
         <div className="container">
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
