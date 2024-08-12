@@ -4,6 +4,18 @@ import { TestimonialSlider3 } from "@/components/TestimonialSlider";
 import WorkingProcess from "@/components/WorkingProcess";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
+import Image from "next/image";
+import CLientImg from "@assets/img/hero/client.png"
+import About01 from "@assets/img/about/01.jpg"
+import About02 from "@assets/img/about/02.jpg";
+import Bell from "@assets/img/bale.png";
+import videoPopup from "@assets/img/video-bg-popup.jpg"
+import VIdeoImage from "@assets/img/start-business-men.png";
+import Testimonial1 from "@assets/img/testimonial/01.jpg";
+import Testimonial2 from "assets/img/testimonial/testimonial-card1.png";
+import Testimonial3 from "assets/img/testimonial/testimonial-card2.png"
+
+
 const page = () => {
   return (
     <NextLayout header={1} footer={4} >
@@ -39,7 +51,7 @@ const page = () => {
                   className="hero-client d-flex align-items-center gap-4 mt-50 wow fadeInUp"
                   data-wow-delay=".8s"
                 >
-                  <img src="assets/img/hero/client.png" alt="img" />
+                  <Image src={CLientImg} alt="img"  />
                   <p className="text-white">
                     Trusted by 1M+ people <br />
                     around the globe
@@ -213,12 +225,12 @@ const page = () => {
                   <div className="row g-4 align-items-center">
                     <div className="col-md-6 wow fadeInUp" data-wow-delay=".2s">
                       <div className="about-image">
-                        <img src="assets/img/about/01.jpg" alt="about-img" />
+                        <Image src={About01} alt="about-img" />
                       </div>
                     </div>
                     <div className="col-md-6 wow fadeInUp" data-wow-delay=".4s">
                       <div className="about-image">
-                        <img src="assets/img/about/02.jpg" alt="about-img" />
+                        <Image src={About02} alt="about-img" />
                       </div>
                     </div>
                   </div>
@@ -228,7 +240,7 @@ const page = () => {
                 <div className="about-content">
                   <div className="section-title">
                     <span className="sub-content wow fadeInUp">
-                      <img src="assets/img/bale.png" alt="img" />
+                      <Image src={Bell} alt="img" />
                       About Company
                     </span>
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -283,7 +295,7 @@ const page = () => {
         <div className="container">
           <div className="section-title text-center">
           <span className="sub-content wow fadeInUp">
-              <img src="assets/img/bale.png" alt="img" />
+              <Image src={Bell} alt="img" />
               Popular Services
             </span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -438,8 +450,8 @@ const page = () => {
             <div className="row g-4 align-items-center">
               <div className="col-lg-6">
                 <div className="business-boost-content">
-                  <img
-                    src="assets/img/start-business-men.png"
+                  <Image
+                    src={VIdeoImage}
                     alt="img"
                     className="wow fadeInUp"
                     data-wow-delay=".2s"
@@ -463,7 +475,7 @@ const page = () => {
               </div>
               <div className="col-lg-6 mt-4 wow fadeInUp" data-wow-delay=".4s">
                 <div className="video-image">
-                  <img src="assets/img/video-bg-popup.jpg" alt="img" />
+                  <Image src={videoPopup} alt="img" />
                   <div className="video-box">
                     <a
                       href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"
@@ -729,7 +741,7 @@ const page = () => {
         <div className="container">
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
-              <img src="assets/img/bale.png" alt="img" />
+              <Image src={Bell} alt="img" />
               Company Fun Fact
             </span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -845,15 +857,15 @@ const page = () => {
               </div>
               <div className="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
                 <div className="testimonial-image">
-                  <img src="assets/img/testimonial/01.jpg" alt="img" />
+                  <Image src={Testimonial1} alt="img" />
                   <div className="card-shape-1 float-bob-x">
-                    <img
-                      src="assets/img/testimonial/testimonial-card1.png"
+                    <Image
+                      src={Testimonial2}
                       alt="shape-img"
                     />
                   </div>
                   <div className="card-shape-2 float-bob-y">
-                    <img
+                    <Image
                       src="assets/img/testimonial/testimonial-card2.png"
                       alt="shape-img"
                     />
@@ -885,7 +897,7 @@ const page = () => {
         <div className="container">
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
-              <img src="assets/img/bale.png" alt="img" />
+              <Image src={Bell} alt="img" />
               News &amp; Blog
             </span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">

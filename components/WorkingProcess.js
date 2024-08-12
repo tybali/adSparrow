@@ -1,10 +1,19 @@
+import Image from "next/image";
+import Bell from "@assets/img/bale.png";
+import Icon1 from "@assets/img/working-process/icon-1.png"
+import Icon2 from "@assets/img/working-process/icon-2.png";
+import Icon3 from "@assets/img/working-process/icon-3.png";
+import Icon4 from "@assets/img/working-process/icon-4.png";
+import ArrowDown from "@assets/img/working-process/arrow-down.png";
+import ArrowReverse from "@assets/img/working-process/arrow-revers.png";
+
 const WorkingProcess = () => {
   return (
     <section className="working-section-2 section-padding">
       <div className="container">
         <div className="section-title text-center">
           <span className="sub-content wow fadeInUp">
-            <img src="assets/img/bale.png" alt="img" />
+            <Image src={Bell} alt="img" />
             Working Process
           </span>
           <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -16,7 +25,7 @@ const WorkingProcess = () => {
           <div className="col-lg-8 wow fadeInUp" data-wow-delay=".3s">
             <div className="working-card-items">
               <div className="icon">
-                <img src="assets/img/working-process/icon-1.png" alt="img" />
+                <Image src={Icon1} alt="img" />
               </div>
               <div className="content">
                 <span className="sub-title">Step 01</span>
@@ -30,13 +39,13 @@ const WorkingProcess = () => {
           </div>
           <div className="col-lg-3 wow fadeInUp" data-wow-delay=".5s">
             <div className="arrow-image">
-              <img src="assets/img/working-process/arrow-down.png" alt="img" />
+              <Image src={ArrowDown} alt="img" />
             </div>
           </div>
           <div className="col-lg-3 wow fadeInUp" data-wow-delay=".3s">
             <div className="arrow-image text-center">
-              <img
-                src="assets/img/working-process/arrow-revers.png"
+              <Image
+                src={ArrowReverse}
                 alt="img"
               />
             </div>
@@ -52,14 +61,14 @@ const WorkingProcess = () => {
                 </p>
               </div>
               <div className="icon">
-                <img src="assets/img/working-process/icon-2.png" alt="img" />
+                <Image src={Icon2} alt="img" />
               </div>
             </div>
           </div>
           <div className="col-lg-8 wow fadeInUp" data-wow-delay=".3s">
             <div className="working-card-items">
               <div className="icon">
-                <img src="assets/img/working-process/icon-3.png" alt="img" />
+                <Image src={Icon3} alt="img" />
               </div>
               <div className="content">
                 <span className="sub-title">Step 03</span>
@@ -73,13 +82,13 @@ const WorkingProcess = () => {
           </div>
           <div className="col-lg-3 wow fadeInUp" data-wow-delay=".5s">
             <div className="arrow-image">
-              <img src="assets/img/working-process/arrow-down.png" alt="img" />
+              <Image src={ArrowDown} alt="img" />
             </div>
           </div>
           <div className="col-lg-3 wow fadeInUp" data-wow-delay=".3s">
             <div className="arrow-image text-center">
-              <img
-                src="assets/img/working-process/arrow-revers.png"
+              <Image
+                src={ArrowReverse}
                 alt="img"
               />
             </div>
@@ -95,7 +104,7 @@ const WorkingProcess = () => {
                 </p>
               </div>
               <div className="icon">
-                <img src="assets/img/working-process/icon-4.png" alt="img" />
+                <Image src={Icon4} alt="img" />
               </div>
             </div>
           </div>
