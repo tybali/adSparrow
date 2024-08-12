@@ -7,7 +7,7 @@ import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 const page = () => {
   return (
-    <NextLayout>
+    <NextLayout footer={4}>
       {/*<< Breadcrumb Section Start >>*/}
       <Breadcrumb />
       {/* About Section Start */}
@@ -100,60 +100,17 @@ const page = () => {
         </div>
       </section>
       {/* Team Section Start */}
-      <Team />
+      {/* <Team /> */}
       {/* Funfact Section Start */}
-      <section className="funfact-section-2 section-padding pt-0">
+      {/* <section className="funfact-section-2 section-padding pt-0">
         <div className="container">
           <FunFactCounter style={2} />
         </div>
-      </section>
+      </section> */}
       {/* Working Process Section Start */}
       <WorkingProcess2 />
       {/* Brand Section Start */}
-      <section className="brand-section-2 mt-0 mb-0 fix section-padding pt-0">
-        <div className="container-fluid">
-          <div className="brand-wrapper-2">
-            <div className="radius-shape">
-              <img src="assets/img/brand/radius-left.png" alt="shape-img" />
-            </div>
-            <div className="radius-shape-2">
-              <img src="assets/img/brand/radius-right.png" alt="shape-img" />
-            </div>
-            <h5 className="wow fadeInUp" data-wow-delay=".3s">
-              We Have <span>1563+</span> Global Partners. Explore Our Global
-              Clients
-            </h5>
-            <div className="brand-items">
-              <div className="brand-image wow fadeInUp" data-wow-delay=".2s">
-                <img src="assets/img/brand/linkedIn.png" alt="img" />
-              </div>
-              <div className="brand-image wow fadeInUp" data-wow-delay=".4s">
-                <img src="assets/img/brand/dropbox.png" alt="img" />
-              </div>
-              <div className="brand-image wow fadeInUp" data-wow-delay=".6s">
-                <img src="assets/img/brand/trello.png" alt="img" />
-              </div>
-              <div className="brand-image wow fadeInUp" data-wow-delay=".8s">
-                <img src="assets/img/brand/framer.png" alt="img" />
-              </div>
-            </div>
-            <div className="brand-items">
-              <div className="brand-image wow fadeInUp" data-wow-delay=".2s">
-                <img src="assets/img/brand/grammarly.png" alt="img" />
-              </div>
-              <div className="brand-image wow fadeInUp" data-wow-delay=".4s">
-                <img src="assets/img/brand/amazon.png" alt="img" />
-              </div>
-              <div className="brand-image wow fadeInUp" data-wow-delay=".6s">
-                <img src="assets/img/brand/outbrain.png" alt="img" />
-              </div>
-              <div className="brand-image wow fadeInUp" data-wow-delay=".8s">
-                <img src="assets/img/brand/shopify.png" alt="img" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    
       {/* Testimonial Section Start */}
       <section className="testimonial-section-2 fix section-padding fix">
         <div className="bg-shape">

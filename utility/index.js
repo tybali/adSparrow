@@ -5,7 +5,7 @@ export const nextUtility = {
     // Add an event listener to the window's scroll event
     window.addEventListener("scroll", function () {
       // Check the scroll position
-      if (window.scrollY > 250) {
+      if (window.scrollY > 50) {
         // If the scroll position is greater than 250, add the "sticky" class
         header.classList.add("sticky");
       } else {
