@@ -866,7 +866,7 @@ const page = () => {
                   </div>
                   <div className="card-shape-2 float-bob-y">
                     <Image
-                      src="assets/img/testimonial/testimonial-card2.png"
+                      src={Testimonial3}
                       alt="shape-img"
                     />
                   </div>
