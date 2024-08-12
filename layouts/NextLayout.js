@@ -21,11 +21,13 @@ const NextLayout = ({ header, footer, children, bgBlack, single }) => {
   }, []);
 
   return (
+    <>
     <Fragment>
       <Header header={header} single={single} />
       {children}
       <Footer footer={footer} />
     </Fragment>
+    </>
   );
 };
 export default NextLayout;

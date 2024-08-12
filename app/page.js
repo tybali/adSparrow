@@ -15,7 +15,6 @@ import Testimonial1 from "@assets/img/testimonial/01.jpg";
 import Testimonial2 from "@assets/img/testimonial/testimonial-card1.png";
 import Testimonial3 from "@assets/img/testimonial/testimonial-card2.png"
 
-
 const page = () => {
   return (
     <NextLayout header={1} footer={4} >
