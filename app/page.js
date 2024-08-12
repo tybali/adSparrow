@@ -12,8 +12,8 @@ import Bell from "@assets/img/bale.png";
 import videoPopup from "@assets/img/video-bg-popup.jpg"
 import VIdeoImage from "@assets/img/start-business-men.png";
 import Testimonial1 from "@assets/img/testimonial/01.jpg";
-import Testimonial2 from "assets/img/testimonial/testimonial-card1.png";
-import Testimonial3 from "assets/img/testimonial/testimonial-card2.png"
+import Testimonial2 from "@assets/img/testimonial/testimonial-card1.png";
+import Testimonial3 from "@assets/img/testimonial/testimonial-card2.png"
 
 
 const page = () => {
