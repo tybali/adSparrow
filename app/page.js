@@ -1,11 +1,12 @@
 import FunFactCounter from "@/components/FunFactCounter";
 import Pricing from "@/components/Pricing";
-import { TestimonialSlider1 } from "@/components/TestimonialSlider";
+import { TestimonialSlider3 } from "@/components/TestimonialSlider";
+import WorkingProcess from "@/components/WorkingProcess";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 const page = () => {
   return (
-    <NextLayout header={1}>
+    <NextLayout header={1} footer={4} >
       <section
         className="hero-section hero-1 bg-cover fix"
         style={{ backgroundImage: 'url("assets/img/hero/01.jpg")' }}
@@ -114,7 +115,7 @@ const page = () => {
         </div>
       </section>
       {/* Service Section Start */}
-      <section className="service-section fix pt-80 pb-80 section-bg">
+      {/* <section className="service-section fix pt-80 pb-80 section-bg">
         <div className="container">
           <h4
             className="mb-5 text-white text-center wow fadeInUp"
@@ -191,7 +192,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* About Section Start */}
       <section className="about-section fix section-padding">
         <div className="container">
@@ -199,7 +200,7 @@ const page = () => {
             <div className="row g-4 align-items-center">
               <div className="col-lg-6">
                 <div className="about-image-items">
-                  <ul
+                  {/* <ul
                     className="experience-text wow fadeInUp"
                     data-wow-delay=".6s"
                   >
@@ -208,7 +209,7 @@ const page = () => {
                       <i className="fas fa-star" />
                     </li>
                     <li>Awards Winning Company</li>
-                  </ul>
+                  </ul> */}
                   <div className="row g-4 align-items-center">
                     <div className="col-md-6 wow fadeInUp" data-wow-delay=".2s">
                       <div className="about-image">
@@ -262,14 +263,14 @@ const page = () => {
                         <i className="far fa-arrow-right" />
                       </Link>
                     </div>
-                    <div className="author-image">
+                    {/* <div className="author-image">
                       <img src="assets/img/about/author.jpg" alt="author-img" />
                       <div className="content">
                         <h5>
                           Lucas J. Swe / <span>CO Founder</span>
                         </h5>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -278,183 +279,207 @@ const page = () => {
         </div>
       </section>
       {/* Service Section Start */}
-      <section className="service-section section-padding pt-0">
+      <section className="service-section-6 fix section-padding" id="services">
         <div className="container">
           <div className="section-title text-center">
-            <span className="sub-content wow fadeInUp">
+          <span className="sub-content wow fadeInUp">
               <img src="assets/img/bale.png" alt="img" />
               Popular Services
             </span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
-              We Provide Best Quality Service <br />
-              For Your Business
+              Experience the full power AI <br />
+              Generator your data
             </h2>
           </div>
           <div className="row">
             <div
-              className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".2s"
+              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay=".3s"
             >
-              <div className="service-card-items">
+              <div className="popular-service-box-items">
                 <div className="icon">
-                  <i className="flaticon-technical" />
+                  <i className="flaticon-copy-writing" />
                 </div>
-                <h3>
-                  <Link href="service-details">
-                    Data Center and Cloud Services
+                <div className="content">
+                  <h3>
+                    <Link href="service-details">Blog Post &amp; Stories</Link>
+                  </h3>
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus error voluptatem
+                    accusan doloremque totam
+                  </p>
+                  <Link href="service-details" className="link-btn">
+                    Read More <i className="far fa-arrow-right" />
                   </Link>
-                </h3>
-                <div className="service-thumb">
-                  <img src="assets/img/service/04.png" alt="service-img" />
-                  <div className="line-shape">
-                    <img src="assets/img/service/line.png" alt="shape-img" />
-                  </div>
                 </div>
-                <Link className="link-btn" href="service-details">
-                  Read More
-                  <i className="far fa-arrow-right" />
-                </Link>
               </div>
             </div>
             <div
-              className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".4s"
+              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay=".5s"
             >
-              <div className="service-card-items active">
+              <div className="popular-service-box-items">
                 <div className="icon">
-                  <i className="flaticon-vector-design" />
+                  <i className="flaticon-social-media" />
                 </div>
-                <h3>
-                  <Link href="service-details">
-                    Web Development Software Renew
+                <div className="content">
+                  <h3>
+                    <Link href="service-details">Social Media Content</Link>
+                  </h3>
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus error voluptatem
+                    accusan doloremque totam
+                  </p>
+                  <Link href="service-details" className="link-btn">
+                    Read More <i className="far fa-arrow-right" />
                   </Link>
-                </h3>
-                <div className="service-thumb">
-                  <img src="assets/img/service/05.png" alt="service-img" />
-                  <div className="line-shape">
-                    <img src="assets/img/service/line.png" alt="shape-img" />
-                  </div>
                 </div>
-                <Link className="link-btn" href="service-details">
-                  Read More
-                  <i className="far fa-arrow-right" />
-                </Link>
               </div>
             </div>
             <div
-              className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".6s"
+              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay=".7s"
             >
-              <div className="service-card-items">
+              <div className="popular-service-box-items">
+                <div className="icon">
+                  <i className="flaticon-earning" />
+                </div>
+                <div className="content">
+                  <h3>
+                    <Link href="service-details">eCommerce Copy</Link>
+                  </h3>
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus error voluptatem
+                    accusan doloremque totam
+                  </p>
+                  <Link href="service-details" className="link-btn">
+                    Read More <i className="far fa-arrow-right" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay=".3s"
+            >
+              <div className="popular-service-box-items">
+                <div className="icon">
+                  <i className="flaticon-software-development" />
+                </div>
+                <div className="content">
+                  <h3>
+                    <Link href="service-details">Ad Targeting tips</Link>
+                  </h3>
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus error voluptatem
+                    accusan doloremque totam
+                  </p>
+                  <Link href="service-details" className="link-btn">
+                    Read More <i className="far fa-arrow-right" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay=".5s"
+            >
+              <div className="popular-service-box-items">
+                <div className="icon">
+                  <i className="flaticon-copy-writing" />
+                </div>
+                <div className="content">
+                  <h3>
+                    <Link href="service-details">Content Rewriter</Link>
+                  </h3>
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus error voluptatem
+                    accusan doloremque totam
+                  </p>
+                  <Link href="service-details" className="link-btn">
+                    Read More <i className="far fa-arrow-right" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay=".7s"
+            >
+              <div className="popular-service-box-items">
                 <div className="icon">
                   <i className="flaticon-database" />
                 </div>
-                <h3>
-                  <Link href="service-details">
-                    IT Management Machine Learning
+                <div className="content">
+                  <h3>
+                    <Link href="service-details">
+                      Optimized for conversions
+                    </Link>
+                  </h3>
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus error voluptatem
+                    accusan doloremque totam
+                  </p>
+                  <Link href="service-details" className="link-btn">
+                    Read More <i className="far fa-arrow-right" />
                   </Link>
-                </h3>
-                <div className="service-thumb">
-                  <img src="assets/img/service/06.png" alt="service-img" />
-                  <div className="line-shape">
-                    <img src="assets/img/service/line.png" alt="shape-img" />
-                  </div>
                 </div>
-                <Link className="link-btn" href="service-details">
-                  Read More
-                  <i className="far fa-arrow-right" />
-                </Link>
-              </div>
-            </div>
-            <div
-              className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".8s"
-            >
-              <div className="service-card-items">
-                <div className="icon">
-                  <i className="flaticon-design-thinking" />
-                </div>
-                <h3>
-                  <Link href="service-details">
-                    Digital Product UI/UX Design
-                  </Link>
-                </h3>
-                <div className="service-thumb">
-                  <img src="assets/img/service/07.png" alt="service-img" />
-                  <div className="line-shape">
-                    <img src="assets/img/service/line.png" alt="shape-img" />
-                  </div>
-                </div>
-                <Link className="link-btn" href="service-details">
-                  Read More
-                  <i className="far fa-arrow-right" />
-                </Link>
               </div>
             </div>
           </div>
         </div>
       </section>
+      {/* Process */}
+      <WorkingProcess />
       {/* Cta Video Section Start */}
-      <div
-        className="cta-video-section fix bg-cover"
-        style={{ backgroundImage: 'url("assets/img/cta/cta-video.jpg")' }}
-      >
+      <section className="business-boost-section section-padding pt-0">
         <div className="container">
-          <div className="cta-video-wrapper">
-            <div className="video-box">
-              <a
-                href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"
-                className="video-buttton ripple video-popup"
-              >
-                <i className="fas fa-play" />
-              </a>
+          <div className="business-boost-wrapper">
+            <div className="row g-4 align-items-center">
+              <div className="col-lg-6">
+                <div className="business-boost-content">
+                  <img
+                    src="assets/img/start-business-men.png"
+                    alt="img"
+                    className="wow fadeInUp"
+                    data-wow-delay=".2s"
+                  />
+                  <h2 className="wow fadeInUp" data-wow-delay=".4s">
+                    Ready to Boost Business <br />
+                    &amp; product Sales ?
+                  </h2>
+                  <p className="wow fadeInUp" data-wow-delay=".6s">
+                    Sed ut perspiciatis unde omnis iste natus voluptatem <br />
+                    accusantium doloremque laudantium totam
+                  </p>
+                  <Link
+                    href="contact"
+                    className="theme-btn bg-2 wow fadeInUp"
+                    data-wow-delay=".7x"
+                  >
+                    Get Started Now <i className="far fa-arrow-right" />
+                  </Link>
+                </div>
+              </div>
+              <div className="col-lg-6 mt-4 wow fadeInUp" data-wow-delay=".4s">
+                <div className="video-image">
+                  <img src="assets/img/video-bg-popup.jpg" alt="img" />
+                  <div className="video-box">
+                    <a
+                      href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"
+                      className="video-buttton ripple video-popup"
+                    >
+                      <i className="fas fa-play" />
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div className="marquee-wrapper text-slider">
-          <div className="marquee-inner to-left">
-            <ul className="marqee-list d-flex">
-              <li className="marquee-item">
-                <span className="text-slider">IT</span>
-                <span className="text-slider">Consulting </span>
-                <span className="text-slider style-border" />
-                <span className="text-slider">Co</span>
-                <span className="text-slider">Machine </span>
-                <span className="text-slider style-border" />
-                <span className="text-slider">IT</span>
-                <span className="text-slider">Learning </span>
-                <span className="text-slider style-border" />
-                <span className="text-slider">Web </span>
-                <span className="text-slider">Development</span>
-                <span className="text-slider">IT</span>
-                <span className="text-slider">Consulting </span>
-                <span className="text-slider style-border" />
-                <span className="text-slider">Co</span>
-                <span className="text-slider">Machine </span>
-                <span className="text-slider style-border" />
-                <span className="text-slider">IT</span>
-                <span className="text-slider">Learning </span>
-                <span className="text-slider style-border" />
-                <span className="text-slider">Web </span>
-                <span className="text-slider">Development</span>
-                <span className="text-slider">IT</span>
-                <span className="text-slider">Consulting </span>
-                <span className="text-slider style-border" />
-                <span className="text-slider">Co</span>
-                <span className="text-slider">Machine </span>
-                <span className="text-slider style-border" />
-                <span className="text-slider">IT</span>
-                <span className="text-slider">Learning </span>
-                <span className="text-slider style-border" />
-                <span className="text-slider">Web </span>
-                <span className="text-slider">Development</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      </section>
       {/* Team Section Start */}
-      <section className="team-section fix section-padding">
+      {/* <section className="team-section fix section-padding">
         <div className="container">
           <div className="row g-4 align-items-center">
             <div className="col-lg-6">
@@ -698,9 +723,9 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Funfact Section Start */}
-      <section className="funfact-section section-padding pt-0">
+      <section className="funfact-section section-padding pt-50">
         <div className="container">
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
@@ -715,7 +740,7 @@ const page = () => {
         </div>
       </section>
       {/* Popular Case Study Section Start */}
-      <section className="case-study-section fix section-padding theme-bg">
+      {/* <section className="case-study-section fix section-padding theme-bg">
         <div className="left-shape">
           <img src="assets/img/case-study/left-shape.png" alt="shape-img" />
         </div>
@@ -804,11 +829,42 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Pricing Section Start */}
       <Pricing />
       {/* Testimonial Section Start */}
-      <section className="testimonial-section fix section-padding pt-0">
+      <section
+        className="testimonial-section-3 fix section-padding pt-0"
+        id="testimonial"
+      >
+        <div className="container">
+          <div className="testimonial-wrapper-2">
+            <div className="row justify-content-between align-items-center g-4">
+              <div className="col-lg-6">
+                <TestimonialSlider3 />
+              </div>
+              <div className="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
+                <div className="testimonial-image">
+                  <img src="assets/img/testimonial/01.jpg" alt="img" />
+                  <div className="card-shape-1 float-bob-x">
+                    <img
+                      src="assets/img/testimonial/testimonial-card1.png"
+                      alt="shape-img"
+                    />
+                  </div>
+                  <div className="card-shape-2 float-bob-y">
+                    <img
+                      src="assets/img/testimonial/testimonial-card2.png"
+                      alt="shape-img"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* <section className="testimonial-section fix section-padding pt-0">
         <div className="container">
           <div className="testimonial-wrapper">
             <div className="row g-4">
@@ -823,9 +879,9 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* News Section Start */}
-      <section className="news-section section-padding pt-0">
+      <section className="news-section section-padding pt-50">
         <div className="container">
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
