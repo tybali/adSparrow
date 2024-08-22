@@ -1,7 +1,10 @@
 "use client";
 import { nextUtility } from "@/utility";
 import Link from "next/link";
+import Logo from "@assets/img/logo/adsparrow-logo.png";
 import { Fragment, useEffect, useState } from "react";
+import Image from "next/image";
+
 const Header = ({ header, single }) => {
   useEffect(() => {
     nextUtility.stickyNav();
@@ -610,7 +613,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
               <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                 <div className="offcanvas__logo">
                   <Link href="/">
-                    <img src="assets/img/logo/black-logo.svg" alt="logo-img" />
+                    <Image src={Logo} alt="logo-img" height= {60} width={184} />
                   </Link>
                 </div>
                 <div className="offcanvas__close" onClick={() => close()}>
@@ -703,24 +706,21 @@ const Header1 = ({ single, menu }) => {
   const [sidebarToggle, setSidebarToggle] = useState(false);
   return (
     <Fragment>
-      <header id="header-sticky" className="header-1">
+      <header id="header-sticky" className="header-1 sticky">
         <div className="container-fluid">
           <div className="mega-menu-wrapper">
             <div className="header-main">
               <div className="sticky-logo">
                 <Link href="/">
-                  <img
-                    src="assets/img/logo/white-logo.svg"
+                  <Image
+                    src={Logo}
                     alt="logo-img"
                     className="logo-1"
+                    height= {64} width={192} 
                   />
                 </Link>
                 <Link href="/">
-                  <img
-                    src="assets/img/logo/black-logo.svg"
-                    alt="logo-img"
-                    className="logo-2"
-                  />
+                <Image src={Logo} alt="logo-img" className="logo-2"  height= {64} width={192} />
                 </Link>
               </div>
               <div className="header-left">
@@ -731,7 +731,7 @@ const Header1 = ({ single, menu }) => {
                 </div>
               </div>
               <div className="header-right d-flex justify-content-end align-items-center">
-                <div className="icon-items">
+                {/* <div className="icon-items">
                   <div className="icon">
                     <i className="fas fa-phone-alt" />
                   </div>
@@ -741,7 +741,15 @@ const Header1 = ({ single, menu }) => {
                       <a href="tel:+00012345688">+000 (123) 456 88</a>
                     </h4>
                   </div>
-                </div>
+                </div> */}
+                <Link
+                    href="/"
+                    className="theme-btn hover-white wow fadeInUp"
+                    style={{ backgroundColor: "#202369"}}
+                    data-wow-delay=".4s"
+                  >
+                    Get Free Audit
+                  </Link>
                 <div className="header__hamburger d-xl-block my-auto">
                   <div
                     className="sidebar__toggle"
@@ -781,7 +789,7 @@ const Header2 = ({ single }) => {
             <div className="header-main">
               <div className="sticky-logo">
                 <Link href="/">
-                  <img src="assets/img/logo/black-logo.svg" alt="logo-img" />
+                <Image src={Logo} alt="logo-img" className="logo-2" height= {57} width={130} />
                 </Link>
               </div>
               <div className="header-left">
@@ -837,7 +845,7 @@ const Header3 = ({ single }) => {
             <div className="header-main">
               <div className="sticky-logo">
                 <Link href="/">
-                  <img src="assets/img/logo/black-logo.svg" alt="logo-img" />
+                <Image src={Logo} alt="logo-img" className="logo-2" height= {57} width={130} />
                 </Link>
               </div>
               <div className="header-left">
@@ -903,10 +911,10 @@ const Header5 = ({ single }) => {
             <div className="header-main">
               <div className="sticky-logo">
                 <Link href="/" className="logo-1">
-                  <img src="assets/img/logo/white-logo.svg" alt="logo-img" />
+                  <Image src={Logo} alt="logo-img" height= {57} width={130}  />
                 </Link>
                 <Link href="/" className="logo-2">
-                  <img src="assets/img/logo/black-logo.svg" alt="logo-img" />
+                <Image src={Logo} alt="logo-img" className="logo-2" height= {57} width={130} />
                 </Link>
               </div>
               <div className="header-left">
@@ -955,7 +963,7 @@ const Header6 = ({ single }) => {
             <div className="header-main">
               <div className="sticky-logo">
                 <Link href="/">
-                  <img src="assets/img/logo/black-logo.svg" alt="logo-img" />
+                <Image src={Logo} alt="logo-img" className="logo-2" height= {57} width={130} />
                 </Link>
               </div>
               <div className="header-left">

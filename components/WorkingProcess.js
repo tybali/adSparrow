@@ -22,6 +22,10 @@ const WorkingProcess = () => {
           </h2>
         </div>
         <div className="row align-items-center justify-content-between">
+      {/* try something new */}
+      
+
+
           <div className="col-lg-8 wow fadeInUp" data-wow-delay=".3s">
             <div className="working-card-items">
               <div className="icon">

@@ -3,7 +3,7 @@ import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 const page = () => {
   return (
-    <NextLayout>
+    <NextLayout header={1} footer={4}>
       <Breadcrumb pageName="Error 404" />
       <div className="error-section fix section-padding">
         <div className="container">

@@ -1,7 +1,7 @@
 import FunFactCounter from "@/components/FunFactCounter";
 import Pricing from "@/components/Pricing";
 import { TestimonialSlider3 } from "@/components/TestimonialSlider";
-import WorkingProcess from "@/components/WorkingProcess";
+import OurProcess from "@/components/OurProcess";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 import Image from "next/image";
@@ -23,7 +23,7 @@ const page = () => {
         style={{ backgroundImage: 'url("assets/img/hero/01.jpg")' }}
       >
         <div className="container">
-          <div className="row g-4 justify-content-between">
+          <div className="row g-4 justify-content-between" style={{ marginTop: 30 }}>
             <div className="col-lg-6">
               <div className="hero-content">
                 <h1 className="wow fadeInUp" data-wow-delay=".2s">
@@ -46,7 +46,7 @@ const page = () => {
                     View Services <i className="far fa-arrow-right" />
                   </Link>
                 </div>
-                <div
+                {/* <div
                   className="hero-client d-flex align-items-center gap-4 mt-50 wow fadeInUp"
                   data-wow-delay=".8s"
                 >
@@ -55,13 +55,13 @@ const page = () => {
                     Trusted by 1M+ people <br />
                     around the globe
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
               <div className="hero-contact-box">
-                <h4>Get Consultations</h4>
-                <p>Ready to Register Our Landsio Services</p>
+                <h4>Get Free Consultation</h4>
+                <p>Do you want to knout about this service? Learn more</p>
                 <form
                   action="#"
                   id="contact-form"
@@ -100,6 +100,16 @@ const page = () => {
                       </div>
                     </div>
                     <div className="col-lg-12">
+                      <div className="form-clt">
+                        <input
+                          type="text"
+                          name="business website"
+                          id="website"
+                          placeholder="Business Website (optional)"
+                        />
+                      </div>
+                    </div>
+                    {/* <div className="col-lg-12">
                       <div className="payment-save">
                         <input
                           type="checkbox"
@@ -112,10 +122,10 @@ const page = () => {
                           <Link href="/">Terms &amp; Conditions</Link>
                         </p>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="col-lg-12">
                       <button type="submit" className="theme-btn">
-                        Get Started Now <i className="far fa-arrow-right" />
+                        Book Now
                       </button>
                     </div>
                   </div>
@@ -441,7 +451,7 @@ const page = () => {
         </div>
       </section>
       {/* Process */}
-      <WorkingProcess />
+      <OurProcess />
       {/* Cta Video Section Start */}
       <section className="business-boost-section section-padding pt-0">
         <div className="container">
