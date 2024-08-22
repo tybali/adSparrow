@@ -9,6 +9,7 @@ const HeroVideo = () => {
       id="banner-video"
       autoplay={true}
       loop={true}
+      muted={true}
       controls={false}
       //  poster={getCldImageUrl({ src: "bg-video_jtwdal" })}
       className="banner-video fix"
