@@ -2,3 +2,9 @@ node_modules/
 .next/
 .swc/
 .*.env
+# next-video
+videos/*
+!videos/*.json
+!videos/*.js
+!videos/*.ts
+public/_next-video

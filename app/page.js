@@ -5,48 +5,58 @@ import OurProcess from "@/components/OurProcess";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 import Image from "next/image";
-import CLientImg from "@assets/img/hero/client.png"
-import About01 from "@assets/img/about/01.jpg"
+import About01 from "@assets/img/about/01.jpg";
 import About02 from "@assets/img/about/02.jpg";
 import Bell from "@assets/img/bale.png";
-import videoPopup from "@assets/img/video-bg-popup.jpg"
+import videoPopup from "@assets/img/video-bg-popup.jpg";
 import VIdeoImage from "@assets/img/start-business-men.png";
 import Testimonial1 from "@assets/img/testimonial/01.jpg";
 import Testimonial2 from "@assets/img/testimonial/testimonial-card1.png";
-import Testimonial3 from "@assets/img/testimonial/testimonial-card2.png"
+import Testimonial3 from "@assets/img/testimonial/testimonial-card2.png";
+import HeroVideo from "@/components/HeroVideo";
 
 const page = () => {
   return (
-    <NextLayout header={1} footer={4} >
-      <section
-        className="hero-section hero-1 bg-cover fix"
-        style={{ backgroundImage: 'url("assets/img/hero/01.jpg")' }}
-      >
-        <div className="container">
-          <div className="row g-4 justify-content-between" style={{ marginTop: 30 }}>
-            <div className="col-lg-6">
-              <div className="hero-content">
-                <h1 className="wow fadeInUp" data-wow-delay=".2s">
-                  We Take Care <br />
-                  Your IT Solutions <br /> &amp; Provide Best <br /> Services
-                </h1>
-                <div className="hero-button">
-                  <Link
-                    href="/"
-                    className="theme-btn hover-white wow fadeInUp"
-                    data-wow-delay=".4s"
-                  >
-                    Get Started Now <i className="far fa-arrow-right" />
-                  </Link>
-                  <Link
+    <NextLayout header={1} footer={4}>
+      <section className="hero-section">
+        <HeroVideo />
+        <div className="hero-1">
+          <div className="container ">
+            <div
+              className="row g-4 justify-content-between"
+              style={{ marginTop: 30 }}
+            >
+              <div className="col-lg-6">
+                <div className="hero-content">
+                  <h1 className="wow fadeInUp" data-wow-delay=".2s">
+                    Look who is here! <br />
+                    We have been keeping your spot warm. <br />
+                  </h1>
+                  <p className="banner-detail">
+                    You are struggling to stand out online, with website that
+                    blend into the background, social media content that gets
+                    lost in the feed, and marketing strategies that miss the
+                    mark. Struggles you treat like a fact of life. <br /><br />
+                    <span> Well, They
+                    ain’t. AdSparrow got you covered. </span>
+                  </p>
+                  <div className="hero-button">
+                    <Link
+                      href="/"
+                      className="theme-btn hover-white wow fadeInUp"
+                      data-wow-delay=".4s"
+                    >
+                      Let's Chat
+                    </Link>
+                    {/* <Link
                     href="service"
                     className="btn-link wow fadeInUp"
                     data-wow-delay=".6s"
                   >
                     View Services <i className="far fa-arrow-right" />
-                  </Link>
-                </div>
-                {/* <div
+                  </Link> */}
+                  </div>
+                  {/* <div
                   className="hero-client d-flex align-items-center gap-4 mt-50 wow fadeInUp"
                   data-wow-delay=".8s"
                 >
@@ -56,60 +66,60 @@ const page = () => {
                     around the globe
                   </p>
                 </div> */}
+                </div>
               </div>
-            </div>
-            <div className="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
-              <div className="hero-contact-box">
-                <h4>Get Free Consultation</h4>
-                <p>Do you want to knout about this service? Learn more</p>
-                <form
-                  action="#"
-                  id="contact-form"
-                  method="POST"
-                  className="contact-form-item"
-                >
-                  <div className="row g-4">
-                    <div className="col-lg-12">
-                      <div className="form-clt">
-                        <input
-                          type="text"
-                          name="name"
-                          id="name"
-                          placeholder="Your Name"
-                        />
+              <div className="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
+                <div className="hero-contact-box">
+                  <h4>Get Free Consultation</h4>
+                  <p>Do you want to knout about this service? Learn more</p>
+                  <form
+                    action="#"
+                    id="contact-form"
+                    method="POST"
+                    className="contact-form-item"
+                  >
+                    <div className="row g-4">
+                      <div className="col-lg-12">
+                        <div className="form-clt">
+                          <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            placeholder="Your Name"
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div className="col-lg-12">
-                      <div className="form-clt">
-                        <input
-                          type="text"
-                          name="email"
-                          id="email"
-                          placeholder="Email Address"
-                        />
+                      <div className="col-lg-12">
+                        <div className="form-clt">
+                          <input
+                            type="text"
+                            name="email"
+                            id="email"
+                            placeholder="Email Address"
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div className="col-lg-12">
-                      <div className="form-clt">
-                        <input
-                          type="text"
-                          name="phone"
-                          id="phone"
-                          placeholder="Phone Number"
-                        />
+                      <div className="col-lg-12">
+                        <div className="form-clt">
+                          <input
+                            type="text"
+                            name="phone"
+                            id="phone"
+                            placeholder="Phone Number"
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div className="col-lg-12">
-                      <div className="form-clt">
-                        <input
-                          type="text"
-                          name="business website"
-                          id="website"
-                          placeholder="Business Website (optional)"
-                        />
+                      <div className="col-lg-12">
+                        <div className="form-clt">
+                          <input
+                            type="text"
+                            name="business website"
+                            id="website"
+                            placeholder="Business Website (optional)"
+                          />
+                        </div>
                       </div>
-                    </div>
-                    {/* <div className="col-lg-12">
+                      {/* <div className="col-lg-12">
                       <div className="payment-save">
                         <input
                           type="checkbox"
@@ -123,13 +133,14 @@ const page = () => {
                         </p>
                       </div>
                     </div> */}
-                    <div className="col-lg-12">
-                      <button type="submit" className="theme-btn">
-                        Book Now
-                      </button>
+                      <div className="col-lg-12">
+                        <button type="submit" className="theme-btn">
+                          Book Now
+                        </button>
+                      </div>
                     </div>
-                  </div>
-                </form>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
@@ -303,7 +314,7 @@ const page = () => {
       <section className="service-section-6 fix section-padding" id="services">
         <div className="container">
           <div className="section-title text-center">
-          <span className="sub-content wow fadeInUp">
+            <span className="sub-content wow fadeInUp">
               <Image src={Bell} alt="img" />
               Popular Services
             </span>
@@ -868,16 +879,10 @@ const page = () => {
                 <div className="testimonial-image">
                   <Image src={Testimonial1} alt="img" />
                   <div className="card-shape-1 float-bob-x">
-                    <Image
-                      src={Testimonial2}
-                      alt="shape-img"
-                    />
+                    <Image src={Testimonial2} alt="shape-img" />
                   </div>
                   <div className="card-shape-2 float-bob-y">
-                    <Image
-                      src={Testimonial3}
-                      alt="shape-img"
-                    />
+                    <Image src={Testimonial3} alt="shape-img" />
                   </div>
                 </div>
               </div>

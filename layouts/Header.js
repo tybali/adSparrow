@@ -748,7 +748,7 @@ const Header1 = ({ single, menu }) => {
                     style={{ backgroundColor: "#202369"}}
                     data-wow-delay=".4s"
                   >
-                    Get Free Audit
+                    Free Audit
                   </Link>
                 <div className="header__hamburger d-xl-block my-auto">
                   <div
