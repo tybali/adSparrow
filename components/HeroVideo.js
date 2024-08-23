@@ -11,9 +11,9 @@ const HeroVideo = () => {
       loop={true}
       muted={true}
       controls={false}
-      //  poster={getCldImageUrl({ src: "bg-video_jtwdal" })}
+      //  poster={getCldImageUrl({ src: "bg-video_1_esptsj" })}
       className="banner-video fix"
-      src="bg-video_jtwdal"
+      src="bg-video_1_esptsj"
     />
   );
 };
