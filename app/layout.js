@@ -22,17 +22,18 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-        <Head>
+      <Head>
         <title>
-        The Ultimate Guide to Choosing the Best Digital Marketing Company for Your Business
+          The Ultimate Guide to Choosing the Best Digital Marketing Company for
+          Your Business
         </title>
         <meta name="robots" content="all" />
         <meta name="googlebot" content="all" />
         <link rel="canonical" href="https://www.adsparrow.net/" />
       </Head>
       <body>
-      {/* <Preloader /> */}
-      {children}
+        {/* <Preloader /> */}
+        {children}
       </body>
     </html>
   );

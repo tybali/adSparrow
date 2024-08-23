@@ -8,20 +8,17 @@ import Image from "next/image";
 import About01 from "@assets/img/about/01.jpg";
 import About02 from "@assets/img/about/02.jpg";
 import Bell from "@assets/img/bale.png";
-import videoPopup from "@assets/img/video-bg-popup.jpg";
-import VIdeoImage from "@assets/img/start-business-men.png";
+import Illustrtation from "@assets/img/illustration.webp";
 import Testimonial1 from "@assets/img/testimonial/01.jpg";
 import Testimonial2 from "@assets/img/testimonial/testimonial-card1.png";
 import Testimonial3 from "@assets/img/testimonial/testimonial-card2.png";
-import HeroVideo from "@/components/HeroVideo";
 
 const page = () => {
   return (
     <NextLayout header={1} footer={4}>
-      <section className="hero-section">
-        <HeroVideo />
-        <div className="hero-1">
-          <div className="container ">
+      <section className="hero-section hero-1 bg-cover fix"
+      >
+          <div className="container">
             <div
               className="row g-4 justify-content-between"
               style={{ marginTop: 30 }}
@@ -144,7 +141,6 @@ const page = () => {
               </div>
             </div>
           </div>
-        </div>
       </section>
       {/* Service Section Start */}
       {/* <section className="service-section fix pt-80 pb-80 section-bg">
@@ -470,12 +466,12 @@ const page = () => {
             <div className="row g-4 align-items-center">
               <div className="col-lg-6">
                 <div className="business-boost-content">
-                  <Image
+                  {/* <Image
                     src={VIdeoImage}
                     alt="img"
                     className="wow fadeInUp"
                     data-wow-delay=".2s"
-                  />
+                  /> */}
                   <h2 className="wow fadeInUp" data-wow-delay=".4s">
                     Ready to Boost Business <br />
                     &amp; product Sales ?
@@ -495,15 +491,7 @@ const page = () => {
               </div>
               <div className="col-lg-6 mt-4 wow fadeInUp" data-wow-delay=".4s">
                 <div className="video-image">
-                  <Image src={videoPopup} alt="img" />
-                  <div className="video-box">
-                    <a
-                      href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"
-                      className="video-buttton ripple video-popup"
-                    >
-                      <i className="fas fa-play" />
-                    </a>
-                  </div>
+                  <Image src={Illustrtation} alt="img" className="offer-illustration" />
                 </div>
               </div>
             </div>
