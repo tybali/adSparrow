@@ -3,8 +3,9 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 
-const RoundFillAnimation = ({ character, sectionRef }) => {
+const RoundFillAnimation = ({ character }) => {
   const circleRef = useRef(null);
+  const sectionRef = useRef(null);
 
   useEffect(() => {
     const section = sectionRef.current;
@@ -37,7 +38,7 @@ const RoundFillAnimation = ({ character, sectionRef }) => {
     );
   };
   return (
-    <div style={{ width: "100px", height: "100px", display: "inline-block" }}>
+    <div ref={sectionRef} style={{ width: "100px", height: "100px", display: "inline-block" }}>
       <svg id="svg1" viewBox="0 0 48 48" height={100}>
         <defs>
           <clipPath id="circleView">

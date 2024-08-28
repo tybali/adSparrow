@@ -1,14 +1,12 @@
 "use client"
 
 import Image from "next/image";
-import Illustration from "@assets/img/working-process/process-illustration.jpg";
+import Illustration from "@assets/img/working-process/illustration.jpeg";
 import RoundFillAnimation from "./RoundFillAnimation";
-import { useRef } from "react";
 
 const OurProcess = () => {
-  const sectionRef = useRef(null);
   return (
-    <section ref={sectionRef} className="working-process-section section-padding pt-0">
+    <section  className="working-process-section section-padding pt-0">
       <div className="container">
         <div className="section-title text-center">
           <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -24,8 +22,8 @@ const OurProcess = () => {
         <div className="process-container">
           <Image
             src={Illustration}
-            height={588}
-            width={540}
+            height={560}
+            width={570}
             alt="digital marketing strategy"
             className="resize-illustration wow fadeInUp"
                     data-wow-delay=".5s"
@@ -33,8 +31,8 @@ const OurProcess = () => {
 
           <div className="process-steps-column">
             <div className="process-step">
-              <RoundFillAnimation character={"S"} sectionRef={sectionRef} />
-              <div className="process-step-content">
+              <RoundFillAnimation character={"S"} />
+              <div className="process-step-content" style = {{ marginTop: 20 }}>
                 <h3>Spark – IGNITE | ENVISION</h3>
                 <h5 style={{ marginTop: 6, fontWeight: "normal" }}>
                   We light the fuse by understanding your brand's unique vibe
@@ -44,7 +42,7 @@ const OurProcess = () => {
             </div>
 
             <div className="process-step">
-            <RoundFillAnimation character={"P"} sectionRef={sectionRef} />
+            <RoundFillAnimation character={"P"} />
               <div className="process-step-content">
                 <h3>Pulse – PLAN | STRATEGIZE</h3>
                 <h5 style={{ marginTop: 6, fontWeight: "normal" }}>
@@ -55,7 +53,7 @@ const OurProcess = () => {
             </div>
 
             <div className="process-step">
-            <RoundFillAnimation character={"A"} sectionRef={sectionRef} />
+            <RoundFillAnimation character={"A"} />
               <div className="process-step-content">
                 <h3>Amplify – EXECUTE | BOOST</h3>
                 <h5 style={{ marginTop: 6, fontWeight: "normal" }}>
@@ -66,7 +64,7 @@ const OurProcess = () => {
             </div>
 
             <div className="process-step">
-            <RoundFillAnimation character={"R"} sectionRef={sectionRef} />
+            <RoundFillAnimation character={"R"} />
               <div className="process-step-content">
                 <h3>Refine – TWEAK | POLISH</h3>
                 <h5 style={{ marginTop: 6, fontWeight: "normal" }}>
@@ -77,7 +75,7 @@ const OurProcess = () => {
             </div>
 
             <div className="process-step">
-            <RoundFillAnimation character={"K"} sectionRef={sectionRef} />
+            <RoundFillAnimation character={"K"} />
               <div className="process-step-content">
                 <h3>Keep – MEASURE | EVOLVE</h3>
                 <h5 style={{ marginTop: 6, fontWeight: "normal" }}>

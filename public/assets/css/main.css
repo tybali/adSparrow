@@ -58,7 +58,7 @@ Version: 1.0.0
   content: "";
   width: 20px;
   height: 20px;
-  background-color: var(--header);
+  background-color: var(--boxbg);
   border-radius: 50%;
   z-index: -1;
 }
@@ -2607,10 +2607,11 @@ input.main-search-input::placeholder {
   height: 100%;
   content: "";
   background: radial-gradient(
-    66.34% 66.34% at 50% 25.71%,
-    rgba(16, 24, 40, 0.3) 0%,
-    rgba(16, 24, 40, 0.97) 100%
-  ), url("../img/hero/cover.webp");
+      66.34% 66.34% at 50% 25.71%,
+      rgba(16, 24, 40, 0.3) 0%,
+      rgba(16, 24, 40, 0.97) 100%
+    ),
+    url("../img/hero/cover.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -11197,7 +11198,6 @@ p.sticky-label {
 }
 /* Our Process */
 
-
 .process-container {
   display: flex;
   padding: 0px;
@@ -11206,6 +11206,7 @@ p.sticky-label {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin-top: 60px;
 }
 
 .process-steps-column {
@@ -11237,11 +11238,11 @@ p.sticky-label {
   color: var(--boxbg);
   margin-top: 6px;
 }
-.banner-video  {
-height: 100% !important;
-width: 100% !important;
-position: absolute !important;
-top: 0;
+.banner-video {
+  height: 100% !important;
+  width: 100% !important;
+  position: absolute !important;
+  top: 0;
 }
 .vjs-text-track-display {
   display: none !important;
@@ -11249,12 +11250,12 @@ top: 0;
 
 .banner-detail {
   color: #fff;
-    font-size: 20px;
-    font-weight: 100;
-    margin-top: 30px;
-    span {
-      font-weight: 700;
-    }
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 30px;
+  span {
+    font-weight: 700;
+  }
 }
 
 .sub-heading {
@@ -11262,12 +11263,14 @@ top: 0;
   font-size: 0.5em;
   margin-top: 20px;
   padding: 0px;
+  line-height: 1.8rem;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 1025px) {
   .resize-illustration {
     height: 400px;
-    width: 422px
+    width: 422px;
   }
 }
 
@@ -11281,6 +11284,32 @@ top: 0;
   .offer-illustration {
     display: none;
   }
+}
+
+.intro-quotation {
+  font-style: italic;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 2.7rem;
+  font-weight: 300;
+}
+
+.check-cover {
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+.why-choose-us-text {
+  display: flex;
+    gap: 18px;
+    font-size: 1.2rem;
+    margin-bottom: 24px;
+}
+
+.service-card-description {
+  font-size: 1.2rem;
+  margin-top: 22px;
+  margin-bottom: 26px !important;
 }
 
 /*# sourceMappingURL=main.css.map */

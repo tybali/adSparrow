@@ -8,6 +8,7 @@ import "@css/nice-select.css";
 import "@css/swiper-bundle.min.css";
 import "./globals.css";
 import Head from "next/head";
+import { Toaster } from "react-hot-toast";
 // import Preloader from "@/layouts/Preloader";
 
 export const metadata = {
@@ -33,6 +34,7 @@ export default function RootLayout({ children }) {
       </Head>
       <body>
         {/* <Preloader /> */}
+        <Toaster position="bottom-center" />
         {children}
       </body>
     </html>
