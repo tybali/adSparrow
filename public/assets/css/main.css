@@ -209,6 +209,7 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
+  zoom: 90%;
 }
 
 ul {
@@ -224,7 +225,7 @@ button {
 }
 
 input:focus {
-  color: var(--white);
+  border-color: var(--boxbg) !important;
   outline: none;
 }
 
@@ -2607,7 +2608,7 @@ input.main-search-input::placeholder {
   height: 100%;
   content: "";
   background: radial-gradient(
-      66.34% 66.34% at 50% 25.71%,
+      100.34% 66.34% at 50% 25.71%,
       rgba(16, 24, 40, 0.3) 0%,
       rgba(16, 24, 40, 0.97) 100%
     ),
@@ -2724,7 +2725,7 @@ input.main-search-input::placeholder {
   border-radius: 20px;
   -webkit-box-shadow: 0px 10px 60px rgba(155, 155, 155, 0.2);
   box-shadow: 0px 10px 60px rgba(155, 155, 155, 0.2);
-  padding: 60px;
+  padding: 40px;
 }
 @media (max-width: 767px) {
   .hero-1 .hero-contact-box {
@@ -2742,14 +2743,17 @@ input.main-search-input::placeholder {
 .hero-1 .hero-contact-box .contact-form-item {
   margin-top: 30px;
 }
-.hero-1 .hero-contact-box .contact-form-item .form-clt input {
+.hero-1 .hero-contact-box .contact-form-item .form-clt input, textarea{
   width: 100%;
   border-radius: 16px;
   border: 1px solid rgba(36, 37, 73, 0.1);
   background-color: var(--white);
   padding: 18px 30px;
   color: var(--text);
+  resize: none;
+
 }
+
 @media (max-width: 767px) {
   .hero-1 .hero-contact-box .contact-form-item .form-clt input {
     line-height: 1px;
@@ -2772,6 +2776,15 @@ input.main-search-input::placeholder {
   background-color: transparent;
   outline: none;
   color: var(--text);
+}
+
+textarea::-webkit-scrollbar {
+  display: none;
+}
+
+textarea:focus {
+  border-color: var(--boxbg);
+  outline: none;
 }
 .hero-1 .hero-contact-box .contact-form-item .payment-save p a {
   color: var(--theme);
@@ -6172,6 +6185,8 @@ input.main-search-input::placeholder {
 
 .popular-service-box-items {
   margin-top: 30px;
+  position: relative;
+  min-height: 400px;
   text-align: center;
   background-color: var(--white);
   -webkit-transition: all 0.4s ease-in-out;
@@ -8755,6 +8770,7 @@ input.main-search-input::placeholder {
   box-shadow: 0px 10px 60px rgba(92, 48, 253, 0.1);
   padding: 40px 45px;
   border-radius: 10px;
+  height: 1014.89px;
 }
 .pricing-card-items-2 .pricing-header h3 {
   margin-bottom: 10px;
@@ -8764,7 +8780,7 @@ input.main-search-input::placeholder {
 }
 .pricing-card-items-2 .pricing-button .theme-btn {
   width: 100%;
-  background-color: var(--header);
+  background-color: var(--boxbg);
 }
 .pricing-card-items-2 .pricing-button .theme-btn::before,
 .pricing-card-items-2 .pricing-button .theme-btn::after {
@@ -8772,7 +8788,7 @@ input.main-search-input::placeholder {
 }
 .pricing-card-items-2 .price-items {
   position: relative;
-  margin-top: 40px;
+  margin-top: 16px;
   border-bottom: 1px solid var(--border);
   padding-bottom: 30px;
 }
@@ -8835,15 +8851,29 @@ input.main-search-input::placeholder {
   margin-right: 10px;
 }
 .pricing-card-items-2.active {
+  border: 1px solid var(--theme);
+  position: relative;
+}
+.pricing-card-items-2.active .popular{
+  position: absolute;
+  left: 50%;
+  top: -17px;
+  transform: translate(-50%, 0);
+  padding: 5px;
   background-color: var(--theme);
+  color: #fff;
+  border-radius: 25px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: auto;
 }
-.pricing-card-items-2.active .pricing-header h3 {
+/* .pricing-card-items-2.active .pricing-header h3 {
   color: var(--white);
-}
-.pricing-card-items-2.active .pricing-header p {
+} */
+/* .pricing-card-items-2.active .pricing-header p {
   color: var(--white);
-}
-.pricing-card-items-2.active .pricing-button .theme-btn {
+} */
+/* .pricing-card-items-2.active .pricing-button .theme-btn {
   background-color: transparent;
   border: 1px solid var(--white);
 }
@@ -8875,7 +8905,7 @@ input.main-search-input::placeholder {
 }
 .pricing-card-items-2.active .price-list li i {
   color: var(--white);
-}
+} */
 
 .news-box-items {
   margin-top: 30px;
@@ -11290,7 +11320,7 @@ p.sticky-label {
   font-style: italic;
   font-size: 2rem;
   text-align: center;
-  line-height: 2.7rem;
+  line-height: 2.9rem;
   font-weight: 300;
 }
 
@@ -11310,6 +11340,19 @@ p.sticky-label {
   font-size: 1.2rem;
   margin-top: 22px;
   margin-bottom: 26px !important;
+  width: 85%;
+  bottom: 50px;
+  position: absolute;
+  transform: translate(-50%, 0);
+  left: 50%;
 }
+
+.read-more {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 24px;
+} 
+
 
 /*# sourceMappingURL=main.css.map */

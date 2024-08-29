@@ -1,5 +1,5 @@
 import FunFactCounter from "@/components/FunFactCounter";
-import Pricing from "@/components/Pricing";
+import Pricing, { Pricing2 } from "@/components/Pricing";
 import { TestimonialSlider3 } from "@/components/TestimonialSlider";
 import OurProcess from "@/components/OurProcess";
 import WhyChooseUS from "@/components/WhyChooseUs";
@@ -147,21 +147,13 @@ const page = () => {
         <div className="container">
           <div className="about-wrapper">
             <div className="row g-4 align-items-center">
-              <div className="col-lg-6">
-                {/* <div className="about-image-items"> */}
-                {/* <div className="">
-                    <div className="col-md-6 wow fadeInUp" data-wow-delay=".2s">
-                      <div className="about-image"> */}
+              <div className="col-lg-6 col-sm-12 col-md-12">
                 <Image
                   src={About01}
                   alt="about-img"
-                  style={{ minWidth: 400, maxWidth: 600, width: "100%" }}
+                  style={{ minWidth: 350, maxWidth: 600, width: "100%" }}
                   height={500}
                 />
-                {/* </div>
-                    </div>
-                  </div> */}
-                {/* </div> */}
               </div>
               <div className="col-lg-6">
                 <div className="about-content">
@@ -250,7 +242,7 @@ const page = () => {
             >
               <div className="popular-service-box-items">
                 <div className="icon">
-                  <i className="flaticon-copy-writing" />
+                <i className="flaticon-software-development" />
                 </div>
                 <div className="content">
                   <h3>
@@ -258,11 +250,58 @@ const page = () => {
                       Web Design &amp; Development
                     </Link>
                   </h3>
+                  
                   <p className="service-card-description">
                     Websites that don’t just look good—they work good.
                     Functionality meets style, minus the fluff.
                   </p>
-                  <Link href="service-details" className="link-btn">
+                  <Link href="service-details" className="link-btn read-more">
+                    Read More <i className="far fa-arrow-right" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay=".5s"
+            >
+              <div className="popular-service-box-items">
+                <div className="icon">
+                  <i className="flaticon-keywords" />
+                </div>
+                <div className="content">
+                  <h3>
+                    <Link href="service-details">SEO</Link>
+                  </h3>
+                  <p className="service-card-description">
+                    Get found without the fuss. We’ll elevate your site to the
+                    top, where it belongs—front and center.
+                  </p>
+                  <Link href="service-details" className="link-btn read-more">
+                    Read More <i className="far fa-arrow-right" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay=".7s"
+            >
+              <div className="popular-service-box-items">
+                <div className="icon">
+                  <i className="flaticon-vector-design" />
+                </div>
+                <div className="content">
+                  <h3>
+                    <Link href="service-details">
+                      Video Editing & Animation
+                    </Link>
+                  </h3>
+                  <p className="service-card-description">
+                    Turning raw clips into watch-worthy content. We keep it
+                    sharp, professional, and oh-so-smooth.
+                  </p>
+                  <Link href="service-details" className="link-btn read-more">
                     Read More <i className="far fa-arrow-right" />
                   </Link>
                 </div>
@@ -278,59 +317,13 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">SEO</Link>
-                  </h3>
-                  <p className="service-card-description">
-                    Get found without the fuss. We’ll elevate your site to the
-                    top, where it belongs—front and center.
-                  </p>
-                  <Link href="service-details" className="link-btn">
-                    Read More <i className="far fa-arrow-right" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".7s"
-            >
-              <div className="popular-service-box-items">
-                <div className="icon">
-                  <i className="flaticon-database" />
-                </div>
-                <div className="content">
-                  <h3>
-                    <Link href="service-details">
-                      Video Editing & Animation
-                    </Link>
-                  </h3>
-                  <p className="service-card-description">
-                    Turning raw clips into watch-worthy content. We keep it
-                    sharp, professional, and oh-so-smooth.
-                  </p>
-                  <Link href="service-details" className="link-btn">
-                    Read More <i className="far fa-arrow-right" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".5s"
-            >
-              <div className="popular-service-box-items">
-                <div className="icon">
-                  <i className="flaticon-copy-writing" />
-                </div>
-                <div className="content">
-                  <h3>
                     <Link href="service-details">Social Media Marketing</Link>
                   </h3>
                   <p className="service-card-description">
                     Engage, don’t enrage. We craft campaigns that make your
                     brand irresistible—for all the right reasons.
                   </p>
-                  <Link href="service-details" className="link-btn">
+                  <Link href="service-details" className="link-btn read-more">
                     Read More <i className="far fa-arrow-right" />
                   </Link>
                 </div>
@@ -346,13 +339,13 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">PPC</Link>
+                    <Link href="service-details">Pay Per Click (PPC)</Link>
                   </h3>
                   <p className="service-card-description">
                     Clicks that count. We maximize your ROI with precise
                     targeting, turning every click into a valuable conversion.
                   </p>
-                  <Link href="service-details" className="link-btn">
+                  <Link href="service-details" className="link-btn read-more">
                     Read More <i className="far fa-arrow-right" />
                   </Link>
                 </div>
@@ -364,7 +357,8 @@ const page = () => {
             >
               <div className="popular-service-box-items">
                 <div className="icon">
-                  <i className="flaticon-software-development" />
+                  
+                <i className="flaticon-price-tag" />
                 </div>
                 <div className="content">
                   <h3>
@@ -374,7 +368,7 @@ const page = () => {
                     Build stores that sell. We fix your e-commerce woes with
                     seamless, tailored online store solutions.
                   </p>
-                  <Link href="service-details" className="link-btn">
+                  <Link href="service-details" className="link-btn read-more">
                     Read More <i className="far fa-arrow-right" />
                   </Link>
                 </div>
@@ -384,8 +378,11 @@ const page = () => {
         </div>
       </section>
 
-      {/* Cta Video Section Start */}
-      <section className="business-boost-section section-padding pt-0">
+      {/* Pricing Section Start */}
+      <Pricing2 />
+
+            {/* Cta Video Section Start */}
+            <section className="business-boost-section section-padding pt-0">
         <div className="container">
           <div className="business-boost-wrapper">
             <div className="row g-4 align-items-center">
@@ -429,347 +426,7 @@ const page = () => {
           </div>
         </div>
       </section>
-      {/* Team Section Start */}
-      {/* <section className="team-section fix section-padding">
-        <div className="container">
-          <div className="row g-4 align-items-center">
-            <div className="col-lg-6">
-              <div className="section-title">
-                <span className="sub-content wow fadeInUp">
-                  <img src="assets/img/bale.png" alt="img" />
-                  Team Member
-                </span>
-                <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                  Meet Our Professional <br />
-                  Team Members
-                </h2>
-              </div>
-              <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                Sed ut perspiciatis unde omnis iste natus error sit volupta
-                temes <br /> accusantium doloremque laudantium, totam rem
-              </p>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".3s"
-            >
-              <div className="team-items">
-                <div className="team-image">
-                  <img src="assets/img/team/01.jpg" alt="img" />
-                </div>
-                <div className="team-content">
-                  <h4>
-                    <Link href="team-details">Robert E. Whitmore</Link>
-                  </h4>
-                  <p>Product Designer</p>
-                  <div className="social-profile">
-                    <ul>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-twitter" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-facebook-f" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-instagram" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-linkedin-in" />
-                        </a>
-                      </li>
-                    </ul>
-                    <span className="plus-btn">
-                      <i className="far fa-plus" />
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".5s"
-            >
-              <div className="team-items">
-                <div className="team-image">
-                  <img src="assets/img/team/02.jpg" alt="img" />
-                </div>
-                <div className="team-content">
-                  <h4>
-                    <Link href="team-details">Johnny M. Smith</Link>
-                  </h4>
-                  <p>IT Consultant</p>
-                  <div className="social-profile">
-                    <ul>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-twitter" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-facebook-f" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-instagram" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-linkedin-in" />
-                        </a>
-                      </li>
-                    </ul>
-                    <span className="plus-btn">
-                      <i className="far fa-plus" />
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".2s"
-            >
-              <div className="team-items">
-                <div className="team-image">
-                  <img src="assets/img/team/03.jpg" alt="img" />
-                </div>
-                <div className="team-content">
-                  <h4>
-                    <Link href="team-details">Angelo H. Tomlin</Link>
-                  </h4>
-                  <p>Senior Manager</p>
-                  <div className="social-profile">
-                    <ul>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-twitter" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-facebook-f" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-instagram" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-linkedin-in" />
-                        </a>
-                      </li>
-                    </ul>
-                    <span className="plus-btn">
-                      <i className="far fa-plus" />
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".4s"
-            >
-              <div className="team-items">
-                <div className="team-image">
-                  <img src="assets/img/team/04.jpg" alt="img" />
-                </div>
-                <div className="team-content">
-                  <h4>
-                    <Link href="team-details">Robert E. Whitmore</Link>
-                  </h4>
-                  <p>Web Designer</p>
-                  <div className="social-profile">
-                    <ul>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-twitter" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-facebook-f" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-instagram" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-linkedin-in" />
-                        </a>
-                      </li>
-                    </ul>
-                    <span className="plus-btn">
-                      <i className="far fa-plus" />
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".6s"
-            >
-              <div className="team-items">
-                <div className="team-image">
-                  <img src="assets/img/team/05.jpg" alt="img" />
-                </div>
-                <div className="team-content">
-                  <h4>
-                    <Link href="team-details">Manuel G. Wilmer</Link>
-                  </h4>
-                  <p>CEO &amp; Founder</p>
-                  <div className="social-profile">
-                    <ul>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-twitter" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-facebook-f" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-instagram" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-linkedin-in" />
-                        </a>
-                      </li>
-                    </ul>
-                    <span className="plus-btn">
-                      <i className="far fa-plus" />
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 ps-xxl-5 wow fadeInUp"
-              data-wow-delay=".8s"
-            >
-              <Link href="team" className="theme-btn">
-                View More Members
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section> */}
-      {/* Funfact Section Start */}
-
-      {/* Popular Case Study Section Start */}
-      {/* <section className="case-study-section fix section-padding theme-bg">
-        <div className="left-shape">
-          <img src="assets/img/case-study/left-shape.png" alt="shape-img" />
-        </div>
-        <div className="right-shape">
-          <img src="assets/img/case-study/right-shape.png" alt="shape-img" />
-        </div>
-        <div className="container">
-          <div className="section-title-area">
-            <div className="section-title">
-              <span className="sub-content wow fadeInUp">
-                <img src="assets/img/bale.png" alt="img" />
-                Popular Case Study
-              </span>
-              <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-                Discover Our Popular Case Study <br /> That We Globally
-                Completes
-              </h2>
-            </div>
-            <Link href="project" className="theme-btn white-border">
-              View More Cases
-            </Link>
-          </div>
-          <div className="row">
-            <div
-              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".3s"
-            >
-              <div className="case-study-items">
-                <div className="thumb">
-                  <img src="assets/img/case-study/01.jpg" alt="img" />
-                </div>
-                <div className="content">
-                  <p>IT Consulting</p>
-                  <h3>
-                    <Link href="case-study-details">
-                      How to achieve more with your nine to five
-                    </Link>
-                  </h3>
-                  <Link className="arrow-btn" href="case-study-details">
-                    <i className="far fa-arrow-right" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".5s"
-            >
-              <div className="case-study-items">
-                <div className="thumb">
-                  <img src="assets/img/case-study/02.jpg" alt="img" />
-                </div>
-                <div className="content">
-                  <p>Machine Learning</p>
-                  <h3>
-                    <Link href="case-study-details">
-                      Strategies for outstanding future results
-                    </Link>
-                  </h3>
-                  <Link className="arrow-btn" href="case-study-details">
-                    <i className="far fa-arrow-right" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".7s"
-            >
-              <div className="case-study-items">
-                <div className="thumb">
-                  <img src="assets/img/case-study/03.jpg" alt="img" />
-                </div>
-                <div className="content">
-                  <p>Software Design</p>
-                  <h3>
-                    <Link href="case-study-details">
-                      Discover a better way of system defining company goals.
-                    </Link>
-                  </h3>
-                  <Link className="arrow-btn" href="case-study-details">
-                    <i className="far fa-arrow-right" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-      {/* Pricing Section Start */}
-      <Pricing />
+      
       {/* Testimonial Section Start */}
       <section
         className="testimonial-section-3 fix section-padding pt-0"

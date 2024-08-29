@@ -707,7 +707,7 @@ const Header1 = ({ single, menu }) => {
   return (
     <Fragment>
       <header id="header-sticky" className="header-1 sticky">
-        <div className="container-fluid">
+        <div className="container">
           <div className="mega-menu-wrapper">
             <div className="header-main">
               <div className="sticky-logo">
@@ -840,7 +840,7 @@ const Header3 = ({ single }) => {
   return (
     <Fragment>
       <header id="header-sticky" className="header-2">
-        <div className="container-fluid">
+        <div className="container">
           <div className="mega-menu-wrapper">
             <div className="header-main">
               <div className="sticky-logo">
@@ -958,7 +958,7 @@ const Header6 = ({ single }) => {
   return (
     <Fragment>
       <header id="header-sticky" className="header-3">
-        <div className="container-fluid">
+        <div className="container">
           <div className="mega-menu-wrapper">
             <div className="header-main">
               <div className="sticky-logo">

@@ -32,7 +32,7 @@ const WhyChooseUs = () => {
               <li className="why-choose-us-text wow fadeInUp">
                 <Check />{" "}
                 <div>
-                  We Make Results, Not Excuses: You want results? We deliver.
+                  <span style={{ fontWeight: 600 }}>We Make Results, Not Excuses:</span> You want results? We deliver.
                   From epic sales to jaw-dropping leads, we turn data into
                   dollars.
                 </div>
@@ -41,35 +41,35 @@ const WhyChooseUs = () => {
               <li className="why-choose-us-text wow fadeInUp">
                 <Check />{" "}
                 <div>
-                Data Nerds with a Purpose: We treat data like gold. Clean, precise, and ready to make your campaigns shine.
+                <span style={{ fontWeight: 600 }}>Data Nerds with a Purpose:</span> We treat data like gold. Clean, precise, and ready to make your campaigns shine.
                 </div>
               </li>
 
               <li className="why-choose-us-text wow fadeInUp">
                 <Check />{" "}
                 <div>
-                Marketing Magic with a Smile: Forget the fluff. We focus on what works, and we sprinkle in some fun while we’re at it.
+                <span style={{ fontWeight: 600 }}>Marketing Magic with a Smile:</span> Forget the fluff. We focus on what works, and we sprinkle in some fun while we’re at it.
                 </div>
               </li>
 
               <li className="why-choose-us-text wow fadeInUp">
                 <Check />{" "}
                 <div>
-                Optimize Like a Boss: We don’t just tweak; we obsess. If something’s not working, we fix it—fast.
+                <span style={{ fontWeight: 600 }}>Optimize Like a Boss:</span> We don’t just tweak; we obsess. If something’s not working, we fix it—fast.
                 </div>
               </li>
 
               <li className="why-choose-us-text wow fadeInUp">
                 <Check />{" "}
                 <div>
-                Plain English, No Jargon: We talk your language. No tech speak—just clear, actionable advice.
+                <span style={{ fontWeight: 600 }}>Plain English, No Jargon:</span> We talk your language. No tech speak—just clear, actionable advice.
                 </div>
               </li>
 
               <li className="why-choose-us-text wow fadeInUp">
                 <Check />{" "}
                 <div>
-                Your Goals, Our Mission: We’re not just a service; we’re your partner in crime. Your success is our win.
+                <span style={{ fontWeight: 600 }}>Your Goals, Our Mission:</span> We’re not just a service; we’re your partner in crime. Your success is our win.
                 </div>
               </li>
 

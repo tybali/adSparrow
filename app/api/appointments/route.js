@@ -28,7 +28,7 @@ export async function POST(request) {
       Name: body.name,
       Email: body.email,
       Phone: body.phone,
-      Website: body.website,
+      Message: body.message,
     });
 
     await sheet.addRow(row);

@@ -7,7 +7,7 @@ export const Appointments = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [website, setWebsite] = useState("");
+  const [message, setMessage] = useState("");
 
   // Append Function
   const appendSpreadsheet = async (e) => {
@@ -18,7 +18,7 @@ export const Appointments = () => {
       );
       fetch("/api/appointments", {
         method: "POST",
-        body: JSON.stringify({ name, email, phone, website }),
+        body: JSON.stringify({ name, email, phone, message }),
         headers: {
           "Content-type": "application/json; charset=UTF-8",
         },
@@ -31,7 +31,7 @@ export const Appointments = () => {
             setEmail("");
             setName("");
             setPhone("");
-            setWebsite("");
+            setMessage("");
           } else console.log("Something went wrong!");
         })
         .catch((error) => {
@@ -42,7 +42,7 @@ export const Appointments = () => {
   };
 
   return (
-    <div className="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
+    <div className="col-xxl-4 col-lg-4 col-md-4 wow fadeInUp" data-wow-delay=".4s">
       <div className="hero-contact-box">
         <h4>Let's Talk</h4>
         <p style={{ fontSize: 14, marginTop: 5 }}>
@@ -71,7 +71,7 @@ export const Appointments = () => {
                   id="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Email Address"
+                  placeholder="Business Email"
                 />
               </div>
             </div>
@@ -89,13 +89,14 @@ export const Appointments = () => {
             </div>
             <div className="col-lg-12">
               <div className="form-clt">
-                <input
+                <textarea
+                
                   type="text"
-                  name="business website"
-                  id="website"
-                  value={website}
-                  onChange={(e) => setWebsite(e.target.value)}
-                  placeholder="Business Website (optional)"
+                  name="business message"
+                  id="message"
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                  placeholder="Message"
                 />
               </div>
             </div>

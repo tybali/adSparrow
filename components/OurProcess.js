@@ -22,8 +22,8 @@ const OurProcess = () => {
         <div className="process-container">
           <Image
             src={Illustration}
-            height={560}
-            width={570}
+            height={480}
+            width={492}
             alt="digital marketing strategy"
             className="resize-illustration wow fadeInUp"
                     data-wow-delay=".5s"
