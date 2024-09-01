@@ -125,8 +125,7 @@ export const Pricing2 = ({
       <div className="container">
         <div className="section-title text-center">
           <h2 className="wow fadeInUp" data-wow-delay=".3s">
-            We Offer Amazing Pricing Package <br />
-            keep Under Budget
+          Invest in Your Next Big Win
           </h2>
         </div>
         <div className="row">

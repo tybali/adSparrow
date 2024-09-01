@@ -1,15 +1,14 @@
-import FunFactCounter from "@/components/FunFactCounter";
-import Pricing, { Pricing2 } from "@/components/Pricing";
+import { Pricing2 } from "@/components/Pricing";
 import { TestimonialSlider3 } from "@/components/TestimonialSlider";
 import OurProcess from "@/components/OurProcess";
 import WhyChooseUS from "@/components/WhyChooseUs";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 import Image from "next/image";
-import About01 from "@assets/img/about/illustration.png";
-import Bell from "@assets/img/bale.png";
+import About01 from "@assets/img/about/illustration.webp";
+import Cta from "@/components/Cta";
 import Illustrtation from "@assets/img/illustration.webp";
-import Testimonial1 from "@assets/img/testimonial/01.jpg";
+import Testimonial1 from "@assets/img/testimonial/testimonial.webp";
 import Testimonial2 from "@assets/img/testimonial/testimonial-card1.png";
 import Testimonial3 from "@assets/img/testimonial/testimonial-card2.png";
 import { Appointments } from "@/components/Appointments";
@@ -35,7 +34,10 @@ const page = () => {
                   in the feed, and marketing strategies that miss the mark.
                   Struggles you treat like a fact of life. <br />
                   <br />
-                  <span style={{ fontSize: 26 }}> Well, They ain’t. AdSparrow got you covered. </span>
+                  <span style={{ fontSize: 26 }}>
+                    {" "}
+                    Well, They ain’t. AdSparrow got you covered.{" "}
+                  </span>
                 </p>
                 <div className="hero-button">
                   {/* <Link
@@ -165,7 +167,11 @@ const page = () => {
                   <p
                     className="mt-3 mt-md-0 wow fadeInUp"
                     data-wow-delay=".5s"
-                    style={{ lineHeight: "1.9rem", fontSize: "1.3rem" }}
+                    style={{
+                      lineHeight: "1.9rem",
+                      fontSize: "1.3rem",
+                      color: "#000",
+                    }}
                   >
                     Most agencies stop at a lead and pat themselves on the back.
                     Not us. We’re in it for the long haul, tracking every step
@@ -204,8 +210,8 @@ const page = () => {
       {/* Process */}
       <OurProcess />
 
-          {/** Pain Point Detective */}
-          <section
+      {/** Pain Point Detective */}
+      <section
         className="about-section fix section-padding"
         style={{ paddingBottom: 0 }}
       >
@@ -242,7 +248,7 @@ const page = () => {
             >
               <div className="popular-service-box-items">
                 <div className="icon">
-                <i className="flaticon-software-development" />
+                  <i className="flaticon-software-development" />
                 </div>
                 <div className="content">
                   <h3>
@@ -250,7 +256,7 @@ const page = () => {
                       Web Design &amp; Development
                     </Link>
                   </h3>
-                  
+
                   <p className="service-card-description">
                     Websites that don’t just look good—they work good.
                     Functionality meets style, minus the fluff.
@@ -357,8 +363,7 @@ const page = () => {
             >
               <div className="popular-service-box-items">
                 <div className="icon">
-                  
-                <i className="flaticon-price-tag" />
+                  <i className="flaticon-price-tag" />
                 </div>
                 <div className="content">
                   <h3>
@@ -381,55 +386,20 @@ const page = () => {
       {/* Pricing Section Start */}
       <Pricing2 />
 
-            {/* Cta Video Section Start */}
-            <section className="business-boost-section section-padding pt-0">
-        <div className="container">
-          <div className="business-boost-wrapper">
-            <div className="row g-4 align-items-center">
-              <div className="col-lg-6">
-                <div className="business-boost-content">
-                  {/* <Image
-                    src={VIdeoImage}
-                    alt="img"
-                    className="wow fadeInUp"
-                    data-wow-delay=".2s"
-                  /> */}
-                  <h2 className="wow fadeInUp" data-wow-delay=".4s">
-                    Free Audit: Our Treat!
-                  </h2>
-                  <p className="wow fadeInUp" data-wow-delay=".6s">
-                    Get a behind-the-scenes look at your digital health—no
-                    strings attached, no hidden fees, just pure value. Go ahead,
-                    challenge us. Request your free audit today and watch us
-                    work our magic.
-                  </p>
-                  <Link
-                    href="contact"
-                    className="theme-btn bg-2 wow fadeInUp"
-                    style={{ textTransform: "capitalize" }}
-                    data-wow-delay=".7x"
-                  >
-                    Book an intro call <i className="far fa-arrow-right" />
-                  </Link>
-                </div>
-              </div>
-              <div className="col-lg-6 mt-4 wow fadeInUp" data-wow-delay=".4s">
-                <div className="video-image">
-                  <Image
-                    src={Illustrtation}
-                    alt="img"
-                    className="offer-illustration"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
+      {/* Cta Video Section Start */}
+      <Cta
+        title={"Free Audit: Our Treat!"}
+        offer={`Get a behind-the-scenes look at your digital health—no
+            strings attached, no hidden fees, just pure value. Go ahead,
+            challenge us. Request your free audit today and watch us
+            work our magic.`}
+        imageSrc={Illustrtation}
+      />
+
       {/* Testimonial Section Start */}
       <section
         className="testimonial-section-3 fix section-padding pt-0"
+        style={{ marginBottom: 100 }}
         id="testimonial"
       >
         <div className="container">
@@ -453,24 +423,8 @@ const page = () => {
           </div>
         </div>
       </section>
-      {/* <section className="testimonial-section fix section-padding pt-0">
-        <div className="container">
-          <div className="testimonial-wrapper">
-            <div className="row g-4">
-              <div className="col-lg-3">
-                <div className="testimonial-image">
-                  <img src="assets/img/testimonial/testimonial.png" alt="img" />
-                </div>
-              </div>
-              <div className="col-lg-7 ps-lg-5">
-                <TestimonialSlider1 />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
       {/* News Section Start */}
-      <section className="news-section section-padding pt-50">
+      {/* <section className="news-section section-padding pt-50">
         <div className="container">
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
@@ -556,7 +510,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </NextLayout>
   );
 };

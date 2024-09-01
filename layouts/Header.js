@@ -188,9 +188,9 @@ const Menu = ({ single, menu }) => {
             <li className="has-dropdown active menu-thumb">
               <Link href="/">
                 Home
-                <i className="fas fa-angle-down" />
+                {/* <i className="fas fa-angle-down" /> */}
               </Link>
-              <ul className="submenu has-homemenu">
+              {/* <ul className="submenu has-homemenu">
                 <li className="border-none">
                   <div className="row g-4">
                     <div className="col-xl-2 homemenu">
@@ -291,7 +291,7 @@ const Menu = ({ single, menu }) => {
                     </div>
                   </div>
                 </li>
-              </ul>
+              </ul> */}
             </li>
             <li className="has-dropdown active d-xl-none">
               <Link href="/" className="border-none">
@@ -320,7 +320,7 @@ const Menu = ({ single, menu }) => {
               </ul>
             </li>
             <li>
-              <Link href="about">About</Link>
+              <Link href="/about">About</Link>
             </li>
             <li>
               <Link href="service-details">
@@ -329,14 +329,26 @@ const Menu = ({ single, menu }) => {
               </Link>
               <ul className="submenu">
                 <li>
-                  <Link href="service">Services</Link>
+                  <Link href="/services/website-design-and-development">Website Design <br/> &amp; Development</Link>
                 </li>
                 <li>
-                  <Link href="service-details">Service Details</Link>
+                  <Link href="/services/search-engine-optimization">Serach Engine Optimization (SEO)</Link>
+                </li>
+                <li>
+                  <Link href="/services/video-editing-and-animation">Vide Editing <br /> &amp; Animation</Link>
+                </li>
+                <li>
+                  <Link href="/services/social-media-marketing">Social Media Marketing</Link>
+                </li>
+                <li>
+                  <Link href="/services/pay-per-click">Pay Per Click (PPC)</Link>
+                </li>
+                <li>
+                  <Link href="/services/ecommerce-store">Ecommerse Stores</Link>
                 </li>
               </ul>
             </li>
-            <li className="has-dropdown">
+            {/* <li className="has-dropdown">
               <Link href="news">
                 Pages
                 <i className="fas fa-angle-down" />
@@ -377,8 +389,8 @@ const Menu = ({ single, menu }) => {
                   <Link href="404">404 Page</Link>
                 </li>
               </ul>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <Link href="news">
                 Blog
                 <i className="fas fa-angle-down" />
@@ -391,7 +403,7 @@ const Menu = ({ single, menu }) => {
                   <Link href="news-details">Blog Details</Link>
                 </li>
               </ul>
-            </li>
+            </li> */}
             <li>
               <Link href="contact">Contact</Link>
             </li>
@@ -702,7 +714,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
   );
 };
 
-const Header1 = ({ single, menu }) => {
+const Header1 = ({ single }) => {
   const [sidebarToggle, setSidebarToggle] = useState(false);
   return (
     <Fragment>

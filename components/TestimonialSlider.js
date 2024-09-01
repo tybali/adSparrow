@@ -236,14 +236,12 @@ export const TestimonialSlider3 = () => {
               <img src="assets/img/testimonial/client.png" alt="author-img" />
               <div className="content">
                 <h5>
-                  Michael M. Griffin / <span>CO Founder</span>
+                  Teona Swift / <span>CO Founder</span>
                 </h5>
               </div>
             </div>
             <p>
-              “ we denounce with right indignation and dislike men who are so
-              beguile and demoralized by the charms of pleasure of the moment,
-              so blinded by desire, that they cannot foresee “
+              “Their knowledge in digital marketing has not only enriched our online presence but also assured effective outcomes within a record period of time. Whether it was the strategy sessions or flawless executions of campaigns, the team showed a great depth of understanding of our goals and over-delivered on their promises at every turn.“
             </p>
             <div className="star">
               <i className="fas fa-star" />
@@ -254,7 +252,7 @@ export const TestimonialSlider3 = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
+        {/* <SwiperSlide className="swiper-slide">
           <div className="testimonial-content">
             <div className="author-image">
               <img src="assets/img/testimonial/client.png" alt="author-img" />
@@ -373,11 +371,11 @@ export const TestimonialSlider3 = () => {
               <i className="fas fa-star" />
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </div>
-      <div className="swiper-dot-2 pt-3 ps-1">
+      {/* <div className="swiper-dot-2 pt-3 ps-1">
         <div className="dot" />
-      </div>
+      </div> */}
     </Swiper>
   );
 };

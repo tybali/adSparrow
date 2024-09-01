@@ -1,39 +1,49 @@
 import Link from "next/link";
+import Image from "next/image";
+import Illustrtation from "@assets/img/illustration.webp";
 
-const Cta = ({ sectionPadding = false }) => {
+const Cta = ({ offer = "", title="" }) => {
   return (
-    <section
-      className={`cta-marketing-section fix ${
-        sectionPadding ? "section-padding" : ""
-      }`}
-    >
-      <div className="container">
-        <div className="cta-marketing-wrapper">
-          <div className="content">
-            <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-              Ready to Boost your Digital <br />
-              product marketing ?
-            </h2>
-            <p className="text-white wow fadeInUp" data-wow-delay=".5s">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem{" "}
-              <br /> accusantium doloremque laudantium, totam rem
-            </p>
-          </div>
-          <div className="thumb wow fadeInUp" data-wow-delay=".6s">
-            <img src="assets/img/cta/cta-marketing.png" alt="img" />
-            <div className="circle-shape">
-              <img src="assets/img/cta/circle-shape.png" alt="shape-img" />
+    <section className="business-boost-section section-padding pt-0">
+    <div className="container">
+      <div className="business-boost-wrapper">
+        <div className="row g-4 align-items-center">
+          <div className="col-lg-7">
+            <div className="business-boost-content">
+              {/* <Image
+                src={VIdeoImage}
+                alt="img"
+                className="wow fadeInUp"
+                data-wow-delay=".2s"
+              /> */}
+              <h2 className="wow fadeInUp" data-wow-delay=".3s">
+              {title || "Free Audit: Our Treat!"}
+              </h2>
+              <p className="wow fadeInUp" data-wow-delay=".6s">
+               {offer}
+              </p>
+              <Link
+                href="contact"
+                className="theme-btn bg-2 wow fadeInUp"
+                style={{ textTransform: "capitalize" }}
+                data-wow-delay=".3x"
+              >
+                Book Your Free Audit Now <i className="far fa-arrow-right" />
+              </Link>
             </div>
           </div>
-          <Link
-            href="about"
-            className="theme-btn bg-2 wow fadeInUp"
-            data-wow-delay=".7s"
-          >
-            Discover More <i className="far fa-arrow-right" />
-          </Link>
+          <div className="col-lg-5 mt-4 wow fadeInUp" data-wow-delay=".3s">
+            <div className="video-image">
+              <Image
+                src={Illustrtation}
+                alt="img"
+                className="offer-illustration"
+              />
+            </div>
+          </div>
         </div>
       </div>
+    </div>
     </section>
   );
 };

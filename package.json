@@ -22,6 +22,7 @@
     "react-hot-toast": "^2.4.1",
     "react-player": "^2.16.0",
     "react-visibility-sensor": "^5.1.1",
+    "slugify": "^1.6.6",
     "swiper": "^11.1.4",
     "uuid": "^10.0.0",
     "wowjs": "^1.1.3"
