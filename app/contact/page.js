@@ -2,7 +2,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import NextLayout from "@/layouts/NextLayout";
 const page = () => {
   return (
-    <NextLayout>
+    <NextLayout header={1} footer={4}>
       <Breadcrumb pageName="Contact Us" />
       {/* Contact Section Section Start */}
       <section className="contact-section section-padding">
@@ -17,25 +17,22 @@ const page = () => {
                       Contact Us
                     </span>
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                      Don’t Hessite to Contact <br />
-                      Our Team Member
+                    Let’s Chat &amp; Make It Happen!
                     </h2>
                   </div>
                   <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                    Sed ut perspiciatis unde omnis iste natus error voluptatem
-                    accusantium <br />
-                    doloremque laudantium, totam rem aperiam
+                  Got a big idea or just want to say hi? We're all ears! Whether you're ready to kick off a project or need a creative nudge, drop us a line. <br />We’re here to turn your ideas into something epic—let’s make it happen!
                   </p>
                   <ul
                     className="contact-list wow fadeInUp"
                     data-wow-delay=".3s"
                   >
                     <li>
-                      <a href="mailto:info@example.com">info@example.com</a>
+                      <a href="mailto:adsparrowllc@gmail.com">info@adsparrow.net</a>
                     </li>
-                    <li>55 Main Street, 2nd block, Malborne, Australia</li>
+                    {/* <li>55 Main Street, 2nd block, Malborne, Australia</li> */}
                     <li>
-                      <a href="tel:+00012345688">+000 (123) 456 88</a>
+                      <a href="tel:+00012345688">+92 313 599 1176</a>
                     </li>
                   </ul>
                 </div>
@@ -107,7 +104,7 @@ const page = () => {
         </div>
       </section>
       {/* Map Section Start */}
-      <div className="map-section">
+      {/* <div className="map-section">
         <div className="map-items">
           <div className="googpemap">
             <iframe
@@ -118,7 +115,7 @@ const page = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
     </NextLayout>
   );
 };
