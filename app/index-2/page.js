@@ -3,7 +3,7 @@ import Counter from "@/components/Counter";
 import Cta from "@/components/Cta";
 import { GrowBusiness2 } from "@/components/GrowBusiness";
 import ProjectSlider from "@/components/ProjectSlider";
-import { Service2 } from "@/components/Services";
+// import { Service2 } from "@/components/Services";
 import { TestimonialSlider2 } from "@/components/TestimonialSlider";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
@@ -130,7 +130,7 @@ const page = () => {
         </div>
       </section>
       {/* Service Section Start */}
-      <Service2 />
+      {/* <Service2 /> */}
       {/* Cta Marketing Section Start */}
       <Cta />
       {/* Grow Business Section Start */}
