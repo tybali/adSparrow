@@ -18,13 +18,13 @@ const page = () => {
               <div className="col-lg-6">
                 <div className="about-content ms-0 style-about">
                   <div className="section-title">
-                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                    <h2 className="wow fadeInUp" data-wow-delay=".1s">
                       About Us: Meet the AdSparrow Crew
                     </h2>
                   </div>
                   <p
                     className="mt-3 wow fadeInUp"
-                    data-wow-delay=".3s"
+                    data-wow-delay=".1s"
                     style={{ fontSize: "1.4rem", marginBottom: 18 }}
                   >
                     At AdSparrow, we turn digital dreams into bold, standout
@@ -35,7 +35,7 @@ const page = () => {
                   </p>
                   <p
                     className="mt-3 mt-md-0 wow fadeInUp"
-                    data-wow-delay=".3s"
+                    data-wow-delay=".1s"
                     style={{ fontSize: "1.4rem", marginBottom: 18 }}
                   >
                     Born from a wild mix of creativity and analytics, we’re here
@@ -47,7 +47,7 @@ const page = () => {
                   </p>
                   <p
                     className="mt-3 mt-md-0 wow fadeInUp"
-                    data-wow-delay=".3s"
+                    data-wow-delay=".1s"
                     style={{ fontSize: "1.4rem", marginBottom: 18 }}
                   >
                     At AdSparrow, we turn digital dreams into bold, standout
@@ -58,7 +58,7 @@ const page = () => {
                   </p>
                   <p
                     className="mt-3 mt-md-0 wow fadeInUp"
-                    data-wow-delay=".3s"
+                    data-wow-delay=".1s"
                     style={{ fontSize: "1.4rem", marginBottom: 18 }}
                   >
                     Our team? We’re a quirky bunch of data nerds, design gurus,
@@ -68,7 +68,7 @@ const page = () => {
                   </p>
                   <p
                     className="mt-3 mt-md-0 wow fadeInUp"
-                    data-wow-delay=".3s"
+                    data-wow-delay=".1s"
                     style={{ fontSize: "1.4rem", marginBottom: 18 }}
                   >
                     So, why choose us? Because we’re the agency that turns your
@@ -78,7 +78,7 @@ const page = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
+              <div className="col-lg-6 wow fadeInUp" data-wow-delay=".1s">
               <div className="about-image-3">
                 <Image src={AboutusImg} alt="" />
                 </div>
@@ -92,23 +92,23 @@ const page = () => {
         <div className="container">
           <div className="about-wrapper style-2">
             <div className="row g-4 align-items-center">
-              <div className="col-lg-6 wow  fadeInUp" data-wow-delay=".3s">
+              <div className="col-lg-6 wow  fadeInUp" data-wow-delay=".1s">
                 <div className="about-image-3">
                   <img src="assets/img/about/06.jpg" alt="img" />
                 </div>
               </div>
               <div className="col-lg-6">
                 <div className="about-content">
-                  <h4 className="wow fadeInUp" data-wow-delay=".3s">
+                  <h4 className="wow fadeInUp" data-wow-delay=".1s">
                     Flexible Scaling &amp; Support
                   </h4>
-                  <p className="mt-3 wow fadeInUp" data-wow-delay=".5s">
+                  <p className="mt-3 wow fadeInUp" data-wow-delay=".1s">
                     In the early years, our dedicated team worked tirelessly to
                     key Next milestones or achievements, such as product
                     launches, partnerships or expansions these efforts laid the
                     foundation
                   </p>
-                  <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
+                  <div className="icon-items wow fadeInUp" data-wow-delay=".1s">
                     <div className="dot" />
                     <div className="content">
                       <h4>Flexible Scaling &amp; Support</h4>
@@ -122,7 +122,7 @@ const page = () => {
                   <Link
                     href="about"
                     className="theme-btn mt-50 wow fadeInUp"
-                    data-wow-delay=".5s"
+                    data-wow-delay=".1s"
                   >
                     Learn More Us
                     <i className="far fa-arrow-right" />

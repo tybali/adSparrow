@@ -5,14 +5,14 @@ const Pricing = () => {
     <section className="pricing-section section-padding">
       <div className="container">
         <div className="section-title text-center">
-          <h2 className="wow fadeInUp" data-wow-delay=".3s">
+          <h2 className="wow fadeInUp" data-wow-delay=".1s">
             Popular Pricing For IT Consulting
           </h2>
         </div>
         <div className="row">
           <div
             className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".3s"
+            data-wow-delay=".1s"
           >
             <div className="pricing-card-items">
               <div className="pricing-shape">
@@ -44,7 +44,7 @@ const Pricing = () => {
           </div>
           <div
             className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".5s"
+            data-wow-delay=".1s"
           >
             <div className="pricing-card-items active">
               <div className="pricing-shape">
@@ -76,7 +76,7 @@ const Pricing = () => {
           </div>
           <div
             className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".7s"
+            data-wow-delay=".1s"
           >
             <div className="pricing-card-items">
               <div className="pricing-shape">
@@ -124,14 +124,14 @@ export const Pricing2 = ({
     >
       <div className="container">
         <div className="section-title text-center">
-          <h2 className="wow fadeInUp" data-wow-delay=".3s">
+          <h2 className="wow fadeInUp" data-wow-delay=".1s">
           Invest in Your Next Big Win
           </h2>
         </div>
         <div className="row">
           <div
             className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".3s"
+            data-wow-delay=".1s"
           >
             <div className="pricing-card-items-2">
               <div className="pricing-header">
@@ -171,7 +171,7 @@ export const Pricing2 = ({
           </div>
           <div
             className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".5s"
+            data-wow-delay=".1s"
           >
            <div className="pricing-card-items-2 active">
             <div className="popular"> Most Popular</div>
@@ -220,7 +220,7 @@ export const Pricing2 = ({
           </div>
           <div
             className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".7s"
+            data-wow-delay=".1s"
           >
             <div className="pricing-card-items-2">
               <div className="pricing-header">

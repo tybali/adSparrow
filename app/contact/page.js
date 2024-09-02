@@ -16,16 +16,16 @@ const page = () => {
                       <img src="assets/img/bale.png" alt="img" />
                       Contact Us
                     </span>
-                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                    <h2 className="wow fadeInUp" data-wow-delay=".1s">
                     Let’s Chat &amp; Make It Happen!
                     </h2>
                   </div>
-                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".1s">
                   Got a big idea or just want to say hi? We're all ears! Whether you're ready to kick off a project or need a creative nudge, drop us a line. <br />We’re here to turn your ideas into something epic—let’s make it happen!
                   </p>
                   <ul
                     className="contact-list wow fadeInUp"
-                    data-wow-delay=".3s"
+                    data-wow-delay=".1s"
                   >
                     <li>
                       <a href="mailto:adsparrowllc@gmail.com">info@adsparrow.net</a>
@@ -40,7 +40,7 @@ const page = () => {
               <div className="col-lg-6">
                 <div
                   className="contact-right wow fadeInUp"
-                  data-wow-delay=".4s"
+                  data-wow-delay=".1s"
                 >
                   <h3>Send Us Message</h3>
                   <form

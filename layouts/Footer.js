@@ -28,12 +28,12 @@ const Footer1 = () => {
     <footer className="footer-section footer-bg">
       <div className="container">
         <div className="discussed-items">
-          <div className="footer-logo wow fadeInUp" data-wow-delay=".3s">
+          <div className="footer-logo wow fadeInUp" data-wow-delay=".1s">
             <Link href="/">
               <img src="assets/img/logo/white-logo.svg" alt="logo-img" />
             </Link>
           </div>
-          <div className="discussed-content wow fadeInUp" data-wow-delay=".5s">
+          <div className="discussed-content wow fadeInUp" data-wow-delay=".1s">
             <h2>
               Let’s Discussed About <span>Your Projects</span>
             </h2>
@@ -46,7 +46,7 @@ const Footer1 = () => {
           <div className="row">
             <div
               className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".2s"
+              data-wow-delay=".1s"
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
@@ -76,7 +76,7 @@ const Footer1 = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp"
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
@@ -100,7 +100,7 @@ const Footer1 = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6 ps-lg-1 wow fadeInUp"
-              data-wow-delay=".6s"
+              data-wow-delay=".1s"
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
@@ -143,7 +143,7 @@ const Footer1 = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".8s"
+              data-wow-delay=".1s"
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
@@ -194,7 +194,7 @@ const Footer1 = () => {
         <div className="footer-bottom">
           <div className="container">
             <div className="footer-wrapper d-flex align-items-center justify-content-between">
-              <ul className="footer-menu wow fadeInUp" data-wow-delay=".2s">
+              <ul className="footer-menu wow fadeInUp" data-wow-delay=".1s">
                 <li>
                   <Link href="faq">FAQs</Link>
                 </li>
@@ -209,11 +209,11 @@ const Footer1 = () => {
                 href="#"
                 id="scrollUp"
                 className="scroll-icon wow fadeInUp"
-                data-wow-delay=".4s"
+                data-wow-delay=".1s"
               >
                 <i className="far fa-angle-double-up" />
               </a>
-              <p className="wow fadeInUp" data-wow-delay=".6s">
+              <p className="wow fadeInUp" data-wow-delay=".1s">
                 © <Link href="/">2024</Link> All Rights Reserved
               </p>
             </div>
@@ -232,7 +232,7 @@ const Footer2 = () => {
           <div className="row">
             <div
               className="col-xxl-2 col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".2s"
+              data-wow-delay=".1s"
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
@@ -264,7 +264,7 @@ const Footer2 = () => {
             </div>
             <div
               className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 ps-xxl-5 ml-30 wow fadeInUp"
-              data-wow-delay=".3s"
+              data-wow-delay=".1s"
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
@@ -288,7 +288,7 @@ const Footer2 = () => {
             </div>
             <div
               className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 ml-minus-30 wow fadeInUp"
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
@@ -331,7 +331,7 @@ const Footer2 = () => {
             </div>
             <div
               className="col-xxl-2 col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".5s"
+              data-wow-delay=".1s"
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
@@ -355,7 +355,7 @@ const Footer2 = () => {
             </div>
             <div
               className="col-xxl-2 col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".7s"
+              data-wow-delay=".1s"
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
@@ -412,7 +412,7 @@ const Footer3 = () => {
           <div className="row">
             <div
               className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".2s"
+              data-wow-delay=".1s"
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
@@ -444,7 +444,7 @@ const Footer3 = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp"
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
@@ -468,7 +468,7 @@ const Footer3 = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".6s"
+              data-wow-delay=".1s"
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
@@ -511,7 +511,7 @@ const Footer3 = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6 ps-lg-2 wow fadeInUp"
-              data-wow-delay=".8s"
+              data-wow-delay=".1s"
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
@@ -571,8 +571,8 @@ const Footer4 = () => {
         <div className="footer-widgets-wrapper">
           <div className="row">
             <div
-              className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".2s"
+              className="col-xl-3 col-lg-4 col-md-6"
+              
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
@@ -603,8 +603,8 @@ const Footer4 = () => {
               </div>
             </div>
             <div
-              className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp"
-              data-wow-delay=".4s"
+              className="col-xl-3 col-lg-4 col-md-6 ps-lg-5"
+              
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
@@ -627,8 +627,8 @@ const Footer4 = () => {
               </div>
             </div>
             <div
-              className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".6s"
+              className="col-xl-3 col-lg-4 col-md-6"
+              
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
@@ -670,8 +670,8 @@ const Footer4 = () => {
               </div>
             </div>
             <div
-              className="col-xl-3 col-lg-4 col-md-6 ps-lg-2 wow fadeInUp"
-              data-wow-delay=".8s"
+              className="col-xl-3 col-lg-4 col-md-6 ps-lg-2"
+              
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
@@ -728,13 +728,13 @@ const Footer6 = () => {
         <img src="assets/img/home-6/robot-4.png" alt="shape-img" />
       </div>
       <div className="container">
-        <div className="discussed-items">
-          <div className="footer-logo wow fadeInUp" data-wow-delay=".3s">
+        <div className="discussed-items  wow fadeInUp">
+          <div className="footer-logo" >
             <Link href="/">
               <img src="assets/img/logo/white-logo.svg" alt="logo-img" />
             </Link>
           </div>
-          <div className="discussed-content wow fadeInUp" data-wow-delay=".5s">
+          <div className="discussed-content wow fadeInUp" data-wow-delay=".1s">
             <h2>
               Let’s Discussed About <span>Your Projects</span>
             </h2>
@@ -747,7 +747,7 @@ const Footer6 = () => {
           <div className="row">
             <div
               className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".2s"
+              data-wow-delay=".1s"
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
@@ -777,7 +777,7 @@ const Footer6 = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp"
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
@@ -801,7 +801,7 @@ const Footer6 = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6 ps-lg-1 wow fadeInUp"
-              data-wow-delay=".6s"
+              data-wow-delay=".1s"
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
@@ -844,7 +844,7 @@ const Footer6 = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".8s"
+              data-wow-delay=".1s"
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
@@ -895,7 +895,7 @@ const Footer6 = () => {
         <div className="footer-bottom">
           <div className="container">
             <div className="footer-wrapper d-flex align-items-center justify-content-between">
-              <ul className="footer-menu wow fadeInUp" data-wow-delay=".2s">
+              <ul className="footer-menu wow fadeInUp" data-wow-delay=".1s">
                 <li>
                   <Link href="faq">FAQs</Link>
                 </li>
@@ -910,11 +910,11 @@ const Footer6 = () => {
                 href="#"
                 id="scrollUp"
                 className="scroll-icon wow fadeInUp"
-                data-wow-delay=".4s"
+                data-wow-delay=".1s"
               >
                 <i className="far fa-angle-double-up" />
               </a>
-              <p className="wow fadeInUp" data-wow-delay=".6s">
+              <p className="wow fadeInUp" data-wow-delay=".1s">
                 © <Link href="/">2024</Link> All Rights Reserved
               </p>
             </div>

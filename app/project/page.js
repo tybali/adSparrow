@@ -13,7 +13,7 @@ const page = () => {
               <img src="assets/img/bale.png" alt="img" />
               Work Gallery
             </span>
-            <h2 className="wow fadeInUp" data-wow-delay=".3s">
+            <h2 className="wow fadeInUp" data-wow-delay=".1s">
               Explore Featured Projects
             </h2>
           </div>
@@ -22,7 +22,7 @@ const page = () => {
               <div className="row justify-content-center">
                 <div
                   className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                  data-wow-delay=".3s"
+                  data-wow-delay=".1s"
                 >
                   <div className="project-card-items">
                     <div className="project-image">
@@ -41,7 +41,7 @@ const page = () => {
                 </div>
                 <div
                   className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                  data-wow-delay=".5s"
+                  data-wow-delay=".1s"
                 >
                   <div className="project-card-items">
                     <div className="project-image">
@@ -60,7 +60,7 @@ const page = () => {
                 </div>
                 <div
                   className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                  data-wow-delay=".3s"
+                  data-wow-delay=".1s"
                 >
                   <div className="project-card-items">
                     <div className="project-image">
@@ -78,7 +78,7 @@ const page = () => {
                 </div>
                 <div
                   className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                  data-wow-delay=".5s"
+                  data-wow-delay=".1s"
                 >
                   <div className="project-card-items">
                     <div className="project-image">
@@ -96,7 +96,7 @@ const page = () => {
                 </div>
                 <div
                   className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                  data-wow-delay=".3s"
+                  data-wow-delay=".1s"
                 >
                   <div className="project-card-items">
                     <div className="project-image">
@@ -114,7 +114,7 @@ const page = () => {
                 </div>
                 <div
                   className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                  data-wow-delay=".5s"
+                  data-wow-delay=".1s"
                 >
                   <div className="project-card-items">
                     <div className="project-image">
@@ -132,7 +132,7 @@ const page = () => {
                 </div>
                 <div
                   className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                  data-wow-delay=".3s"
+                  data-wow-delay=".1s"
                 >
                   <div className="project-card-items">
                     <div className="project-image">
@@ -150,7 +150,7 @@ const page = () => {
                 </div>
                 <div
                   className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                  data-wow-delay=".5s"
+                  data-wow-delay=".1s"
                 >
                   <div className="project-card-items">
                     <div className="project-image">

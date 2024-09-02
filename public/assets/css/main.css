@@ -1867,6 +1867,14 @@ input.main-search-input::placeholder {
   cursor: pointer;
 }
 
+.top-24 {
+  top: -95px !important;
+}
+
+.top-0 {
+  top: 0px;
+}
+
 .header-1 {
   background: #101828;
 }
@@ -2078,7 +2086,7 @@ input.main-search-input::placeholder {
 
 .sticky {
   position: fixed !important;
-  top: 0 !important;
+  top: 0;
   left: 0;
   width: 100%;
   z-index: 100;
@@ -2600,24 +2608,29 @@ input.main-search-input::placeholder {
   position: relative;
 }
 .hero-1 {
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width:100%;
+ 
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%; */
+}
+.radialContainer{
+  z-index: 1;
   position: absolute;
   top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
   height: 100%;
-  content: "";
+  width:100%;
+  height: 100%;
   background: radial-gradient(
-      100.34% 66.34% at 50% 25.71%,
-      rgba(16, 24, 40, 0.3) 0%,
-      rgba(16, 24, 40, 0.97) 100%
-    ),
-    url("../img/hero/cover.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50%;
+    100.34% 90.34% at 50% 31.71%,
+    rgba(16, 24, 40, 0.3) 0%,
+    rgba(16, 24, 40, 0.97) 100%
+  );
 }
+
 .hero-1 .hero-content {
   position: relative;
   z-index: 1;
@@ -11381,6 +11394,19 @@ p.sticky-label {
     width: 100% !important;
     position: relative !important;
 }
+
+@media (max-width: 480px) {
+  .audit-btn {
+    visibility: hidden !important;
+  }
+}
+
+.audit-btn {
+  visibility: visible;
+}
+
+
+
 
 
 /*# sourceMappingURL=main.css.map */

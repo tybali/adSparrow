@@ -17,7 +17,7 @@ const page = () => {
               <img src="assets/img/bale.png" alt="img" />
               Clients Feedback
             </span>
-            <h2 className="wow fadeInUp" data-wow-delay=".3s">
+            <h2 className="wow fadeInUp" data-wow-delay=".1s">
               We’ve 1250+ Global Clients Say Us
             </h2>
           </div>

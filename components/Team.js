@@ -9,14 +9,14 @@ const Team = () => {
             <img src="assets/img/bale.png" alt="img" />
             Team Member
           </span>
-          <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
+          <h2 className="text-white wow fadeInUp" data-wow-delay=".1s">
             Meet Our Professional Team Members
           </h2>
         </div>
         <div className="row">
           <div
             className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-            data-wow-delay=".2s"
+            data-wow-delay=".1s"
           >
             <div className="team-card-items">
               <div className="team-image">
@@ -56,7 +56,7 @@ const Team = () => {
           </div>
           <div
             className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-            data-wow-delay=".4s"
+            data-wow-delay=".1s"
           >
             <div className="team-card-items">
               <div className="team-image">
@@ -96,7 +96,7 @@ const Team = () => {
           </div>
           <div
             className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-            data-wow-delay=".6s"
+            data-wow-delay=".1s"
           >
             <div className="team-card-items">
               <div className="team-image">
@@ -136,7 +136,7 @@ const Team = () => {
           </div>
           <div
             className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-            data-wow-delay=".8s"
+            data-wow-delay=".1s"
           >
             <div className="team-card-items">
               <div className="team-image">

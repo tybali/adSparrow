@@ -27,7 +27,7 @@ const page = ({ params }) => {
         <div className="container">
           <div className="service-video-wrapper">
             <div className="row align-items-center">
-              <div className="col-lg-7 wow fadeInUp" data-wow-delay=".3s">
+              <div className="col-lg-7 wow fadeInUp" data-wow-delay=".1s">
                 <div className="service-video-image">
                   <img src="assets/img/service/service-video.jpg" alt="img" />
                   <div className="video-box">
@@ -40,7 +40,7 @@ const page = ({ params }) => {
                   </div>
                   <ul
                     className="experience-text wow fadeInUp"
-                    data-wow-delay=".6s"
+                    data-wow-delay=".1s"
                     style={{ visibility: "visible", animationDelay: "0.6s" }}
                   >
                     <li>25+ Years Of Experience</li>
@@ -54,15 +54,15 @@ const page = ({ params }) => {
               <div className="col-lg-5">
                 <div className="content">
                   <div className="section-title mb-0">
-                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                    <h2 className="wow fadeInUp" data-wow-delay=".1s">
                       Better Solutions Create your life more easier
                     </h2>
                   </div>
-                  <p className="mt-3 wow fadeInUp" data-wow-delay=".5s">
+                  <p className="mt-3 wow fadeInUp" data-wow-delay=".1s">
                     Sed perspiciatis unde omnis natus voluptatem accusantium
                     doloremque laudantium, totam rem aperiam eaque
                   </p>
-                  <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
+                  <div className="icon-items wow fadeInUp" data-wow-delay=".1s">
                     <h5>
                       <i className="fas fa-check-circle" />
                       Easy write and test more copy varistions
@@ -72,7 +72,7 @@ const page = ({ params }) => {
                       velit esse quam nihil molestiae consequatur
                     </p>
                   </div>
-                  <div className="icon-items wow fadeInUp" data-wow-delay=".5s">
+                  <div className="icon-items wow fadeInUp" data-wow-delay=".1s">
                     <h5>
                       <i className="fas fa-check-circle" />
                       One Click Management &amp; Custom Greeting

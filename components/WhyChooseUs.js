@@ -15,12 +15,12 @@ const WhyChooseUs = () => {
             width={540}
             alt="which digital marketing agency is the best"
             className="resize-illustration wow fadeInUp"
-            data-wow-delay=".5s"
+            data-wow-delay=".1s"
           />
 
           <div className="process-steps-column" style={{ gap: 10 }}>
           <div className="section-title text-center">
-          <h2 className="wow fadeInUp" data-wow-delay=".3s" style={{ textAlign: "left"}}>
+          <h2 className="wow fadeInUp" data-wow-delay=".1s" style={{ textAlign: "left"}}>
             Why Choose Us? Because Mediocre is for the Other Guys <br />
           </h2>
         </div>

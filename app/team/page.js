@@ -16,19 +16,19 @@ const page = () => {
                 <img src="assets/img/bale.png" alt="img" />
                 About The Team
               </span>
-              <h2 className="wow fadeInUp" data-wow-delay=".3s">
+              <h2 className="wow fadeInUp" data-wow-delay=".1s">
                 Passionate &amp; Dedicated <br /> Team Member to delivering{" "}
                 <br />
                 exceptional results
               </h2>
             </div>
             <div className="text-items">
-              <p className="mb-3 wow fadeInUp" data-wow-delay=".3s">
+              <p className="mb-3 wow fadeInUp" data-wow-delay=".1s">
                 Which revolutionized our industry. This forward-thinking
                 approach allowed us <br />
                 to stay at the forefront of innovation and better serve
               </p>
-              <p className="wow fadeInUp" data-wow-delay=".5s">
+              <p className="wow fadeInUp" data-wow-delay=".1s">
                 As technology evolved, so did we. In 1995, we embraced mention a
                 significant <br /> technological advancement or change], which
                 revolutionized our industry. <br /> This forward-thinking
@@ -37,12 +37,12 @@ const page = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-8 wow fadeInUp" data-wow-delay=".3s">
+            <div className="col-lg-8 wow fadeInUp" data-wow-delay=".1s">
               <div className="about-image">
                 <img src="assets/img/team/about-img-1.jpg" alt="img" />
               </div>
             </div>
-            <div className="col-lg-4 wow fadeInUp" data-wow-delay=".5s">
+            <div className="col-lg-4 wow fadeInUp" data-wow-delay=".1s">
               <div className="about-image">
                 <img src="assets/img/team/about-img-2.jpg" alt="img" />
               </div>
@@ -62,7 +62,7 @@ const page = () => {
           <div className="row">
             <div
               className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".2s"
+              data-wow-delay=".1s"
             >
               <div className="team-card-items style-2">
                 <div className="team-image">
@@ -102,7 +102,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="team-card-items style-2">
                 <div className="team-image">
@@ -142,7 +142,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".6s"
+              data-wow-delay=".1s"
             >
               <div className="team-card-items style-2">
                 <div className="team-image">
@@ -182,7 +182,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".8s"
+              data-wow-delay=".1s"
             >
               <div className="team-card-items style-2">
                 <div className="team-image">
@@ -222,7 +222,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".2s"
+              data-wow-delay=".1s"
             >
               <div className="team-card-items style-2">
                 <div className="team-image">
@@ -262,7 +262,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="team-card-items style-2">
                 <div className="team-image">
@@ -302,7 +302,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".6s"
+              data-wow-delay=".1s"
             >
               <div className="team-card-items style-2">
                 <div className="team-image">
@@ -342,7 +342,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".8s"
+              data-wow-delay=".1s"
             >
               <div className="team-card-items style-2">
                 <div className="team-image">
@@ -391,7 +391,7 @@ const page = () => {
               <img src="assets/img/bale.png" alt="img" />
               Clients Feedback
             </span>
-            <h2 className="wow fadeInUp" data-wow-delay=".3s">
+            <h2 className="wow fadeInUp" data-wow-delay=".1s">
               We’ve 1250+ Global Clients Say Us
             </h2>
           </div>

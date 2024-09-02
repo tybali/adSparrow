@@ -16,14 +16,14 @@ const page = () => {
           <div className="row g-4 align-items-center justify-content-between align-items-center">
             <div className="col-lg-6">
               <div className="hero-content">
-                <span className="sub-content wow fadeInUp" data-wow-delay=".2s">
+                <span className="sub-content wow fadeInUp" data-wow-delay=".1s">
                   <img src="assets/img/bale.png" alt="img" />
                   25+ Years Of Experience
                 </span>
-                <h1 className="wow fadeInUp" data-wow-delay=".4s">
+                <h1 className="wow fadeInUp" data-wow-delay=".1s">
                   The Perfect Digital marketing For grow your Business
                 </h1>
-                <p className="wow fadeInUp" data-wow-delay=".5s">
+                <p className="wow fadeInUp" data-wow-delay=".1s">
                   Sed ut perspiciatis unde omnis iste natus voluptatem
                   accusantium <br />
                   doloremque laudantium, totam rem aperiam
@@ -31,7 +31,7 @@ const page = () => {
                 <div className="about-author">
                   <div
                     className="about-button wow fadeInUp"
-                    data-wow-delay=".3s"
+                    data-wow-delay=".1s"
                   >
                     <Link href="about" className="theme-btn">
                       Learn More
@@ -40,7 +40,7 @@ const page = () => {
                   </div>
                   <div
                     className="author-image wow fadeInUp"
-                    data-wow-delay=".5s"
+                    data-wow-delay=".1s"
                   >
                     <img
                       src="assets/img/about/face-mans-2.png"
@@ -56,7 +56,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
+            <div className="col-lg-5 wow fadeInUp" data-wow-delay=".1s">
               <div className="hero-image">
                 <img
                   src="assets/img/hero/digital-marketing-hero-img-min.png"
@@ -80,35 +80,35 @@ const page = () => {
             <div className="radius-shape-2">
               <img src="assets/img/brand/radius-right.png" alt="shape-img" />
             </div>
-            <h5 className="wow fadeInUp" data-wow-delay=".3s">
+            <h5 className="wow fadeInUp" data-wow-delay=".1s">
               We Have <span>1563+</span> Global Partners. Explore Our Global
               Clients
             </h5>
             <div className="brand-items">
-              <div className="brand-image wow fadeInUp" data-wow-delay=".2s">
+              <div className="brand-image wow fadeInUp" data-wow-delay=".1s">
                 <img src="assets/img/brand/linkedIn.png" alt="img" />
               </div>
-              <div className="brand-image wow fadeInUp" data-wow-delay=".4s">
+              <div className="brand-image wow fadeInUp" data-wow-delay=".1s">
                 <img src="assets/img/brand/dropbox.png" alt="img" />
               </div>
-              <div className="brand-image wow fadeInUp" data-wow-delay=".6s">
+              <div className="brand-image wow fadeInUp" data-wow-delay=".1s">
                 <img src="assets/img/brand/trello.png" alt="img" />
               </div>
-              <div className="brand-image wow fadeInUp" data-wow-delay=".8s">
+              <div className="brand-image wow fadeInUp" data-wow-delay=".1s">
                 <img src="assets/img/brand/framer.png" alt="img" />
               </div>
             </div>
             <div className="brand-items">
-              <div className="brand-image wow fadeInUp" data-wow-delay=".2s">
+              <div className="brand-image wow fadeInUp" data-wow-delay=".1s">
                 <img src="assets/img/brand/grammarly.png" alt="img" />
               </div>
-              <div className="brand-image wow fadeInUp" data-wow-delay=".4s">
+              <div className="brand-image wow fadeInUp" data-wow-delay=".1s">
                 <img src="assets/img/brand/amazon.png" alt="img" />
               </div>
-              <div className="brand-image wow fadeInUp" data-wow-delay=".6s">
+              <div className="brand-image wow fadeInUp" data-wow-delay=".1s">
                 <img src="assets/img/brand/outbrain.png" alt="img" />
               </div>
-              <div className="brand-image wow fadeInUp" data-wow-delay=".8s">
+              <div className="brand-image wow fadeInUp" data-wow-delay=".1s">
                 <img src="assets/img/brand/shopify.png" alt="img" />
               </div>
             </div>
@@ -120,7 +120,7 @@ const page = () => {
         <div className="container">
           <div className="about-wrapper">
             <div className="row g-4 align-items-center justify-content-between">
-              <div className="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+              <div className="col-lg-6 wow fadeInUp" data-wow-delay=".1s">
                 <div className="digital-about-image">
                   <img
                     src="assets/img/about/digittal-about-img.png"
@@ -135,17 +135,17 @@ const page = () => {
                       <img src="assets/img/bale.png" alt="img" />
                       About Company
                     </span>
-                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                    <h2 className="wow fadeInUp" data-wow-delay=".1s">
                       We Have Experience Team to Lead your Business
                     </h2>
                   </div>
-                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".1s">
                     Sed ut perspiciatis unde omnis iste natus error sit volupta
                     temes accusantium doloremque laudantium, totam rem
                   </p>
                   <ul
                     className="about-list style-2 wow fadeInUp"
-                    data-wow-delay=".3s"
+                    data-wow-delay=".1s"
                   >
                     <li>
                       <i className="fas fa-check-circle" />
@@ -158,7 +158,7 @@ const page = () => {
                   </ul>
                   <div
                     className="about-button wow fadeInUp"
-                    data-wow-delay=".5s"
+                    data-wow-delay=".1s"
                   >
                     <Link href="about" className="theme-btn bg-2">
                       Learn More Us
@@ -186,7 +186,7 @@ const page = () => {
               <img src="assets/img/bale.png" alt="img" />
               Testimonials
             </span>
-            <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
+            <h2 className="text-white wow fadeInUp" data-wow-delay=".1s">
               We’ve 1250+ Global Clients Say Us
             </h2>
           </div>
@@ -205,14 +205,14 @@ const page = () => {
               <img src="assets/img/bale.png" alt="img" />
               News &amp; Blog
             </span>
-            <h2 className="wow fadeInUp" data-wow-delay=".3s">
+            <h2 className="wow fadeInUp" data-wow-delay=".1s">
               Explore Our Latest News &amp; Blog
             </h2>
           </div>
           <div className="row">
             <div
               className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".3s"
+              data-wow-delay=".1s"
             >
               <div className="news-card-items style-2">
                 <div
@@ -235,7 +235,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".5s"
+              data-wow-delay=".1s"
             >
               <div className="news-card-items style-2">
                 <div
@@ -258,7 +258,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".7s"
+              data-wow-delay=".1s"
             >
               <div className="news-card-items style-2">
                 <div
@@ -290,7 +290,7 @@ const page = () => {
         <div className="container">
           <div className="row g-4 justify-content-center align-items-center">
             <div className="col-lg-1" />
-            <div className="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
+            <div className="col-lg-4 wow fadeInUp" data-wow-delay=".1s">
               <div className="contact-image">
                 <img src="assets/img/contact.jpg" alt="img" />
                 <div className="circle-musk-shape float-bob-x">
@@ -305,12 +305,12 @@ const page = () => {
                   <img src="assets/img/bale.png" alt="img" />
                   Contact Us
                 </span>
-                <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                <h2 className="wow fadeInUp" data-wow-delay=".1s">
                   Ready to Boost your Digital <br />
                   product marketing ?
                 </h2>
               </div>
-              <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+              <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".1s">
                 Sed ut perspiciatis unde omnis iste natus error voluptatem
                 accusantium <br /> doloremque laudantium, totam rem aperiam,
                 eaque ipsa quae
@@ -318,7 +318,7 @@ const page = () => {
               <Link
                 href="contact"
                 className="theme-btn mt-4 wow fadeInUp"
-                data-wow-delay=".3s"
+                data-wow-delay=".1s"
               >
                 Get A Quote
                 <i className="far fa-arrow-right" />

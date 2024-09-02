@@ -42,7 +42,7 @@ export const Appointments = () => {
   };
 
   return (
-    <div className="col-xxl-4 col-lg-4 col-md-4 wow fadeInUp" data-wow-delay=".4s">
+    <div className="col-xxl-4 col-lg-4 col-md-4 wow fadeInUp" data-wow-delay=".1s">
       <div className="hero-contact-box">
         <h4>Let's Talk</h4>
         <p style={{ fontSize: 14, marginTop: 5 }}>

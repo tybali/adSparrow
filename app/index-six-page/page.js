@@ -21,24 +21,24 @@ const page = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="hero-content center">
-                <span className="sub-content wow fadeInUp" data-wow-delay=".2s">
+                <span className="sub-content wow fadeInUp" data-wow-delay=".1s">
                   <img src="assets/img/bale.png" alt="img" />
                   Welcome to Next Agency
                 </span>
-                <h1 className="wow fadeInUp" data-wow-delay=".4s">
+                <h1 className="wow fadeInUp" data-wow-delay=".1s">
                   Building the 10x Faster Future <br />
                   with Artificial Intelligence
                 </h1>
                 <ul>
-                  <li className="wow fadeInUp" data-wow-delay=".3s">
+                  <li className="wow fadeInUp" data-wow-delay=".1s">
                     <i className="fas fa-check-circle" /> 10x Faster Power
                     Buster
                   </li>
-                  <li className="wow fadeInUp" data-wow-delay=".5s">
+                  <li className="wow fadeInUp" data-wow-delay=".1s">
                     <i className="fas fa-check-circle" /> Natural Language
                     Processing
                   </li>
-                  <li className="wow fadeInUp" data-wow-delay=".7s">
+                  <li className="wow fadeInUp" data-wow-delay=".1s">
                     <i className="fas fa-check-circle" /> Machine Learning
                     System
                   </li>
@@ -46,7 +46,7 @@ const page = () => {
                 <form
                   action="#"
                   className="sign-input-form wow fadeInUp"
-                  data-wow-delay=".5s"
+                  data-wow-delay=".1s"
                 >
                   <div className="doming-input">
                     <input type="text" placeholder="Email Address" />
@@ -61,7 +61,7 @@ const page = () => {
               </div>
               <div
                 className="dashboard-image wow fadeInUp"
-                data-wow-delay=".4s"
+                data-wow-delay=".1s"
               >
                 <img src="assets/img/home-6/dashboard.png" alt="img" />
               </div>
@@ -84,7 +84,7 @@ const page = () => {
             <span className="sec-sub-text-2 text-white wow fadeInUp">
               Working Process
             </span>
-            <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
+            <h2 className="text-white wow fadeInUp" data-wow-delay=".1s">
               Get Faster Solutions in <br />
               Very Easy Ways
             </h2>
@@ -92,7 +92,7 @@ const page = () => {
           <div className="row align-items-center">
             <div
               className="col-xl-4 col-lg-6 wow fadeInUp"
-              data-wow-delay=".3s"
+              data-wow-delay=".1s"
             >
               <div className="work-process-card-items">
                 <div className="number">01</div>
@@ -106,7 +106,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-4 col-lg-6 wow fadeInUp"
-              data-wow-delay=".5s"
+              data-wow-delay=".1s"
             >
               <div className="arrow-shape mt-5">
                 <img
@@ -119,7 +119,7 @@ const page = () => {
             <div className="col-xl-4 col-lg-6" />
             <div
               className="col-xl-4 col-lg-6 wow fadeInUp"
-              data-wow-delay=".5s"
+              data-wow-delay=".1s"
             >
               <div className="work-process-card-items">
                 <div className="number">02</div>
@@ -135,7 +135,7 @@ const page = () => {
             <div className="col-xl-4 col-lg-6" />
             <div
               className="col-xl-4 col-lg-6 wow fadeInUp"
-              data-wow-delay=".3s"
+              data-wow-delay=".1s"
             >
               <div className="arrow-shape text-center">
                 <img
@@ -146,7 +146,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-4 col-lg-6 wow fadeInUp"
-              data-wow-delay=".5s"
+              data-wow-delay=".1s"
             >
               <div className="work-process-card-items">
                 <div className="number">03</div>
@@ -169,7 +169,7 @@ const page = () => {
               <img src="assets/img/bale.png" alt="img" />
               Popular Services
             </span>
-            <h2 className="wow fadeInUp" data-wow-delay=".3s">
+            <h2 className="wow fadeInUp" data-wow-delay=".1s">
               We Provide Best Quality Service <br />
               For Your Business
             </h2>
@@ -177,7 +177,7 @@ const page = () => {
           <div className="row">
             <div
               className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".2s"
+              data-wow-delay=".1s"
             >
               <div className="service-card-items">
                 <div className="icon">
@@ -202,7 +202,7 @@ const page = () => {
             </div>
             <div
               className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="service-card-items active">
                 <div className="icon">
@@ -227,7 +227,7 @@ const page = () => {
             </div>
             <div
               className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".6s"
+              data-wow-delay=".1s"
             >
               <div className="service-card-items">
                 <div className="icon">
@@ -252,7 +252,7 @@ const page = () => {
             </div>
             <div
               className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".8s"
+              data-wow-delay=".1s"
             >
               <div className="service-card-items">
                 <div className="icon">
@@ -283,7 +283,7 @@ const page = () => {
         <div className="container">
           <div className="feature-video-wrapper">
             <div className="row g-4 align-items-center">
-              <div className="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+              <div className="col-lg-6 wow fadeInUp" data-wow-delay=".1s">
                 <div className="feature-video-thumb">
                   <img src="assets/img/home-6/video-feature.png" alt="img" />
                   <div className="video-box">
@@ -302,11 +302,11 @@ const page = () => {
                     <span className="sec-sub-text-2 wow fadeInUp">
                       What We Doing
                     </span>
-                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                    <h2 className="wow fadeInUp" data-wow-delay=".1s">
                       Better Solutions to Create <br /> your life more easier
                     </h2>
                   </div>
-                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".1s">
                     Sed ut perspiciatis unde omnis iste natus sit voluptatem
                     accusantium <br /> doloremque laudantium, totam rem aperiam
                     eaque ipsa
@@ -314,7 +314,7 @@ const page = () => {
                   <div className="feature-box-area">
                     <div
                       className="feature-items wow fadeInUp"
-                      data-wow-delay=".3s"
+                      data-wow-delay=".1s"
                     >
                       <h5>
                         <i className="fas fa-check-circle" />
@@ -327,7 +327,7 @@ const page = () => {
                     </div>
                     <div
                       className="feature-items wow fadeInUp"
-                      data-wow-delay=".5s"
+                      data-wow-delay=".1s"
                     >
                       <h5>
                         <i className="fas fa-check-circle" />
@@ -356,16 +356,16 @@ const page = () => {
                     <span className="sec-sub-text-2 wow fadeInUp">
                       Core Features
                     </span>
-                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                    <h2 className="wow fadeInUp" data-wow-delay=".1s">
                       Unlock the power of AI &amp; Create Content Faster
                     </h2>
                   </div>
-                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".1s">
                     Sed ut perspiciatis unde omnis iste natus sit voluptatem
                     accusantium <br /> doloremque laudantium, totam rem aperiam
                     eaque ipsa
                   </p>
-                  <ul className="list-items wow fadeInUp" data-wow-delay=".3s">
+                  <ul className="list-items wow fadeInUp" data-wow-delay=".1s">
                     <li>
                       <i className="fas fa-check" />
                       Connect with leads with zero hassle.
@@ -382,13 +382,13 @@ const page = () => {
                   <Link
                     href="contact"
                     className="theme-btn bg-2 wow fadeInUp"
-                    data-wow-delay=".5s"
+                    data-wow-delay=".1s"
                   >
                     Sign Up Free <i className="far fa-arrow-right" />
                   </Link>
                 </div>
               </div>
-              <div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
+              <div className="col-lg-6 wow fadeInUp" data-wow-delay=".1s">
                 <div className="feature-dashboard-image">
                   <img src="assets/img/home-6/dashboard-2.png" alt="img" />
                 </div>
@@ -408,7 +408,7 @@ const page = () => {
                 <span className="sec-sub-text-2 wow fadeInUp">
                   Clients Feedback
                 </span>
-                <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
+                <h2 className="text-white wow fadeInUp" data-wow-delay=".1s">
                   What Our Clients Say Us
                 </h2>
               </div>
@@ -416,11 +416,11 @@ const page = () => {
                 <Link
                   href="index-6"
                   className="theme-btn hover-white wow fadeInUp"
-                  data-wow-delay=".3s"
+                  data-wow-delay=".1s"
                 >
                   View More <i className="far fa-arrow-right" />
                 </Link>
-                <div className="author-items wow fadeInUp" data-wow-delay=".5s">
+                <div className="author-items wow fadeInUp" data-wow-delay=".1s">
                   <img src="assets/img/home-6/client.png" alt="img" />
                   <h6 className="text-white">
                     Trusted by 1M+ people <br />
@@ -444,10 +444,10 @@ const page = () => {
       <section className="faq-section section-padding">
         <div className="container">
           <div className="section-title text-center">
-            <h2 className="mb-3 wow fadeInUp" data-wow-delay=".3s">
+            <h2 className="mb-3 wow fadeInUp" data-wow-delay=".1s">
               Frequently Asked Questions
             </h2>
-            <p className="wow fadeInUp" data-wow-delay=".5s">
+            <p className="wow fadeInUp" data-wow-delay=".1s">
               Digital marketing &amp; advertising approach focuses on capturing
               the essential
             </p>
@@ -459,7 +459,7 @@ const page = () => {
                   <div className="accordion" id="accordion">
                     <div
                       className="accordion-item wow fadeInUp"
-                      data-wow-delay=".3s"
+                      data-wow-delay=".1s"
                     >
                       <h4 className="accordion-header">
                         <button
@@ -488,7 +488,7 @@ const page = () => {
                     </div>
                     <div
                       className="accordion-item wow fadeInUp"
-                      data-wow-delay=".5s"
+                      data-wow-delay=".1s"
                     >
                       <h4 className="accordion-header">
                         <button
@@ -517,7 +517,7 @@ const page = () => {
                     </div>
                     <div
                       className="accordion-item wow fadeInUp"
-                      data-wow-delay=".7s"
+                      data-wow-delay=".1s"
                     >
                       <h4 className="accordion-header">
                         <button
@@ -546,7 +546,7 @@ const page = () => {
                     </div>
                     <div
                       className="accordion-item wow fadeInUp"
-                      data-wow-delay=".7s"
+                      data-wow-delay=".1s"
                     >
                       <h4 className="accordion-header">
                         <button
@@ -575,7 +575,7 @@ const page = () => {
                     </div>
                     <div
                       className="accordion-item wow fadeInUp"
-                      data-wow-delay=".7s"
+                      data-wow-delay=".1s"
                     >
                       <h4 className="accordion-header">
                         <button
@@ -612,7 +612,7 @@ const page = () => {
                   <div className="accordion" id="accordion2">
                     <div
                       className="accordion-item wow fadeInUp"
-                      data-wow-delay=".3s"
+                      data-wow-delay=".1s"
                     >
                       <h4 className="accordion-header">
                         <button
@@ -641,7 +641,7 @@ const page = () => {
                     </div>
                     <div
                       className="accordion-item wow fadeInUp"
-                      data-wow-delay=".5s"
+                      data-wow-delay=".1s"
                     >
                       <h4 className="accordion-header">
                         <button
@@ -670,7 +670,7 @@ const page = () => {
                     </div>
                     <div
                       className="accordion-item wow fadeInUp"
-                      data-wow-delay=".7s"
+                      data-wow-delay=".1s"
                     >
                       <h4 className="accordion-header">
                         <button
@@ -699,7 +699,7 @@ const page = () => {
                     </div>
                     <div
                       className="accordion-item wow fadeInUp"
-                      data-wow-delay=".7s"
+                      data-wow-delay=".1s"
                     >
                       <h4 className="accordion-header">
                         <button
@@ -728,7 +728,7 @@ const page = () => {
                     </div>
                     <div
                       className="accordion-item wow fadeInUp"
-                      data-wow-delay=".7s"
+                      data-wow-delay=".1s"
                     >
                       <h4 className="accordion-header">
                         <button
@@ -777,16 +777,16 @@ const page = () => {
                   <span className="text-white sec-sub-text-2 wow fadeInUp">
                     Newsletter
                   </span>
-                  <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
+                  <h2 className="text-white wow fadeInUp" data-wow-delay=".1s">
                     Start a free 7-days trial now &amp; Get more updates
                   </h2>
                 </div>
               </div>
               <div className="col-xl-5 col-lg-6">
-                <h5 className="text-white wow fadeInUp" data-wow-delay=".3s">
+                <h5 className="text-white wow fadeInUp" data-wow-delay=".1s">
                   Subscribe Our Newsletter
                 </h5>
-                <div className="form-clt wow fadeInUp" data-wow-delay=".5s">
+                <div className="form-clt wow fadeInUp" data-wow-delay=".1s">
                   <input
                     type="text"
                     name="email"
@@ -807,7 +807,7 @@ const page = () => {
       {/* Brand Section Start */}
       <div className="brand-section-6 fix section-padding pt-0">
         <div className="container">
-          <h5 className="brand-text-6 wow fadeInUp" data-wow-delay=".3s">
+          <h5 className="brand-text-6 wow fadeInUp" data-wow-delay=".1s">
             We Have <span>1563+</span> Global Partners. Explore Our Global
             Clients
           </h5>

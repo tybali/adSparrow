@@ -4,7 +4,7 @@ const FunFactCounter = ({ style }) => {
     <div className="row">
       <div
         className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-        data-wow-delay=".2s"
+        data-wow-delay=".1s"
       >
         <div className={`funfact-box-items style-${style}`}>
           <h2>
@@ -19,7 +19,7 @@ const FunFactCounter = ({ style }) => {
       </div>
       <div
         className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-        data-wow-delay=".4s"
+        data-wow-delay=".1s"
       >
         <div className={`funfact-box-items active`}>
           <h2>
@@ -34,7 +34,7 @@ const FunFactCounter = ({ style }) => {
       </div>
       <div
         className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-        data-wow-delay=".6s"
+        data-wow-delay=".1s"
       >
         <div className={`funfact-box-items style-${style}`}>
           <h2>
@@ -49,7 +49,7 @@ const FunFactCounter = ({ style }) => {
       </div>
       <div
         className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-        data-wow-delay=".8s"
+        data-wow-delay=".1s"
       >
         <div className={`funfact-box-items style-${style}`}>
           <h2>

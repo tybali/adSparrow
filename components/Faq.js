@@ -7,7 +7,7 @@ const Faq = () => {
             <img src="assets/img/bale.png" alt="img" />
             Some Question
           </span>
-          <h2 className="wow fadeInUp" data-wow-delay=".3s">
+          <h2 className="wow fadeInUp" data-wow-delay=".1s">
             Frequently Asked Questions
           </h2>
         </div>
@@ -18,7 +18,7 @@ const Faq = () => {
                 <div className="accordion" id="accordion">
                   <div
                     className="accordion-item wow fadeInUp"
-                    data-wow-delay=".3s"
+                    data-wow-delay=".1s"
                   >
                     <h4 className="accordion-header">
                       <button
@@ -47,7 +47,7 @@ const Faq = () => {
                   </div>
                   <div
                     className="accordion-item wow fadeInUp"
-                    data-wow-delay=".5s"
+                    data-wow-delay=".1s"
                   >
                     <h4 className="accordion-header">
                       <button
@@ -76,7 +76,7 @@ const Faq = () => {
                   </div>
                   <div
                     className="accordion-item wow fadeInUp"
-                    data-wow-delay=".7s"
+                    data-wow-delay=".1s"
                   >
                     <h4 className="accordion-header">
                       <button
@@ -105,7 +105,7 @@ const Faq = () => {
                   </div>
                   <div
                     className="accordion-item wow fadeInUp"
-                    data-wow-delay=".7s"
+                    data-wow-delay=".1s"
                   >
                     <h4 className="accordion-header">
                       <button
@@ -134,7 +134,7 @@ const Faq = () => {
                   </div>
                   <div
                     className="accordion-item wow fadeInUp"
-                    data-wow-delay=".7s"
+                    data-wow-delay=".1s"
                   >
                     <h4 className="accordion-header">
                       <button

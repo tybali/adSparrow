@@ -10,13 +10,13 @@ const page = () => {
           <div className="row justify-content-center">
             <div className="col-lg-6">
               <div className="error-items text-center">
-                <div className="error-image wow fadeInUp" data-wow-delay=".3s">
+                <div className="error-image wow fadeInUp" data-wow-delay=".1s">
                   <img src="assets/img/error.png" alt="img" />
                 </div>
                 <Link
                   href="/"
                   className="theme-btn wow fadeInUp"
-                  data-wow-delay=".5s"
+                  data-wow-delay=".1s"
                 >
                   <span>
                     Back To Home

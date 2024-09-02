@@ -12,19 +12,34 @@ import Testimonial1 from "@assets/img/testimonial/testimonial.webp";
 import Testimonial2 from "@assets/img/testimonial/testimonial-card1.png";
 import Testimonial3 from "@assets/img/testimonial/testimonial-card2.png";
 import { Appointments } from "@/components/Appointments";
+import Cover from "@assets/img/hero/cover.webp";
 
 const page = () => {
   return (
     <NextLayout header={1} footer={4}>
       <section className="hero-section hero-1 bg-cover fix">
-        <div className="container">
+      <div className="radialContainer" />
+        <Image
+          alt="Digital Marketing cover | Digital Marketing Strategy | Digital marketing company near me"
+          src={Cover}
+          placeholder="blur"
+          quality={100}
+          fill
+          priority
+          sizes="100vw"
+          style={{
+            objectFit: "cover",
+            zIndex: 0,
+          }}
+        />
+        <div className="container hero-canvas">
           <div
             className="row g-4 justify-content-between"
             style={{ marginTop: 30 }}
           >
             <div className="col-lg-6">
               <div className="hero-content">
-                <h1 className="wow fadeInUp" data-wow-delay=".2s">
+                <h1 className="wow fadeInUp" data-wow-delay=".1s">
                   Look who is here! <br />
                   We have been keeping your spot warm. <br />
                 </h1>
@@ -34,23 +49,24 @@ const page = () => {
                   in the feed, and marketing strategies that miss the mark.
                   Struggles you treat like a fact of life. <br />
                   <br />
-                  <span style={{ fontSize: 26 }}>
+                
+                </p>
+                  <p className="banner-detail" style={{ fontSize: 30, fontWeight: 800 }}>
                     {" "}
                     Well, They ain’t. AdSparrow got you covered.{" "}
-                  </span>
-                </p>
+                  </p>
                 <div className="hero-button">
                   {/* <Link
                     href="service"
                     className="btn-link wow fadeInUp"
-                    data-wow-delay=".6s"
+                    data-wow-delay=".1s"
                   >
                     View Services <i className="far fa-arrow-right" />
                   </Link> */}
                 </div>
                 {/* <div
                   className="hero-client d-flex align-items-center gap-4 mt-50 wow fadeInUp"
-                  data-wow-delay=".8s"
+                  data-wow-delay=".1s"
                 >
                   <Image src={CLientImg} alt="img"  />
                   <p className="text-white">
@@ -65,85 +81,6 @@ const page = () => {
         </div>
       </section>
       {/* Service Section Start */}
-      {/* <section className="service-section fix pt-80 pb-80 section-bg">
-        <div className="container">
-          <h4
-            className="mb-5 text-white text-center wow fadeInUp"
-            data-wow-delay=".3s"
-          >
-            Preparing For Your Business Success With IT Solution
-          </h4>
-          <div className="row g-4">
-            <div
-              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".3s"
-            >
-              <div className="service-items">
-                <div className="content">
-                  <p>01</p>
-                  <h5>
-                    <Link href="service-details">
-                      Data Manage &amp; <br />
-                      Solutions Center
-                    </Link>
-                  </h5>
-                  <Link className="arrow-btn" href="service-details">
-                    <i className="far fa-arrow-right" />
-                  </Link>
-                </div>
-                <div className="thumb">
-                  <img src="assets/img/service/01.jpg" alt="img" />
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".5s"
-            >
-              <div className="service-items">
-                <div className="content">
-                  <p>02</p>
-                  <h5>
-                    <Link href="service-details">
-                      Preparing For <br />
-                      Cloud Services
-                    </Link>
-                  </h5>
-                  <Link className="arrow-btn" href="service-details">
-                    <i className="far fa-arrow-right" />
-                  </Link>
-                </div>
-                <div className="thumb">
-                  <img src="assets/img/service/02.jpg" alt="img" />
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".7s"
-            >
-              <div className="service-items">
-                <div className="content">
-                  <p>03</p>
-                  <h5>
-                    <Link href="service-details">
-                      Machine Learning <br />
-                      &amp; Development
-                    </Link>
-                  </h5>
-                  <Link className="arrow-btn" href="service-details">
-                    <i className="far fa-arrow-right" />
-                  </Link>
-                </div>
-                <div className="thumb">
-                  <img src="assets/img/service/03.jpg" alt="img" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-      {/* About Section Start */}
 
       <section className="about-section fix section-padding">
         <div className="container">
@@ -153,6 +90,7 @@ const page = () => {
                 <Image
                   src={About01}
                   alt="about-img"
+                  priority
                   style={{ minWidth: 350, maxWidth: 600, width: "100%" }}
                   height={500}
                 />
@@ -160,13 +98,13 @@ const page = () => {
               <div className="col-lg-6">
                 <div className="about-content">
                   <div className="section-title">
-                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                    <h2 className="wow fadeInUp" data-wow-delay=".1s">
                       Leads Are Just the Beginning
                     </h2>
                   </div>
                   <p
                     className="mt-3 mt-md-0 wow fadeInUp"
-                    data-wow-delay=".5s"
+                    data-wow-delay=".1s"
                     style={{
                       lineHeight: "1.9rem",
                       fontSize: "1.3rem",
@@ -183,7 +121,7 @@ const page = () => {
 
                   <div
                     className="about-author wow fadeInUp"
-                    data-wow-delay=".5s"
+                    data-wow-delay=".1s"
                   >
                     <div className="about-button">
                       <Link href="/about" className="theme-btn">
@@ -216,7 +154,7 @@ const page = () => {
         style={{ paddingBottom: 0 }}
       >
         <div className="container">
-          <p className=" intro-quotation wow fadeInUp" data-wow-delay=".5s">
+          <p className=" intro-quotation wow fadeInUp" data-wow-delay=".1s">
             “We're not your average digital agency—we're{" "}
             <span style={{ fontWeight: 600 }}>Pain Point Detectives!</span>{" "}
             While others use cookie-cutter tactics, we dive deep into your
@@ -237,14 +175,14 @@ const page = () => {
       >
         <div className="container">
           <div className="section-title text-center">
-            <h2 className="wow fadeInUp" data-wow-delay=".3s">
+            <h2 className="wow fadeInUp" data-wow-delay=".1s">
               The Fun Stuff We Do! <br />
             </h2>
           </div>
           <div className="row">
             <div
               className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".3s"
+              data-wow-delay=".1s"
             >
               <div className="popular-service-box-items">
                 <div className="icon">
@@ -269,7 +207,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".5s"
+              data-wow-delay=".1s"
             >
               <div className="popular-service-box-items">
                 <div className="icon">
@@ -291,7 +229,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".7s"
+              data-wow-delay=".1s"
             >
               <div className="popular-service-box-items">
                 <div className="icon">
@@ -315,7 +253,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".5s"
+              data-wow-delay=".1s"
             >
               <div className="popular-service-box-items">
                 <div className="icon">
@@ -337,7 +275,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".7s"
+              data-wow-delay=".1s"
             >
               <div className="popular-service-box-items">
                 <div className="icon">
@@ -359,7 +297,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".3s"
+              data-wow-delay=".1s"
             >
               <div className="popular-service-box-items">
                 <div className="icon">
@@ -408,7 +346,7 @@ const page = () => {
               <div className="col-lg-6">
                 <TestimonialSlider3 />
               </div>
-              <div className="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
+              <div className="col-lg-5 wow fadeInUp" data-wow-delay=".1s">
                 <div className="testimonial-image">
                   <Image src={Testimonial1} alt="img" />
                   <div className="card-shape-1 float-bob-x">
@@ -431,14 +369,14 @@ const page = () => {
               <Image src={Bell} alt="img" />
               News &amp; Blog
             </span>
-            <h2 className="wow fadeInUp" data-wow-delay=".3s">
+            <h2 className="wow fadeInUp" data-wow-delay=".1s">
               Explore Our Latest News &amp; Blog
             </h2>
           </div>
           <div className="row">
             <div
               className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".3s"
+              data-wow-delay=".1s"
             >
               <div className="news-box-items">
                 <div className="news-content">
@@ -462,7 +400,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".5s"
+              data-wow-delay=".1s"
             >
               <div className="news-box-items">
                 <div className="news-content">
@@ -486,7 +424,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".7s"
+              data-wow-delay=".1s"
             >
               <div className="news-box-items">
                 <div className="news-content">

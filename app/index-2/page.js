@@ -28,15 +28,15 @@ const page = () => {
           <div className="row g-4 justify-content-center">
             <div className="col-lg-12">
               <div className="hero-content">
-                <span className="sub-content wow fadeInUp" data-wow-delay=".2s">
+                <span className="sub-content wow fadeInUp" data-wow-delay=".1s">
                   <img src="assets/img/bale.png" alt="img" />
                   25+ Years Of Experience
                 </span>
-                <h1 className="wow fadeInUp" data-wow-delay=".4s">
+                <h1 className="wow fadeInUp" data-wow-delay=".1s">
                   Build your Web Traffic With <br />
                   Our Next Agency
                 </h1>
-                <div className="hero-button wow fadeInUp" data-wow-delay=".6s">
+                <div className="hero-button wow fadeInUp" data-wow-delay=".1s">
                   <Link href="about" className="theme-btn">
                     Learn More <i className="far fa-arrow-right" />
                   </Link>
@@ -44,7 +44,7 @@ const page = () => {
               </div>
               <div
                 className="dashboard-image wow fadeInUp"
-                data-wow-delay=".7s"
+                data-wow-delay=".1s"
               >
                 <img src="assets/img/hero/dashboard.png" alt="img" />
               </div>
@@ -56,7 +56,7 @@ const page = () => {
       <div className="brand-section fix section-padding">
         <div className="container">
           <div className="brand-wrapper">
-            <h6 className="wow fadeInUp" data-wow-delay=".2s">
+            <h6 className="wow fadeInUp" data-wow-delay=".1s">
               We Have <span>1563+</span> Global Partners. Explore Our Global
               Clients
             </h6>
@@ -72,12 +72,12 @@ const page = () => {
               <div className="col-lg-6">
                 <div className="about-image-items-2">
                   <div className="row g-4 align-items-center">
-                    <div className="col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div className="col-md-6 wow fadeInUp" data-wow-delay=".1s">
                       <div className="about-image">
                         <img src="assets/img/about/01.png" alt="about-img" />
                       </div>
                     </div>
-                    <div className="col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div className="col-md-6 wow fadeInUp" data-wow-delay=".1s">
                       <div className="about-image-2">
                         <img src="assets/img/about/02.png" alt="about-img" />
                       </div>
@@ -92,16 +92,16 @@ const page = () => {
                       <img src="assets/img/bale.png" alt="img" />
                       About Company
                     </span>
-                    <h2 className="wow fadeInUp" data-wow-delay=".2s">
+                    <h2 className="wow fadeInUp" data-wow-delay=".1s">
                       We Increase Your Website Lead and Grow Sales
                     </h2>
                   </div>
-                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
+                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".1s">
                     Sed ut perspiciatis unde omnis iste natus error voluptatem
                     accusantium doloremque laudantium, totam rem aperiam, eaque
                     ipsa quae
                   </p>
-                  <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
+                  <div className="icon-items wow fadeInUp" data-wow-delay=".1s">
                     <div className="dot" />
                     <div className="content">
                       <h4>Superior Quality Of Work</h4>
@@ -112,7 +112,7 @@ const page = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="icon-items wow fadeInUp" data-wow-delay=".5s">
+                  <div className="icon-items wow fadeInUp" data-wow-delay=".1s">
                     <div className="dot" />
                     <div className="content">
                       <h4>Flexible Scaling &amp; Support</h4>
@@ -156,7 +156,7 @@ const page = () => {
           <div className="row g-4">
             <div
               className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".2s"
+              data-wow-delay=".1s"
             >
               <div className="counter-items">
                 <h2>
@@ -173,7 +173,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="counter-items">
                 <h2>
@@ -190,7 +190,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".6s"
+              data-wow-delay=".1s"
             >
               <div className="counter-items">
                 <h2>
@@ -207,7 +207,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".8s"
+              data-wow-delay=".1s"
             >
               <div className="counter-items">
                 <h2>
@@ -237,18 +237,18 @@ const page = () => {
                       <img src="assets/img/bale.png" alt="img" />
                       Planning &amp; Grow
                     </span>
-                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                    <h2 className="wow fadeInUp" data-wow-delay=".1s">
                       Planning And Executing Successful Events
                     </h2>
                   </div>
-                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".1s">
                     Sed ut perspiciatis unde omnis iste natus voluptatem
                     accusantium <br />
                     doloremque laudantium, totam rem aperiam, eaque
                   </p>
                   <div
                     className="planning-items mb-2 wow fadeInUp"
-                    data-wow-delay=".3s"
+                    data-wow-delay=".1s"
                   >
                     <div className="number">01</div>
                     <div className="content">
@@ -258,7 +258,7 @@ const page = () => {
                   </div>
                   <div
                     className="planning-items mt-0 mb-2 active wow fadeInUp"
-                    data-wow-delay=".5s"
+                    data-wow-delay=".1s"
                   >
                     <div className="number">02</div>
                     <div className="content">
@@ -268,7 +268,7 @@ const page = () => {
                   </div>
                   <div
                     className="planning-items mt-0 wow fadeInUp"
-                    data-wow-delay=".7s"
+                    data-wow-delay=".1s"
                   >
                     <div className="number">03</div>
                     <div className="content">
@@ -281,7 +281,7 @@ const page = () => {
               <div className="col-xl-6 col-lg-6">
                 <div className="planning-image-items">
                   <div className="row g-4 align-items-center">
-                    <div className="col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div className="col-md-6 wow fadeInUp" data-wow-delay=".1s">
                       <div className="planning-image">
                         <img
                           src="assets/img/planning/plan-1.png"
@@ -289,7 +289,7 @@ const page = () => {
                         />
                       </div>
                     </div>
-                    <div className="col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div className="col-md-6 wow fadeInUp" data-wow-delay=".1s">
                       <div className="planning-image-2">
                         <img
                           src="assets/img/planning/plan-2.png"
@@ -315,7 +315,7 @@ const page = () => {
               <img src="assets/img/bale.png" alt="img" />
               Clients Feedback
             </span>
-            <h2 className="wow fadeInUp" data-wow-delay=".5s">
+            <h2 className="wow fadeInUp" data-wow-delay=".1s">
               We’ve 1250+ Global Clients Say Us
             </h2>
           </div>
@@ -344,18 +344,18 @@ const page = () => {
                     </span>
                     <h2
                       className="text-white wow fadeInUp"
-                      data-wow-delay=".3s"
+                      data-wow-delay=".1s"
                     >
                       Start a free 7-days trial <br /> now &amp; Get more
                       updates
                     </h2>
                   </div>
-                  <p className="text-white wow fadeInUp" data-wow-delay=".5s">
+                  <p className="text-white wow fadeInUp" data-wow-delay=".1s">
                     Sed ut perspiciatis unde omnis iste natus voluptatem
                     accusantiue <br />
                     doloremque laudantium, totam rem aperiam
                   </p>
-                  <div className="form-clt wow fadeInUp" data-wow-delay=".7s">
+                  <div className="form-clt wow fadeInUp" data-wow-delay=".1s">
                     <input
                       type="text"
                       name="email"

@@ -14,12 +14,12 @@ const Cta = ({ offer = "", title="" }) => {
                 src={VIdeoImage}
                 alt="img"
                 className="wow fadeInUp"
-                data-wow-delay=".2s"
+                data-wow-delay=".1s"
               /> */}
-              <h2 className="wow fadeInUp" data-wow-delay=".3s">
+              <h2 className="wow fadeInUp" data-wow-delay=".1s">
               {title || "Free Audit: Our Treat!"}
               </h2>
-              <p className="wow fadeInUp" data-wow-delay=".6s">
+              <p className="wow fadeInUp" data-wow-delay=".1s">
                {offer}
               </p>
               <Link
@@ -32,7 +32,7 @@ const Cta = ({ offer = "", title="" }) => {
               </Link>
             </div>
           </div>
-          <div className="col-lg-5 mt-4 wow fadeInUp" data-wow-delay=".3s">
+          <div className="col-lg-5 mt-4 wow fadeInUp" data-wow-delay=".1s">
             <div className="video-image">
               <Image
                 src={Illustrtation}

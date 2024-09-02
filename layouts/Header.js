@@ -3,6 +3,7 @@ import { nextUtility } from "@/utility";
 import Link from "next/link";
 import Logo from "@assets/img/logo/adsparrow-logo.png";
 import { Fragment, useEffect, useState } from "react";
+import {useScrollDirection} from "@/utility/useScrollDirection";
 import Image from "next/image";
 
 const Header = ({ header, single }) => {
@@ -452,34 +453,6 @@ const MobileMenu = ({ single, menu }) => {
                 onClick={() => activeMenuSet("home")}
               >
                 Home
-                <i className="fas fa-angle-down" />
-              </a>
-              <ul className="submenu" style={activeLi("home")}>
-                <li>
-                  <Link href="/">Home 01</Link>
-                </li>
-                <li>
-                  <Link href="index-2">Home 02</Link>
-                </li>
-                <li>
-                  <Link href="index-3">Home 03</Link>
-                </li>
-                <li>
-                  <Link href="index-4">Home 04</Link>
-                </li>
-                <li>
-                  <Link href="index-5">Home 05</Link>
-                </li>
-                <li>
-                  <Link href="index-6">Home 06</Link>
-                </li>
-              </ul>
-              <a
-                className="mean-expand"
-                href="#"
-                onClick={() => activeMenuSet("home")}
-              >
-                <i className="far fa-plus" />
               </a>
             </li>
             {single ? (
@@ -501,12 +474,24 @@ const MobileMenu = ({ single, menu }) => {
                     <i className="fas fa-angle-down" />
                   </a>
                   <ul className="submenu" style={activeLi("Services")}>
-                    <li>
-                      <Link href="service">Services</Link>
-                    </li>
-                    <li>
-                      <Link href="service-details">Service Details</Link>
-                    </li>
+                  <li>
+                  <Link href="/services/website-design-and-development">Website Design <br/> &amp; Development</Link>
+                </li>
+                <li>
+                  <Link href="/services/search-engine-optimization">Serach Engine Optimization (SEO)</Link>
+                </li>
+                <li>
+                  <Link href="/services/video-editing-and-animation">Vide Editing <br /> &amp; Animation</Link>
+                </li>
+                <li>
+                  <Link href="/services/social-media-marketing">Social Media Marketing</Link>
+                </li>
+                <li>
+                  <Link href="/services/pay-per-click">Pay Per Click (PPC)</Link>
+                </li>
+                <li>
+                  <Link href="/services/ecommerce-store">Ecommerse Stores</Link>
+                </li>
                   </ul>
                   <a
                     className="mean-expand"
@@ -516,75 +501,9 @@ const MobileMenu = ({ single, menu }) => {
                     <i className="far fa-plus" />
                   </a>
                 </li>
-                <li className="has-dropdown">
-                  <a href="#" onClick={() => activeMenuSet("Pages")}>
-                    Pages
-                    <i className="fas fa-angle-down" />
-                  </a>
-                  <ul className="submenu" style={activeLi("Pages")}>
-                    <li className="has-dropdown">
-                      <a href="#" onClick={() => multiMenuSet("Projects")}>
-                        Projects
-                        <i className="fas fa-angle-down" />
-                      </a>
-                      <ul
-                        className="submenu"
-                        style={multiMenuActiveLi("Projects")}
-                      >
-                        <li>
-                          <Link href="project">Projects</Link>
-                        </li>
-                        <li>
-                          <Link href="project-details">Project Details</Link>
-                        </li>
-                      </ul>
-                      <a
-                        className="mean-expand"
-                        href="#"
-                        onClick={() => multiMenuSet("Projects")}
-                      >
-                        <i className="far fa-plus" />
-                      </a>
-                    </li>
-                    <li className="has-dropdown">
-                      <a href="#" onClick={() => multiMenuSet("Team")}>
-                        Team
-                        <i className="fas fa-angle-down" />
-                      </a>
-                      <ul className="submenu" style={multiMenuActiveLi("Team")}>
-                        <li>
-                          <Link href="team">Team</Link>
-                        </li>
-                        <li>
-                          <Link href="team-details">Team Details</Link>
-                        </li>
-                      </ul>
-                      <a
-                        className="mean-expand"
-                        href="#"
-                        onClick={() => multiMenuSet("Team")}
-                      >
-                        <i className="far fa-plus" />
-                      </a>
-                    </li>
-                    <li>
-                      <Link href="pricing">Pricing Table</Link>
-                    </li>
-                    <li>
-                      <Link href="404">404 Page</Link>
-                    </li>
-                  </ul>
-                  <a
-                    className="mean-expand"
-                    href="#"
-                    onClick={() => activeMenuSet("Pages")}
-                  >
-                    <i className="far fa-plus" />
-                  </a>
-                </li>
-                <li>
+                {/* <li>
                   <a href="#" onClick={() => activeMenuSet("Blog")}>
-                    Blog
+                    Blogs
                     <i className="fas fa-angle-down" />
                   </a>
                   <ul className="submenu" style={activeLi("Blog")}>
@@ -602,7 +521,7 @@ const MobileMenu = ({ single, menu }) => {
                   >
                     <i className="far fa-plus" />
                   </a>
-                </li>
+                </li> */}
                 <li className="mean-last">
                   <Link href="contact">Contact</Link>
                 </li>
@@ -643,8 +562,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                 Aenean a imperdiet risus.
               </p>
               <div className="offcanvas__contact">
-                <h4>Contact Info</h4>
-                <ul>
+                {/* <ul>
                   <li className="d-flex align-items-center">
                     <div className="offcanvas__contact-icon">
                       <i className="fal fa-map-marker-alt" />
@@ -681,13 +599,13 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                       <a href="tel:+11002345909">+11002345909</a>
                     </div>
                   </li>
-                </ul>
+                </ul> */}
                 <div className="header-button mt-4">
                   <Link href="contact" className="theme-btn text-center">
-                    Contact Us
+                    Free Audit
                   </Link>
                 </div>
-                <div className="social-icon d-flex align-items-center">
+                {/* <div className="social-icon d-flex align-items-center">
                   <a href="#">
                     <i className="fab fa-facebook-f" />
                   </a>
@@ -700,7 +618,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                   <a href="#">
                     <i className="fab fa-linkedin-in" />
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -715,10 +633,12 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
 };
 
 const Header1 = ({ single }) => {
+  
+  const scrollDirection = useScrollDirection();
   const [sidebarToggle, setSidebarToggle] = useState(false);
   return (
     <Fragment>
-      <header id="header-sticky" className="header-1 sticky">
+      <header id="header-sticky" className={`header-1 sticky ${scrollDirection === "down" ? "top-24" : "top-0"} h-24 bg-blue-200 transition-all duration-500`}>
         <div className="container">
           <div className="mega-menu-wrapper">
             <div className="header-main">
@@ -756,9 +676,9 @@ const Header1 = ({ single }) => {
                 </div> */}
                 <Link
                     href="/"
-                    className="theme-btn hover-white wow fadeInUp"
+                    className="theme-btn hover-white wow fadeInUp audit-btn"
                     style={{ backgroundColor: "#202369"}}
-                    data-wow-delay=".4s"
+                    data-wow-delay=".1s"
                   >
                     Free Audit
                   </Link>

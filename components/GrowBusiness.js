@@ -11,12 +11,12 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
             <div className="col-lg-5">
               <div
                 className="grow-business-image wow fadeInUp"
-                data-wow-delay=".3s"
+                data-wow-delay=".1s"
               >
                 <img src="assets/img/grow/02.jpg" alt="img" />
                 <div
                   className="grap-shape float-bob-x wow fadeInLeft"
-                  data-wow-delay=".5s"
+                  data-wow-delay=".1s"
                 >
                   <img src="assets/img/grow/grap.png" alt="shape-img" />
                 </div>
@@ -29,11 +29,11 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
                     <img src="assets/img/bale.png" alt="img" />
                     Grow your Business
                   </span>
-                  <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                  <h2 className="wow fadeInUp" data-wow-delay=".1s">
                     Innovative Business Increase and Branding Solutions
                   </h2>
                 </div>
-                <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".1s">
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                   accusantium doloremque laudantium, totam rem aperiam, eaque
                   ipsa quae ab illo inventore veritatis et quasi architecto
@@ -42,7 +42,7 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
                 <div className="grow-counting-area">
                   <div
                     className="grow-counting-items wow fadeInUp"
-                    data-wow-delay=".3s"
+                    data-wow-delay=".1s"
                   >
                     <h2>
                       <span className="count">
@@ -54,7 +54,7 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
                   </div>
                   <div
                     className="grow-counting-items wow fadeInUp"
-                    data-wow-delay=".5s"
+                    data-wow-delay=".1s"
                   >
                     <h2>
                       <span className="count">
@@ -66,7 +66,7 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
                   </div>
                   <div
                     className="grow-counting-items wow fadeInUp"
-                    data-wow-delay=".7s"
+                    data-wow-delay=".1s"
                   >
                     <h2>
                       <span className="count">
@@ -100,11 +100,11 @@ export const GrowBusiness2 = ({ bg }) => {
                     <img src="assets/img/bale.png" alt="img" />
                     Grow your Business
                   </span>
-                  <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                  <h2 className="wow fadeInUp" data-wow-delay=".1s">
                     Innovative Business Increase and Branding Solutions
                   </h2>
                 </div>
-                <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".1s">
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                   accusantium doloremque laudantium, totam rem aperiam, eaque
                   ipsa quae ab illo inventore veritatis et quasi architecto
@@ -112,7 +112,7 @@ export const GrowBusiness2 = ({ bg }) => {
                 </p>
                 <div className="grow-percent-area">
                   <div className="row g-4">
-                    <div className="col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div className="col-md-6 wow fadeInUp" data-wow-delay=".1s">
                       <div className="grow-percent-items">
                         <h2>
                           <span className="count">
@@ -129,7 +129,7 @@ export const GrowBusiness2 = ({ bg }) => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div className="col-md-6 wow fadeInUp" data-wow-delay=".1s">
                       <div className="grow-percent-items">
                         <h2>
                           <span className="count">
@@ -150,7 +150,7 @@ export const GrowBusiness2 = ({ bg }) => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay=".1s">
               <div className="grow-image-items">
                 <div className="grow-shape float-bob-y">
                   <img src="assets/img/grow/grow-shape.png" alt="shape-img" />
