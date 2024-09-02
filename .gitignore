@@ -1,7 +1,7 @@
 node_modules/
 .next/
 .swc/
-.*.env
+.*.env.local
 # next-video
 videos/*
 !videos/*.json
