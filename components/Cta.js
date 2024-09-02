@@ -16,15 +16,15 @@ const Cta = ({ offer = "", title="" }) => {
                 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                 
               /> */}
-              <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
+              <h2 >
               {title || "Free Audit: Our Treat!"}
               </h2>
-              <p className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
+              <p >
                {offer}
               </p>
               <Link
                 href="contact"
-                className="theme-btn bg-2 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                className="theme-btn bg-2"
                 style={{ textTransform: "capitalize" }}
               >
                 Book Your Free Audit Now <i className="far fa-arrow-right" />
