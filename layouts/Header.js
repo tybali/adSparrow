@@ -544,7 +544,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
               <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                 <div className="offcanvas__logo">
                   <Link href="/">
-                    <Image src={Logo} alt="logo-img" height= {60} width={184} />
+                    <Image src={Logo} alt="Digital marketing agency" height= {60} width={184} />
                   </Link>
                 </div>
                 <div className="offcanvas__close" onClick={() => close()}>

@@ -1,4 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
+import Logo from "@assets/img/logo/adsparrow-logo.png";
 
 const Footer = ({ footer }) => {
   switch (footer) {
@@ -30,7 +32,7 @@ const Footer1 = () => {
         <div className="discussed-items">
           <div className="footer-logo wow fadeInUp" data-wow-delay=".1s">
             <Link href="/">
-              <img src="assets/img/logo/white-logo.svg" alt="logo-img" />
+              <Image src={Logo} alt="Digital marketing agency" />
             </Link>
           </div>
           <div className="discussed-content wow fadeInUp" data-wow-delay=".1s">
@@ -577,13 +579,13 @@ const Footer4 = () => {
               <div className="single-footer-widget">
                 <div className="widget-head">
                   <Link href="/">
-                    <img src="assets/img/logo/white-logo.svg" alt="logo-img" />
+                  <Image src={Logo} alt="Digital marketing agency" height= {60} width={184} />
                   </Link>
                 </div>
                 <div className="footer-content">
                   <p>
-                    Sed perspiciatis unde omnis natus doloremque laudantium
-                    totae
+                  We’re here to turn your ideas into something epic—let’s make it happen!
+
                   </p>
                   <div className="social-icon d-flex align-items-center">
                     <a href="#">
@@ -606,7 +608,7 @@ const Footer4 = () => {
               className="col-xl-3 col-lg-4 col-md-6 ps-lg-5"
               
             >
-              <div className="single-footer-widget">
+              {/* <div className="single-footer-widget">
                 <div className="widget-head">
                   <h4>Quick Link</h4>
                 </div>
@@ -624,7 +626,7 @@ const Footer4 = () => {
                     <Link href="pricing">Pricing Package</Link>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6"
@@ -635,7 +637,7 @@ const Footer4 = () => {
                   <h4>Get In Touch</h4>
                 </div>
                 <div className="contact-info-area">
-                  <div className="contact-items color-style-2">
+                  {/* <div className="contact-items color-style-2">
                     <div className="icon">
                       <i className="fas fa-map-marker-alt" />
                     </div>
@@ -645,14 +647,14 @@ const Footer4 = () => {
                         Malborne, Australia
                       </p>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="contact-items color-style-2">
                     <div className="icon">
                       <i className="fas fa-envelope" />
                     </div>
                     <div className="content">
-                      <a href="mailto:info@example.com" className="link">
-                        info@example.com
+                      <a href="mailto:adsparrowllc@gmail.com" className="link">
+                        info@adsparrow.net
                       </a>
                     </div>
                   </div>
