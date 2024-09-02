@@ -676,9 +676,10 @@ const Header1 = ({ single }) => {
                 </div> */}
                 <Link
                     href="/"
-                    className="theme-btn hover-white wow fadeInUp audit-btn"
+                    className="theme-btn hover-white audit-btn aos-init aos-animate"
+                    data-aos="fade-up" data-aos-duration="600"
                     style={{ backgroundColor: "#202369"}}
-                    data-wow-delay=".1s"
+                    
                   >
                     Free Audit
                   </Link>

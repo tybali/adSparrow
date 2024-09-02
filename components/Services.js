@@ -53,7 +53,7 @@ const WebsiteDesignAndDevelopment = () => {
             >
               <div className="col-lg-6">
                 <div className="section-title">
-                  <h2 className="wow fadeInUp" data-wow-delay=".1s">
+                  <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     Where Creativity Meets Code
                   </h2>
                 </div>
@@ -61,9 +61,9 @@ const WebsiteDesignAndDevelopment = () => {
               <div className="col-lg-6">
                 <div className="about-content ms-0">
                   <p
-                    className="mt-3 mt-md-0 wow fadeInUp"
+                    className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ fontSize: "1.4rem", lineHeight: "2rem" }}
-                    data-wow-delay=".1s"
+                    
                   >
                     Welcome to AdSparrow, where websites aren’t just
                     made—they’re brewed to perfection. Our team of digital
@@ -75,13 +75,13 @@ const WebsiteDesignAndDevelopment = () => {
                     our sleeves to make it happen.
                   </p>
                   <h4
-                    className="wow fadeInUp"
+                    className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ marginTop: 30 }}
-                    data-wow-delay=".1s"
+                    
                   >
                     Numbers That’ll Make You Smile
                   </h4>
-                  <ul className="about-list wow fadeInUp" data-wow-delay=".1s">
+                  <ul className="about-list aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     <li>
                       <i className="fas fa-check" />
                       <span style={{ fontWeight: 600 }}>
@@ -107,7 +107,7 @@ const WebsiteDesignAndDevelopment = () => {
             >
               <div className="col-lg-6">
                 <div className="section-title">
-                  <h2 className="wow fadeInUp" data-wow-delay=".1s">
+                  <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     GA4 Implementation: Get Your Data Groove On
                   </h2>
                 </div>
@@ -115,9 +115,9 @@ const WebsiteDesignAndDevelopment = () => {
               <div className="col-lg-6">
                 <div className="about-content ms-0">
                   <p
-                    className="mt-3 mt-md-0 wow fadeInUp"
+                    className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ fontSize: "1.4rem", lineHeight: "2rem" }}
-                    data-wow-delay=".1s"
+                    
                   >
                     Don't let your data gather dust in the corner. Our GA4
                     experts will help you turn raw numbers into actionable
@@ -135,8 +135,8 @@ const WebsiteDesignAndDevelopment = () => {
             >
               <div className="col-lg-12">
                 <div
-                  className="about-image-items-4 wow fadeInUp"
-                  data-wow-delay=".1s"
+                  className="about-image-items-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                  
                 >
                   <div className="service-thumbs">
                     <Image src={WDD01} alt="img" height={400} />
@@ -151,7 +151,7 @@ const WebsiteDesignAndDevelopment = () => {
             >
               <div className="col-lg-6">
                 <div className="section-title">
-                  <h2 className="wow fadeInUp" data-wow-delay=".1s">
+                  <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     WordPress Development: Because Your Website Deserves It
                   </h2>
                 </div>
@@ -159,9 +159,9 @@ const WebsiteDesignAndDevelopment = () => {
               <div className="col-lg-6">
                 <div className="about-content ms-0">
                   <p
-                    className="mt-3 mt-md-0 wow fadeInUp"
+                    className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ fontSize: "1.4rem", lineHeight: "2rem" }}
-                    data-wow-delay=".1s"
+                    
                   >
                     If your website feels like it’s stuck in the 90s, it’s time
                     for a makeover. Our [insert paltform: Wordpress/shoppfy et.]
@@ -180,7 +180,7 @@ const WebsiteDesignAndDevelopment = () => {
             >
               <div className="col-lg-6">
                 <div className="section-title">
-                  <h2 className="wow fadeInUp" data-wow-delay=".1s">
+                  <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     Security & Monitoring: Sleep Tight, We’ve Got This
                   </h2>
                 </div>
@@ -188,9 +188,9 @@ const WebsiteDesignAndDevelopment = () => {
               <div className="col-lg-6">
                 <div className="about-content ms-0">
                   <p
-                    className="mt-3 mt-md-0 wow fadeInUp"
+                    className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ fontSize: "1.4rem", lineHeight: "2rem" }}
-                    data-wow-delay=".1s"
+                    
                   >
                     In a world where hackers lurk in every shadow, your website
                     needs a bodyguard. We’ll lock down your site with the latest
@@ -207,7 +207,7 @@ const WebsiteDesignAndDevelopment = () => {
             >
               <div className="col-lg-6">
                 <div className="section-title">
-                  <h2 className="wow fadeInUp" data-wow-delay=".1s">
+                  <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     Systems Integration: Making Your Tech Talk
                   </h2>
                 </div>
@@ -215,9 +215,9 @@ const WebsiteDesignAndDevelopment = () => {
               <div className="col-lg-6">
                 <div className="about-content ms-0">
                   <p
-                    className="mt-3 mt-md-0 wow fadeInUp"
+                    className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ fontSize: "1.4rem", lineHeight: "2rem" }}
-                    data-wow-delay=".1s"
+                    
                   >
                     Got a CRM that won’t play nice with your website? Or maybe a
                     marketing tool that’s giving you attitude? No worries—we’re
@@ -255,7 +255,7 @@ const SEO = () => {
             >
               <div className="col-lg-6">
                 <div className="section-title">
-                  <h2 className="wow fadeInUp" data-wow-delay=".1s">
+                  <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     Get 5X More Clicks with AdSparrow’s SEO Turbo Boost!
                   </h2>
                 </div>
@@ -263,9 +263,9 @@ const SEO = () => {
               <div className="col-lg-6">
                 <div className="about-content ms-0">
                   <p
-                    className="mt-3 mt-md-0 wow fadeInUp"
+                    className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ fontSize: "1.4rem", lineHeight: "2rem" }}
-                    data-wow-delay=".1s"
+                    
                   >
                     Tired of being invisible on search engines? Ranking on
                     Google is no easy feat these days. That’s why at{" "}
@@ -285,8 +285,8 @@ const SEO = () => {
             >
               <div className="col-lg-12">
                 <div
-                  className="about-image-items-4 wow fadeInUp"
-                  data-wow-delay=".1s"
+                  className="about-image-items-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                  
                 >
                   <div className="service-thumbs">
                     <Image src={SEO01} alt="img" height={400} />
@@ -301,7 +301,7 @@ const SEO = () => {
             >
               <div className="col-lg-6">
                 <div className="section-title">
-                  <h2 className="wow fadeInUp" data-wow-delay=".1s">
+                  <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     AdSparrow is a Little Bit Wild (in a Good Way)
                   </h2>
                 </div>
@@ -309,24 +309,24 @@ const SEO = () => {
               <div className="col-lg-6">
                 <div className="about-content ms-0">
                   <p
-                    className="mt-3 mt-md-0 wow fadeInUp"
+                    className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ fontSize: "1.4rem", lineHeight: "2rem" }}
-                    data-wow-delay=".1s"
+                    
                   >
                     We’re not your run-of-the-mill SEO agency. Here’s why we’re
                     the partner you need to skyrocket your rankings:
                   </p>
                   <h3
-                    className="wow fadeInUp"
+                    className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ marginTop: 30, marginBottom: 30 }}
-                    data-wow-delay=".1s"
+                    
                   >
                     Holistic SEO Services
                   </h3>
                   <p
-                    className="mt-3 mt-md-0 wow fadeInUp"
+                    className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ fontSize: "1.4rem", lineHeight: "2rem" }}
-                    data-wow-delay=".1s"
+                    
                   >
                     SEO isn’t just a game of keywords. It’s a complex mix of
                     technical know-how, creative content, and strategic
@@ -340,8 +340,8 @@ const SEO = () => {
 
             <div className="row" style={{ marginTop: 50 }}>
               <div
-                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay=".1s"
+                className="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                
               >
                 <div
                   className="popular-service-box-items"
@@ -358,8 +358,8 @@ const SEO = () => {
                 </div>
               </div>
               <div
-                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay=".1s"
+                className="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                
               >
                 <div
                   className="popular-service-box-items"
@@ -375,8 +375,8 @@ const SEO = () => {
                 </div>
               </div>
               <div
-                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay=".1s"
+                className="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                
               >
                 <div
                   className="popular-service-box-items"
@@ -392,8 +392,8 @@ const SEO = () => {
                 </div>
               </div>
               <div
-                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay=".1s"
+                className="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                
               >
                 <div
                   className="popular-service-box-items"
@@ -409,8 +409,8 @@ const SEO = () => {
                 </div>
               </div>
               <div
-                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay=".1s"
+                className="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                
               >
                 <div
                   className="popular-service-box-items"
@@ -425,8 +425,8 @@ const SEO = () => {
                 </div>
               </div>
               <div
-                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay=".1s"
+                className="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                
               >
                 <div
                   className="popular-service-box-items"
@@ -451,14 +451,14 @@ const SEO = () => {
               <div className="col-lg-6">
                 <div className="about-content ms-0">
                   <div className="section-title">
-                    <h3 className="wow fadeInUp" data-wow-delay=".1s">
+                    <h3 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                       Results that Matter
                     </h3>
                   </div>
                   <p
-                    className="mt-3 mt-md-0 wow fadeInUp"
+                    className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ fontSize: "1.4rem", lineHeight: "2rem" }}
-                    data-wow-delay=".1s"
+                    
                   >
                     Traffic is nice, but revenue is better. We focus on the
                     keywords and strategies that generate business, not just
@@ -478,14 +478,14 @@ const SEO = () => {
               <div className="col-lg-6">
                 <div className="about-content ms-0">
                   <div className="section-title">
-                    <h3 className="wow fadeInUp" data-wow-delay=".1s">
+                    <h3 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                       We’re In It for the Long Haul
                     </h3>
                   </div>
                   <p
-                    className="mt-3 mt-md-0 wow fadeInUp"
+                    className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ fontSize: "1.4rem", lineHeight: "2rem" }}
-                    data-wow-delay=".1s"
+                    
                   >
                     SEO isn’t a sprint; it’s a marathon. Our approach ensures
                     your gains aren’t just a flash in the pan—they grow stronger
@@ -527,7 +527,7 @@ const VideoEditing = () => {
             >
               <div className="col-lg-6">
                 <div className="section-title">
-                  <h2 className="wow fadeInUp" data-wow-delay=".1s">
+                  <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     Bring Your Vision to Life
                   </h2>
                 </div>
@@ -535,9 +535,9 @@ const VideoEditing = () => {
               <div className="col-lg-6">
                 <div className="about-content ms-0">
                   <p
-                    className="mt-3 mt-md-0 wow fadeInUp"
+                    className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ fontSize: "1.4rem", lineHeight: "2rem" }}
-                    data-wow-delay=".1s"
+                    
                   >
                     At <span style={{ fontWeight: 600 }}>AdSparrow</span>, we
                     don’t just edit videos—we transform them into captivating
@@ -555,7 +555,7 @@ const VideoEditing = () => {
             >
               <div className="col-lg-6">
                 <div className="section-title">
-                  <h2 className="wow fadeInUp" data-wow-delay=".1s">
+                  <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     Tell Your Story, Not Just Show It
                   </h2>
                 </div>
@@ -563,9 +563,9 @@ const VideoEditing = () => {
               <div className="col-lg-6">
                 <div className="about-content ms-0">
                   <p
-                    className="mt-3 mt-md-0 wow fadeInUp"
+                    className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ fontSize: "1.4rem", lineHeight: "2rem" }}
-                    data-wow-delay=".1s"
+                    
                   >
                     Why settle for ordinary when you can tell a story that
                     resonates? We believe every video should have a purpose.
@@ -584,8 +584,8 @@ const VideoEditing = () => {
             >
               <div className="col-lg-12">
                 <div
-                  className="about-image-items-4 wow fadeInUp"
-                  data-wow-delay=".1s"
+                  className="about-image-items-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                  
                 >
                   <div className="service-thumbs">
                     <Image src={VDA01} alt="img" height={400} />
@@ -600,11 +600,11 @@ const VideoEditing = () => {
             >
               <div className="col-lg-6">
                 <div
-                  className="about-image-items-4 wow fadeInUp"
-                  data-wow-delay=".1s"
+                  className="about-image-items-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                  
                 >
                   <div className="section-title">
-                    <h2 className="wow fadeInUp" data-wow-delay=".1s">
+                    <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                       Hook, Engage, and Convert
                     </h2>
                   </div>
@@ -613,9 +613,9 @@ const VideoEditing = () => {
               <div className="col-lg-6">
                 <div className="about-content ms-0">
                   <p
-                    className="mt-3 mt-md-0 wow fadeInUp"
+                    className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ fontSize: "1.4rem", lineHeight: "2rem" }}
-                    data-wow-delay=".1s"
+                    
                   >
                     Our secret sauce? The{" "}
                     <span style={{ color: "#f06057" }}>Hook + Pitch + CTA</span>{" "}
@@ -635,7 +635,7 @@ const VideoEditing = () => {
             >
               <div className="col-lg-6">
                 <div className="section-title">
-                  <h2 className="wow fadeInUp" data-wow-delay=".1s">
+                  <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     Simplify Complex Ideas with Style
                   </h2>
                 </div>
@@ -643,9 +643,9 @@ const VideoEditing = () => {
               <div className="col-lg-6">
                 <div className="about-content ms-0">
                   <p
-                    className="mt-3 mt-md-0 wow fadeInUp"
+                    className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ fontSize: "1.4rem", lineHeight: "2rem" }}
-                    data-wow-delay=".1s"
+                    
                   >
                     Got a complex concept? No problem! Our explainer videos
                     break down intricate ideas into clear, visually appealing
@@ -663,7 +663,7 @@ const VideoEditing = () => {
             >
               <div className="col-lg-6">
                 <div className="section-title">
-                  <h2 className="wow fadeInUp" data-wow-delay=".1s">
+                  <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     Capture Attention, Spark Action
                   </h2>
                 </div>
@@ -671,9 +671,9 @@ const VideoEditing = () => {
               <div className="col-lg-6">
                 <div className="about-content ms-0">
                   <p
-                    className="mt-3 mt-md-0 wow fadeInUp"
+                    className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ fontSize: "1.4rem", lineHeight: "2rem" }}
-                    data-wow-delay=".1s"
+                    
                   >
                     With <span style={{ fontWeight: 600 }}>AdSparrow</span>,
                     video isn’t just about making noise—it’s about making an
@@ -725,7 +725,7 @@ const SMM = () => {
             >
               <div className="col-lg-6">
                 <div className="section-title">
-                  <h2 className="wow fadeInUp" data-wow-delay=".1s">
+                  <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     Unleash Social Media Stardom with Adsparrow!
                   </h2>
                 </div>
@@ -733,9 +733,9 @@ const SMM = () => {
               <div className="col-lg-6">
                 <div className="about-content ms-0">
                   <p
-                    className="mt-3 mt-md-0 wow fadeInUp"
+                    className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ fontSize: "1.4rem", lineHeight: "2rem" }}
-                    data-wow-delay=".1s"
+                    
                   >
                     Social media advertising can be a goldmine... but only if
                     you know how to charm the algorithms! At{" "}
@@ -755,8 +755,8 @@ const SMM = () => {
             >
               <div className="col-lg-6">
                 <div
-                  className="about-image-items-4 wow fadeInUp"
-                  data-wow-delay=".1s"
+                  className="about-image-items-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                  
                 >
                   <div className="service-thumbs">
                     <Image src={SMM01} alt="img" height={400} />
@@ -765,22 +765,22 @@ const SMM = () => {
               </div>
               <div className="col-lg-6">
                 <div className="section-title">
-                  <h2 className="wow fadeInUp" data-wow-delay=".1s">
+                  <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     Your Social Media Sidekick
                   </h2>
                 </div>
                 <div className="section-title">
                   <h3
-                    className="wow fadeInUp"
+                    className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ marginBottom: 30 }}
-                    data-wow-delay=".1s"
+                    
                   >
                     Results that Rock
                   </h3>
                   <p
-                    className="mt-3 mt-md-0 wow fadeInUp"
+                    className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ fontSize: "1.4rem", lineHeight: "2rem" }}
-                    data-wow-delay=".1s"
+                    
                   >
                     We don’t settle for “just okay.” Our campaigns are designed
                     to dazzle and deliver. Whether your budget is a humble $10K
@@ -792,16 +792,16 @@ const SMM = () => {
 
                 <div className="about-content ms-0">
                   <h3
-                    className="wow fadeInUp"
+                    className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ marginTop: 30, marginBottom: 30 }}
-                    data-wow-delay=".1s"
+                    
                   >
                     Creative That Captivates
                   </h3>
                   <p
-                    className="mt-3 mt-md-0 wow fadeInUp"
+                    className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ fontSize: "1.4rem", lineHeight: "2rem" }}
-                    data-wow-delay=".1s"
+                    
                   >
                     Ever feel like your ads are just blending in? Not on our
                     watch. We craft eye-catching, thumb-stopping content that
@@ -813,16 +813,16 @@ const SMM = () => {
 
                 <div className="about-content ms-0">
                   <h3
-                    className="wow fadeInUp"
+                    className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ marginTop: 30, marginBottom: 30 }}
-                    data-wow-delay=".1s"
+                    
                   >
                     Algorithm Alchemy
                   </h3>
                   <p
-                    className="mt-3 mt-md-0 wow fadeInUp"
+                    className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ fontSize: "1.4rem", lineHeight: "2rem" }}
-                    data-wow-delay=".1s"
+                    
                   >
                     Meta, TikTok, LinkedIn, Youtube—think of them as our
                     playgrounds. We don’t just use these platforms; we master
@@ -870,7 +870,7 @@ const PPC = () => {
             <div className="row gx-5 align-items-start justify-content-between">
               <div className="col-lg-6">
                 <div className="section-title">
-                  <h2 className="wow fadeInUp" data-wow-delay=".1s">
+                  <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     Revamp Your Click Game with Adsparrow’s PPC Service
                   </h2>
                 </div>
@@ -878,13 +878,13 @@ const PPC = () => {
               <div className="col-lg-6">
                 <div className="about-content ms-0">
                   <p
-                    className="mt-3 mt-md-0 wow fadeInUp"
+                    className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{
                       fontSize: "1.4rem",
                       lineHeight: "2rem",
                       marginBottom: 30,
                     }}
-                    data-wow-delay=".1s"
+                    
                   >
                     Stuck in the lead-chasing loop? That’s so last season. Your
                     competitors might be fishing for leads, but at{" "}
@@ -897,8 +897,8 @@ const PPC = () => {
             <div className="row gx-5 align-items-start justify-content-between">
               <div className="col-lg-6">
                 <div
-                  className="about-image-items-4 wow fadeInUp"
-                  data-wow-delay=".1s"
+                  className="about-image-items-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                  
                 >
                   <div className="service-thumbs">
                     <Image src={PPC01} alt="img" height={400} />
@@ -907,7 +907,7 @@ const PPC = () => {
               </div>
               <div className="col-lg-6">
                 <ul>
-                  <li className="why-choose-us-text wow fadeInUp">
+                  <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
                     <i className="far fa-check" />
                     <div>
                       <span style={{ fontWeight: 600 }}>
@@ -919,7 +919,7 @@ const PPC = () => {
                     </div>
                   </li>
 
-                  <li className="why-choose-us-text wow fadeInUp">
+                  <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
                     <i className="far fa-check" />
                     <div>
                       <span style={{ fontWeight: 600 }}>
@@ -931,7 +931,7 @@ const PPC = () => {
                     </div>
                   </li>
 
-                  <li className="why-choose-us-text wow fadeInUp">
+                  <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
                     <i className="far fa-check" />
                     <div>
                       <span style={{ fontWeight: 600 }}>
@@ -943,7 +943,7 @@ const PPC = () => {
                     </div>
                   </li>
 
-                  <li className="why-choose-us-text wow fadeInUp">
+                  <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
                     <i className="far fa-check" />
                     <div>
                       <span style={{ fontWeight: 600 }}>
@@ -956,7 +956,7 @@ const PPC = () => {
                     </div>
                   </li>
 
-                  <li className="why-choose-us-text wow fadeInUp">
+                  <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
                     <i className="far fa-check" />
                     <div>
                       <span style={{ fontWeight: 600 }}>
@@ -968,7 +968,7 @@ const PPC = () => {
                     </div>
                   </li>
 
-                  <li className="why-choose-us-text wow fadeInUp">
+                  <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
                     <i className="far fa-check" />
                     <div>
                       <span style={{ fontWeight: 600 }}>
@@ -988,13 +988,13 @@ const PPC = () => {
                 </ul>
                 <div className="about-content ms-0" style={{ marginTop: 30 }}>
                   <p
-                    className="mt-3 mt-md-0 wow fadeInUp"
+                    className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{
                       fontSize: "1.4rem",
                       lineHeight: "2rem",
                       marginBottom: 30,
                     }}
-                    data-wow-delay=".1s"
+                    
                   >
                     So, ready to let your business soar with Adsparrow’s PPC
                     services? Let’s turn your ad budget into a revenue rocket
@@ -1002,8 +1002,8 @@ const PPC = () => {
                   </p>
                   <div className="section-title">
                     <h3
-                      className="wow fadeInUp"
-                      data-wow-delay=".1s"
+                      className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                      
                       style={{ fontWeight: 700, fontSize: 28 }}
                     >
                       Get in touch and watch your ROI take flight!
@@ -1041,7 +1041,7 @@ const EcommerceStore = () => {
             >
               <div className="col-lg-6">
                 <div className="section-title">
-                  <h2 className="wow fadeInUp" data-wow-delay=".1s">
+                  <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     Dreaming of an online store that’s as irresistible as your
                     favorite new gadget?
                   </h2>
@@ -1050,9 +1050,9 @@ const EcommerceStore = () => {
               <div className="col-lg-6">
                 <div className="about-content ms-0">
                   <p
-                    className="mt-3 mt-md-0 wow fadeInUp"
+                    className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ fontSize: "1.4rem", lineHeight: "2rem" }}
-                    data-wow-delay=".1s"
+                    
                   >
                     At <span style={{ fontWeight: 600 }}>AdSparrow</span>, we
                     don’t just build eCommerce stores; we create vibrant digital
@@ -1071,8 +1071,8 @@ const EcommerceStore = () => {
             >
               <div className="col-lg-6">
                 <div
-                  className="about-image-items-4 wow fadeInUp"
-                  data-wow-delay=".1s"
+                  className="about-image-items-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                  
                 >
                   <div className="service-thumbs">
                     <Image src={ECOM01} alt="img" height={400} />
@@ -1081,12 +1081,12 @@ const EcommerceStore = () => {
               </div>
               <div className="col-lg-6">
                 <div className="section-title">
-                  <h2 className="wow fadeInUp" data-wow-delay=".1s">
+                  <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     Your Ecommerce Store Deserves a Standing Ovation!
                   </h2>
                 </div>
                 <ul>
-                  <li className="why-choose-us-text wow fadeInUp">
+                  <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
                     <i className="far fa-check" />
                     <div>
                       <span style={{ fontWeight: 600 }}>
@@ -1098,7 +1098,7 @@ const EcommerceStore = () => {
                     </div>
                   </li>
 
-                  <li className="why-choose-us-text wow fadeInUp">
+                  <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
                     <i className="far fa-check" />
                     <div>
                       <span style={{ fontWeight: 600 }}>
@@ -1111,7 +1111,7 @@ const EcommerceStore = () => {
                     </div>
                   </li>
 
-                  <li className="why-choose-us-text wow fadeInUp">
+                  <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
                     <i className="far fa-check" />
                     <div>
                       <span style={{ fontWeight: 600 }}>
@@ -1124,7 +1124,7 @@ const EcommerceStore = () => {
                     </div>
                   </li>
 
-                  <li className="why-choose-us-text wow fadeInUp">
+                  <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
                     <i className="far fa-check" />
                     <div>
                       <span style={{ fontWeight: 600 }}>
@@ -1137,7 +1137,7 @@ const EcommerceStore = () => {
                     </div>
                   </li>
 
-                  <li className="why-choose-us-text wow fadeInUp">
+                  <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
                     <i className="far fa-check" />
                     <div>
                       <span style={{ fontWeight: 600 }}>Custom Features:</span>{" "}
@@ -1156,8 +1156,8 @@ const EcommerceStore = () => {
               <div className="col-lg-6">
                 <div className="section-title">
                   <h2
-                    className="wow fadeInUp"
-                    data-wow-delay=".1s"
+                    className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                    
                   >
                     Let’s Create eCommerce Success Together!
                   </h2>
@@ -1165,26 +1165,26 @@ const EcommerceStore = () => {
               </div>
               <div className="col-lg-6">
                 <p
-                  className="mt-3 mt-md-0 wow fadeInUp"
+                  className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                   style={{
                     fontSize: "1.4rem",
                     lineHeight: "2rem",
                     marginBottom: 30,
                   }}
-                  data-wow-delay=".1s"
+                  
                 >
                   Why just dream about a standout online store when you can
                   build it with Adsparrow? We’re ready to bring your vision to
                   life and help you make a mark in the digital shopping world.
                 </p>
                 <p
-                  className="mt-3 mt-md-0 wow fadeInUp"
+                  className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                   style={{
                     fontSize: "1.4rem",
                     lineHeight: "2rem",
                     marginBottom: 30,
                   }}
-                  data-wow-delay=".1s"
+                  
                 >
                   Ready to take the leap? Reach out to us, and let’s make your
                   eCommerce store the place everyone wants to shop!{" "}

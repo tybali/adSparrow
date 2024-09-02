@@ -13,11 +13,11 @@ const page = () => {
       <section className="testimonial-section fix section-padding">
         <div className="container">
           <div className="section-title text-center mb-0">
-            <span className="sub-content wow fadeInUp">
+            <span className="sub-content aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
               <img src="assets/img/bale.png" alt="img" />
               Clients Feedback
             </span>
-            <h2 className="wow fadeInUp" data-wow-delay=".1s">
+            <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               We’ve 1250+ Global Clients Say Us
             </h2>
           </div>

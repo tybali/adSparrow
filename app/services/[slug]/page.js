@@ -27,7 +27,7 @@ const page = ({ params }) => {
         <div className="container">
           <div className="service-video-wrapper">
             <div className="row align-items-center">
-              <div className="col-lg-7 wow fadeInUp" data-wow-delay=".1s">
+              <div className="col-lg-7 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                 <div className="service-video-image">
                   <img src="assets/img/service/service-video.jpg" alt="img" />
                   <div className="video-box">
@@ -39,8 +39,7 @@ const page = ({ params }) => {
                     </a>
                   </div>
                   <ul
-                    className="experience-text wow fadeInUp"
-                    data-wow-delay=".1s"
+                    className="experience-textaos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ visibility: "visible", animationDelay: "0.6s" }}
                   >
                     <li>25+ Years Of Experience</li>
@@ -54,15 +53,15 @@ const page = ({ params }) => {
               <div className="col-lg-5">
                 <div className="content">
                   <div className="section-title mb-0">
-                    <h2 className="wow fadeInUp" data-wow-delay=".1s">
+                    <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                       Better Solutions Create your life more easier
                     </h2>
                   </div>
-                  <p className="mt-3 wow fadeInUp" data-wow-delay=".1s">
+                  <p className="mt-3 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     Sed perspiciatis unde omnis natus voluptatem accusantium
                     doloremque laudantium, totam rem aperiam eaque
                   </p>
-                  <div className="icon-items wow fadeInUp" data-wow-delay=".1s">
+                  <div className="icon-items aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     <h5>
                       <i className="fas fa-check-circle" />
                       Easy write and test more copy varistions
@@ -72,7 +71,7 @@ const page = ({ params }) => {
                       velit esse quam nihil molestiae consequatur
                     </p>
                   </div>
-                  <div className="icon-items wow fadeInUp" data-wow-delay=".1s">
+                  <div className="icon-items aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     <h5>
                       <i className="fas fa-check-circle" />
                       One Click Management &amp; Custom Greeting

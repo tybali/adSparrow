@@ -17,15 +17,15 @@ const page = () => {
           <div className="row g-4 align-items-center">
             <div className="col-lg-6">
               <div className="hero-content">
-                <span className="sub-content wow fadeInUp" data-wow-delay=".1s">
+                <span className="sub-content aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                   <img src="assets/img/bale.png" alt="img" />
                   25+ Years Of Experience
                 </span>
-                <h1 className="wow fadeInUp" data-wow-delay=".1s">
+                <h1 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                   The Effective <br /> Solutions To Grow <br />
                   your <span>Business</span>
                 </h1>
-                <p className="wow fadeInUp" data-wow-delay=".1s">
+                <p className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                   Sed ut perspiciatis unde omnis iste natus voluptatem
                   accusantium <br />
                   doloremque laudantium, totam rem aperiam
@@ -33,15 +33,13 @@ const page = () => {
                 <div className="hero-button">
                   <Link
                     href="about"
-                    className="theme-btn wow fadeInUp"
-                    data-wow-delay=".1s"
+                    className="theme-btnaos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                   >
                     Discover More <i className="far fa-arrow-right" />
                   </Link>
                   <Link
                     href="service"
-                    className="btn-link wow fadeInUp"
-                    data-wow-delay=".1s"
+                    className="btn-linkaos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                   >
                     View Services <i className="far fa-arrow-right" />
                   </Link>
@@ -72,17 +70,17 @@ const page = () => {
       <section className="service-offer-section" id="services">
         <div className="container">
           <div className="section-title text-center">
-            <span className="sub-content wow fadeInUp">
+            <span className="sub-content aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
               <img src="assets/img/bale.png" alt="img" />
               What We Offer
             </span>
-            <h2 className="wow fadeInUp" data-wow-delay=".1s">
+            <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               Business integrates with all <br />
               your favorite tools
             </h2>
           </div>
           <div className="row">
-            <div className="col-lg-6 wow fadeInUp" data-wow-delay=".1s">
+            <div className="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               <div className="service-offer-items">
                 <div className="icon">
                   <img
@@ -103,7 +101,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 wow fadeInUp" data-wow-delay=".1s">
+            <div className="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               <div className="service-offer-items">
                 <div className="icon">
                   <img src="assets/img/service/icon/earning.svg" alt="img" />
@@ -121,7 +119,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 wow fadeInUp" data-wow-delay=".1s">
+            <div className="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               <div className="service-offer-items">
                 <div className="icon">
                   <img src="assets/img/service/icon/targeted.svg" alt="img" />
@@ -141,7 +139,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 wow fadeInUp" data-wow-delay=".1s">
+            <div className="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               <div className="service-offer-items">
                 <div className="icon">
                   <img src="assets/img/service/icon/technology.svg" alt="img" />
@@ -172,8 +170,7 @@ const page = () => {
               <div className="col-lg-6">
                 <div className="about-image-items">
                   <div
-                    className="about-image-1 wow fadeInUp"
-                    data-wow-delay=".1s"
+                    className="about-image-1aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                   >
                     <img src="assets/img/about/03.jpg" alt="img" />
                     <div className="about-image-2">
@@ -182,7 +179,7 @@ const page = () => {
                   </div>
                   <div
                     className="experience-items float-bob-x wow fadeInLeft"
-                    data-wow-delay=".1s"
+                    
                   >
                     <h6>
                       Trusted by 1M+ people <br />
@@ -199,16 +196,16 @@ const page = () => {
               <div className="col-lg-6">
                 <div className="about-content">
                   <div className="section-title">
-                    <span className="sub-content wow fadeInUp">
+                    <span className="sub-content aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
                       <img src="assets/img/bale.png" alt="img" />
                       About Company
                     </span>
-                    <h2 className="wow fadeInUp" data-wow-delay=".1s">
+                    <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                       Grow Your Business With <br />
                       Our Next Agency
                     </h2>
                   </div>
-                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".1s">
+                  <p className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     Sed ut perspiciatis unde omnis iste natus voluptatem
                     accusantium doloremque laudantium, totam rem aperiam eaque
                     ipsa quae
@@ -216,8 +213,8 @@ const page = () => {
                   <div className="about-counter-area">
                     <div className="row g-4">
                       <div
-                        className="col-md-6 col-sm-6 wow fadeInUp"
-                        data-wow-delay=".1s"
+                        className="col-md-6 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                        
                       >
                         <div className="about-counter-items">
                           <h2>
@@ -231,8 +228,8 @@ const page = () => {
                         </div>
                       </div>
                       <div
-                        className="col-md-6 col-sm-6 wow fadeInUp"
-                        data-wow-delay=".1s"
+                        className="col-md-6 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                        
                       >
                         <div className="about-counter-items">
                           <h2>
@@ -245,8 +242,8 @@ const page = () => {
                         </div>
                       </div>
                       <div
-                        className="col-md-6 col-sm-6 wow fadeInUp"
-                        data-wow-delay=".1s"
+                        className="col-md-6 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                        
                       >
                         <div className="about-counter-items">
                           <h2>
@@ -260,8 +257,8 @@ const page = () => {
                         </div>
                       </div>
                       <div
-                        className="col-md-6 col-sm-6 wow fadeInUp"
-                        data-wow-delay=".1s"
+                        className="col-md-6 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                        
                       >
                         <div className="about-counter-items">
                           <h2>
@@ -278,8 +275,7 @@ const page = () => {
                   </div>
                   <Link
                     href="about"
-                    className="theme-btn wow fadeInUp"
-                    data-wow-delay=".1s"
+                    className="theme-btnaos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                   >
                     Learn More Us <i className="far fa-arrow-right" />
                   </Link>
@@ -301,27 +297,27 @@ const page = () => {
                   <img
                     src="assets/img/start-business-men.png"
                     alt="img"
-                    className="wow fadeInUp"
-                    data-wow-delay=".1s"
+                    className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                    
                   />
-                  <h2 className="wow fadeInUp" data-wow-delay=".1s">
+                  <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     Ready to Boost Business <br />
                     &amp; product Sales ?
                   </h2>
-                  <p className="wow fadeInUp" data-wow-delay=".1s">
+                  <p className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     Sed ut perspiciatis unde omnis iste natus voluptatem <br />
                     accusantium doloremque laudantium totam
                   </p>
                   <Link
                     href="contact"
-                    className="theme-btn bg-2 wow fadeInUp"
+                    className="theme-btn bg-2 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     data-wow-delay=".7x"
                   >
                     Get Started Now <i className="far fa-arrow-right" />
                   </Link>
                 </div>
               </div>
-              <div className="col-lg-6 mt-4 wow fadeInUp" data-wow-delay=".1s">
+              <div className="col-lg-6 mt-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                 <div className="video-image">
                   <img src="assets/img/video-bg-popup.jpg" alt="img" />
                   <div className="video-box">
@@ -350,7 +346,7 @@ const page = () => {
               <div className="col-lg-6">
                 <TestimonialSlider3 />
               </div>
-              <div className="col-lg-5 wow fadeInUp" data-wow-delay=".1s">
+              <div className="col-lg-5 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                 <div className="testimonial-image">
                   <img src="assets/img/testimonial/01.jpg" alt="img" />
                   <div className="card-shape-1 float-bob-x">
@@ -375,18 +371,18 @@ const page = () => {
       <section className="news-section section-padding" id="blog">
         <div className="container">
           <div className="section-title text-center">
-            <span className="sub-content wow fadeInUp">
+            <span className="sub-content aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
               <img src="assets/img/bale.png" alt="img" />
               News &amp; Blog
             </span>
-            <h2 className="wow fadeInUp" data-wow-delay=".1s">
+            <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               Explore Our Latest News &amp; Blog
             </h2>
           </div>
           <div className="row">
             <div
-              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".1s"
+              className="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+              
             >
               <div className="news-card-items">
                 <div
@@ -409,8 +405,8 @@ const page = () => {
               </div>
             </div>
             <div
-              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".1s"
+              className="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+              
             >
               <div className="news-card-items">
                 <div
@@ -433,8 +429,8 @@ const page = () => {
               </div>
             </div>
             <div
-              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".1s"
+              className="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+              
             >
               <div className="news-card-items">
                 <div

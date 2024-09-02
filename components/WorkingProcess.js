@@ -18,13 +18,13 @@ const WorkingProcess = ({
     <section className="working-section-2 section-padding">
       <div className="container">
         <div className="section-title text-center">
-          <h2 className="wow fadeInUp" data-wow-delay=".1s">
+          <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
             {title}
           </h2>
         </div>
         <div className="row align-items-center justify-content-between">
           {/* try something new */}
-          <div className="col-lg-8 wow fadeInUp" data-wow-delay=".1s">
+          <div className="col-lg-8 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
             <div className="working-card-items">
               <div className="icon">
                 <Image src={Icon1} alt="img" />
@@ -36,17 +36,17 @@ const WorkingProcess = ({
               </div>
             </div>
           </div>
-          <div className="col-lg-3 wow fadeInUp" data-wow-delay=".1s">
+          <div className="col-lg-3 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
             <div className="arrow-image">
               <Image src={ArrowDown} alt="img" />
             </div>
           </div>
-          <div className="col-lg-3 wow fadeInUp" data-wow-delay=".1s">
+          <div className="col-lg-3 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
             <div className="arrow-image text-center">
               <Image src={ArrowReverse} alt="img" />
             </div>
           </div>
-          <div className="col-lg-8 wow fadeInUp" data-wow-delay=".1s">
+          <div className="col-lg-8 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
             <div className="working-card-items">
               <div className="content">
                 <span className="sub-title">Step 02</span>
@@ -58,7 +58,7 @@ const WorkingProcess = ({
               </div>
             </div>
           </div>
-          <div className="col-lg-8 wow fadeInUp" data-wow-delay=".1s">
+          <div className="col-lg-8 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
             <div className="working-card-items">
               <div className="icon">
                 <Image src={Icon3} alt="img" />
@@ -70,12 +70,12 @@ const WorkingProcess = ({
               </div>
             </div>
           </div>
-          <div className="col-lg-3 wow fadeInUp" data-wow-delay=".1s">
+          <div className="col-lg-3 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
             <div className="arrow-image">
               <Image src={ArrowDown} alt="img" />
             </div>
           </div>
-          <div className="col-lg-3 wow fadeInUp" data-wow-delay=".1s">
+          <div className="col-lg-3 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
             <div className="arrow-image text-center">
               <Image src={ArrowReverse} alt="img" />
             </div>
@@ -101,7 +101,7 @@ export const WorkingProcess2 = ({
     <section className="working-process-section section-padding">
       <div className="container">
         <div className="section-title text-left" style={{ marginTop: 50 }}>
-          <h2 className="wow fadeInUp" data-wow-delay=".1s">
+          <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
             {title}
           </h2>
         </div>
@@ -110,8 +110,8 @@ export const WorkingProcess2 = ({
             <div className="col-lg-6">
               <div className="work-process-content">
                 <div
-                  className="work-process-items wow fadeInUp"
-                  data-wow-delay=".1s"
+                  className="work-process-items aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                  
                 >
                   <h4
                     style={{ display: "flex", alignItems: "center", gap: 20 }}
@@ -122,8 +122,8 @@ export const WorkingProcess2 = ({
                   <p>{firstStepDesc}</p>
                 </div>
                 <div
-                  className="work-process-items wow fadeInUp"
-                  data-wow-delay=".1s"
+                  className="work-process-items aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                  
                 >
                   <h4
                     style={{ display: "flex", alignItems: "center", gap: 20 }}
@@ -134,8 +134,8 @@ export const WorkingProcess2 = ({
                   <p>{secondStepDesc}</p>
                 </div>
                 <div
-                  className="work-process-items wow fadeInUp"
-                  data-wow-delay=".1s"
+                  className="work-process-items aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                  
                 >
                   <h4
                     style={{ display: "flex", alignItems: "center", gap: 20 }}
@@ -150,8 +150,8 @@ export const WorkingProcess2 = ({
             </div>
             <div className="col-lg-6">
               <div
-                className="work-process-image wow fadeInUp"
-                data-wow-delay=".1s"
+                className="work-process-image aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                
               >
                 <div className="service-thumbs">
                   <Image

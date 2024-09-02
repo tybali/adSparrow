@@ -14,22 +14,21 @@ const WhyChooseUs = () => {
             height={560}
             width={540}
             alt="which digital marketing agency is the best"
-            className="resize-illustration wow fadeInUp"
-            data-wow-delay=".1s"
+            className="resize-illustration aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
           />
 
           <div className="process-steps-column" style={{ gap: 10 }}>
           <div className="section-title text-center">
-          <h2 className="wow fadeInUp" data-wow-delay=".1s" style={{ textAlign: "left"}}>
+          <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" style={{ textAlign: "left"}}>
             Why Choose Us? Because Mediocre is for the Other Guys <br />
           </h2>
         </div>
-            <p className="why-choose-us-text wow fadeInUp">
+            <p className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
               Ever wonder why some agencies are all talk and no results? That’s
               not us. At Adsprarrow, we do things differently:
             </p>
             <ul>
-              <li className="why-choose-us-text wow fadeInUp">
+              <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
                 <Check />{" "}
                 <div>
                   <span style={{ fontWeight: 600 }}>We Make Results, Not Excuses:</span> You want results? We deliver.
@@ -38,35 +37,35 @@ const WhyChooseUs = () => {
                 </div>
               </li>
 
-              <li className="why-choose-us-text wow fadeInUp">
+              <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
                 <Check />{" "}
                 <div>
                 <span style={{ fontWeight: 600 }}>Data Nerds with a Purpose:</span> We treat data like gold. Clean, precise, and ready to make your campaigns shine.
                 </div>
               </li>
 
-              <li className="why-choose-us-text wow fadeInUp">
+              <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
                 <Check />{" "}
                 <div>
                 <span style={{ fontWeight: 600 }}>Marketing Magic with a Smile:</span> Forget the fluff. We focus on what works, and we sprinkle in some fun while we’re at it.
                 </div>
               </li>
 
-              <li className="why-choose-us-text wow fadeInUp">
+              <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
                 <Check />{" "}
                 <div>
                 <span style={{ fontWeight: 600 }}>Optimize Like a Boss:</span> We don’t just tweak; we obsess. If something’s not working, we fix it—fast.
                 </div>
               </li>
 
-              <li className="why-choose-us-text wow fadeInUp">
+              <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
                 <Check />{" "}
                 <div>
                 <span style={{ fontWeight: 600 }}>Plain English, No Jargon:</span> We talk your language. No tech speak—just clear, actionable advice.
                 </div>
               </li>
 
-              <li className="why-choose-us-text wow fadeInUp">
+              <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
                 <Check />{" "}
                 <div>
                 <span style={{ fontWeight: 600 }}>Your Goals, Our Mission:</span> We’re not just a service; we’re your partner in crime. Your success is our win.

@@ -11,25 +11,24 @@ const page = () => {
           <div className="row g-4 align-items-center justify-content-between align-items-center">
             <div className="col-xxl-6 col-xl-6 col-lg-6">
               <div className="hero-content">
-                <span className="sub-content wow fadeInUp" data-wow-delay=".1s">
+                <span className="sub-content aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                   <img src="assets/img/bale-2.png" alt="img" />
                   <span className="sub-text">
                     Hello, I’m Mitchell E. Burke{" "}
                   </span>
                 </span>
-                <h1 className="wow fadeInUp" data-wow-delay=".1s">
+                <h1 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                   <span>Experience Digital</span>
                   Product Designer
                 </h1>
-                <p className="wow fadeInUp" data-wow-delay=".1s">
+                <p className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                   Sed ut perspiciatis unde omnis iste natus voluptatem
                   accusantium <br />
                   doloremque laudantium, totam rem aperiam
                 </p>
                 <div className="button-items">
                   <div
-                    className="about-button wow fadeInUp"
-                    data-wow-delay=".1s"
+                    className="about-buttonaos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                   >
                     <Link href="about" className="theme-btn">
                       Hire Me
@@ -37,8 +36,7 @@ const page = () => {
                     </Link>
                   </div>
                   <span
-                    className="button-text wow fadeInUp"
-                    data-wow-delay=".1s"
+                    className="button-textaos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                   >
                     <a
                       href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"
@@ -58,14 +56,14 @@ const page = () => {
               </div>
             </div>
             <div
-              className="col-xxl-4 col-xl-5 col-lg-6 wow fadeInUp"
-              data-wow-delay=".1s"
+              className="col-xxl-4 col-xl-5 col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+              
             >
               <div className="hero-image">
                 <img src="assets/img/home-5/hero/01.png" alt="img" />
                 <ul
-                  className="experience-text wow fadeInUp"
-                  data-wow-delay=".1s"
+                  className="experience-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                  
                 >
                   <li>25+ Years Of Experience</li>
                   <li>
@@ -84,10 +82,10 @@ const page = () => {
       <section className="about-section section-padding">
         <div className="container">
           <div className="about-wrapper-3">
-            <div className="about-image-1 wow fadeInUp" data-wow-delay=".1s">
+            <div className="about-image-1 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               <img src="assets/img/home-5/about/01.png" alt="img" />
             </div>
-            <div className="about-image-2 wow fadeInUp" data-wow-delay=".1s">
+            <div className="about-image-2 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               <img src="assets/img/home-5/about/02.png" alt="img" />
               <div className="icon-box">
                 <img
@@ -105,13 +103,13 @@ const page = () => {
             </div>
             <div className="about-content-2 text-center">
               <div className="section-title text-center">
-                <span className="sec-sub-text wow fadeInUp">About Me</span>
-                <h2 className="text-white wow fadeInUp" data-wow-delay=".1s">
+                <span className="sec-sub-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">About Me</span>
+                <h2 className="text-white aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                   We Solve Your Business <br />
                   problem by Design
                 </h2>
               </div>
-              <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".1s">
+              <p className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
                 quae ab illo inventore veritatis et quasi architecto beatae
@@ -119,8 +117,8 @@ const page = () => {
               </p>
               <Link
                 href="about"
-                className="theme-btn wow fadeInUp"
-                data-wow-delay=".1s"
+                className="theme-btn aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                
               >
                 Learn More Us <i className="far fa-arrow-right" />
               </Link>
@@ -132,15 +130,15 @@ const page = () => {
       <section className="education-experience section-border section-padding">
         <div className="container">
           <div className="section-title">
-            <span className="sec-sub-text wow fadeInUp">Resume</span>
-            <h2 className="text-white wow fadeInUp" data-wow-delay=".1s">
+            <span className="sec-sub-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">Resume</span>
+            <h2 className="text-white aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               Education &amp; Experience
             </h2>
           </div>
           <div className="row">
             <div
-              className="col-xl-6 col-lg-6 wow fadeInUp"
-              data-wow-delay=".1s"
+              className="col-xl-6 col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+              
             >
               <div className="education-box-items">
                 <div className="icon">
@@ -154,8 +152,8 @@ const page = () => {
               </div>
             </div>
             <div
-              className="col-xl-6 col-lg-6 wow fadeInUp"
-              data-wow-delay=".1s"
+              className="col-xl-6 col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+              
             >
               <div className="education-box-items">
                 <div className="icon">
@@ -169,8 +167,8 @@ const page = () => {
               </div>
             </div>
             <div
-              className="col-xl-6 col-lg-6 wow fadeInUp"
-              data-wow-delay=".1s"
+              className="col-xl-6 col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+              
             >
               <div className="education-box-items">
                 <div className="icon">
@@ -184,8 +182,8 @@ const page = () => {
               </div>
             </div>
             <div
-              className="col-xl-6 col-lg-6 wow fadeInUp"
-              data-wow-delay=".1s"
+              className="col-xl-6 col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+              
             >
               <div className="education-box-items">
                 <div className="icon">
@@ -223,8 +221,8 @@ const page = () => {
       <section className="service-section fix section-padding">
         <div className="container">
           <div className="section-title text-center">
-            <span className="sec-sub-text wow fadeInUp">Popular Service</span>
-            <h2 className="text-white wow fadeInUp" data-wow-delay=".1s">
+            <span className="sec-sub-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">Popular Service</span>
+            <h2 className="text-white aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               Explore Our Popular Services
             </h2>
           </div>
@@ -334,37 +332,37 @@ const page = () => {
       {/* Skill Section Start */}
       <section className="skill-section fix section-padding pt-0">
         <div className="section-title text-center">
-          <span className="sec-sub-text wow fadeInUp">My Skills</span>
-          <h2 className="text-white wow fadeInUp" data-wow-delay=".1s">
+          <span className="sec-sub-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">My Skills</span>
+          <h2 className="text-white aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
             Skills What I’m Experiences
           </h2>
         </div>
         <div className="skill-wrapper">
-          <div className="skill-box-items wow fadeInUp" data-wow-delay=".1s">
+          <div className="skill-box-items aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
             <img src="assets/img/home-5/skills/figma.png" alt="img" />
             <div className="post-cat">95%</div>
           </div>
-          <div className="skill-box-items wow fadeInUp" data-wow-delay=".1s">
+          <div className="skill-box-items aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
             <img src="assets/img/home-5/skills/framerpng.png" alt="img" />
             <div className="post-cat">35%</div>
           </div>
-          <div className="skill-box-items wow fadeInUp" data-wow-delay=".1s">
+          <div className="skill-box-items aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
             <img src="assets/img/home-5/skills/webflow.png" alt="img" />
             <div className="post-cat">83%</div>
           </div>
-          <div className="skill-box-items wow fadeInUp" data-wow-delay=".1s">
+          <div className="skill-box-items aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
             <img src="assets/img/home-5/skills/sketch.png" alt="img" />
             <div className="post-cat">98%</div>
           </div>
-          <div className="skill-box-items wow fadeInUp" data-wow-delay=".1s">
+          <div className="skill-box-items aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
             <img src="assets/img/home-5/skills/python.png" alt="img" />
             <div className="post-cat">48%</div>
           </div>
-          <div className="skill-box-items wow fadeInUp" data-wow-delay=".1s">
+          <div className="skill-box-items aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
             <img src="assets/img/home-5/skills/angular.png" alt="img" />
             <div className="post-cat">47%</div>
           </div>
-          <div className="skill-box-items wow fadeInUp" data-wow-delay=".1s">
+          <div className="skill-box-items aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
             <img src="assets/img/home-5/skills/photoshop.png" alt="img" />
             <div className="post-cat">95%</div>
           </div>
@@ -375,7 +373,7 @@ const page = () => {
         <div className="container">
           <div className="section-title text-center">
             <sub className="sec-sub-text">Work Gallery</sub>
-            <h2 className="text-white wow fadeInUp" data-wow-delay=".1s">
+            <h2 className="text-white aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               Explore Featured Projects
             </h2>
           </div>
@@ -383,8 +381,8 @@ const page = () => {
             <div className="col-lg-9">
               <div className="row justify-content-center">
                 <div
-                  className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                  data-wow-delay=".1s"
+                  className="col-xl-6 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                  
                 >
                   <div className="project-card-items style-2">
                     <div className="project-image">
@@ -402,8 +400,8 @@ const page = () => {
                   </div>
                 </div>
                 <div
-                  className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                  data-wow-delay=".1s"
+                  className="col-xl-6 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                  
                 >
                   <div className="project-card-items style-2">
                     <div className="project-image">
@@ -421,8 +419,8 @@ const page = () => {
                   </div>
                 </div>
                 <div
-                  className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                  data-wow-delay=".1s"
+                  className="col-xl-6 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                  
                 >
                   <div className="project-card-items style-2">
                     <div className="project-image">
@@ -439,8 +437,8 @@ const page = () => {
                   </div>
                 </div>
                 <div
-                  className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                  data-wow-delay=".1s"
+                  className="col-xl-6 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                  
                 >
                   <div className="project-card-items style-2">
                     <div className="project-image">
@@ -460,8 +458,8 @@ const page = () => {
             </div>
           </div>
           <div
-            className="project-button text-center mt-5 wow fadeInUp"
-            data-wow-delay=".1s"
+            className="project-button text-center mt-5 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+            
           >
             <Link href="project" className="theme-btn">
               View More Projects <i className="far fa-arrow-right" />
@@ -475,15 +473,15 @@ const page = () => {
       <section className="pricing-section section-padding">
         <div className="container">
           <div className="section-title text-center">
-            <span className="sec-sub-text wow fadeInUp">Pricing Package</span>
-            <h2 className="text-white wow fadeInUp" data-wow-delay=".1s">
+            <span className="sec-sub-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">Pricing Package</span>
+            <h2 className="text-white aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               Popular Pricing For IT Consulting
             </h2>
           </div>
           <div className="row">
             <div
-              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".1s"
+              className="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+              
             >
               <div className="pricing-card-items style-2">
                 <div className="pricing-shape">
@@ -514,8 +512,8 @@ const page = () => {
               </div>
             </div>
             <div
-              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".1s"
+              className="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+              
             >
               <div className="pricing-card-items style-2 active">
                 <div className="pricing-shape">
@@ -546,8 +544,8 @@ const page = () => {
               </div>
             </div>
             <div
-              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".1s"
+              className="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+              
             >
               <div className="pricing-card-items style-2">
                 <div className="pricing-shape">
@@ -585,7 +583,7 @@ const page = () => {
         <div className="container">
           <div className="section-title text-center">
             <span className="sec-sub-text">Clients Feedback</span>
-            <h2 className="text-white wow fadeInUp" data-wow-delay=".1s">
+            <h2 className="text-white aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               We’ve 1250+ Global Clients Say Us
             </h2>
           </div>
@@ -597,7 +595,7 @@ const page = () => {
         <div className="container">
           <div className="contact-wrapper style-2">
             <div className="row g-4 align-items-center">
-              <div className="col-lg-6 wow fadeInUp" data-wow-delay=".1s">
+              <div className="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                 <div className="contact-image">
                   <img src="assets/img/home-5/contact.jpg" alt="img" />
                 </div>
@@ -605,12 +603,12 @@ const page = () => {
               <div className="col-lg-6">
                 <div className="contact-right">
                   <div className="section-title">
-                    <span className="sec-sub-text wow fadeInUp">
+                    <span className="sec-sub-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
                       Contact Me
                     </span>
                     <h2
-                      className="text-white wow fadeInUp"
-                      data-wow-delay=".1s"
+                      className="text-white aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                      
                     >
                       Have Any Project On Minds! <br />
                       Let’s Work Together
@@ -624,8 +622,8 @@ const page = () => {
                   >
                     <div className="row g-4">
                       <div
-                        className="col-lg-6 wow fadeInUp"
-                        data-wow-delay=".1s"
+                        className="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                        
                       >
                         <div className="form-clt">
                           <input
@@ -637,8 +635,8 @@ const page = () => {
                         </div>
                       </div>
                       <div
-                        className="col-lg-6 wow fadeInUp"
-                        data-wow-delay=".1s"
+                        className="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                        
                       >
                         <div className="form-clt">
                           <input
@@ -650,8 +648,8 @@ const page = () => {
                         </div>
                       </div>
                       <div
-                        className="col-lg-6 wow fadeInUp"
-                        data-wow-delay=".1s"
+                        className="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                        
                       >
                         <div className="form-clt">
                           <input
@@ -663,8 +661,8 @@ const page = () => {
                         </div>
                       </div>
                       <div
-                        className="col-lg-6 wow fadeInUp"
-                        data-wow-delay=".1s"
+                        className="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                        
                       >
                         <div className="form-clt">
                           <input
@@ -676,8 +674,8 @@ const page = () => {
                         </div>
                       </div>
                       <div
-                        className="col-lg-12 wow fadeInUp"
-                        data-wow-delay=".1s"
+                        className="col-lg-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                        
                       >
                         <div className="form-clt">
                           <textarea
@@ -689,8 +687,8 @@ const page = () => {
                         </div>
                       </div>
                       <div
-                        className="col-lg-6 wow fadeInUp"
-                        data-wow-delay=".1s"
+                        className="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                        
                       >
                         <button type="submit" className="theme-btn">
                           Send a Message
@@ -708,43 +706,43 @@ const page = () => {
       <div className="global-partner fix section-padding pt-0">
         <div className="container">
           <div className="section-title text-center">
-            <span className="sec-sub-text wow fadeInUp">Global Partners</span>
-            <h2 className="text-white wow fadeInUp" data-wow-delay=".1s">
+            <span className="sec-sub-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">Global Partners</span>
+            <h2 className="text-white aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               We’ve 1253+ Global Partners, <br />
               Meet Our Clients
             </h2>
           </div>
           <div className="global-partner-wrapper">
-            <div className="global-thumb wow fadeInUp" data-wow-delay=".1s">
+            <div className="global-thumb aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               <img src="assets/img/home-5/global/01.png" alt="img" />
             </div>
-            <div className="global-thumb wow fadeInUp" data-wow-delay=".1s">
+            <div className="global-thumb aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               <img src="assets/img/home-5/global/02.png" alt="img" />
             </div>
-            <div className="global-thumb wow fadeInUp" data-wow-delay=".1s">
+            <div className="global-thumb aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               <img src="assets/img/home-5/global/03.png" alt="img" />
             </div>
-            <div className="global-thumb wow fadeInUp" data-wow-delay=".1s">
+            <div className="global-thumb aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               <img src="assets/img/home-5/global/04.png" alt="img" />
             </div>
-            <div className="global-thumb wow fadeInUp" data-wow-delay=".1s">
+            <div className="global-thumb aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               <img src="assets/img/home-5/global/05.png" alt="img" />
             </div>
           </div>
           <div className="global-partner-wrapper">
-            <div className="global-thumb wow fadeInUp" data-wow-delay=".1s">
+            <div className="global-thumb aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               <img src="assets/img/home-5/global/06.png" alt="img" />
             </div>
-            <div className="global-thumb wow fadeInUp" data-wow-delay=".1s">
+            <div className="global-thumb aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               <img src="assets/img/home-5/global/07.png" alt="img" />
             </div>
-            <div className="global-thumb wow fadeInUp" data-wow-delay=".1s">
+            <div className="global-thumb aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               <img src="assets/img/home-5/global/08.png" alt="img" />
             </div>
-            <div className="global-thumb wow fadeInUp" data-wow-delay=".1s">
+            <div className="global-thumb aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               <img src="assets/img/home-5/global/09.png" alt="img" />
             </div>
-            <div className="global-thumb wow fadeInUp" data-wow-delay=".1s">
+            <div className="global-thumb aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               <img src="assets/img/home-5/global/10.png" alt="img" />
             </div>
           </div>

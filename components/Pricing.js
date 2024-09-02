@@ -5,14 +5,13 @@ const Pricing = () => {
     <section className="pricing-section section-padding">
       <div className="container">
         <div className="section-title text-center">
-          <h2 className="wow fadeInUp" data-wow-delay=".1s">
+          <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
             Popular Pricing For IT Consulting
           </h2>
         </div>
         <div className="row">
           <div
-            className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".1s"
+            className="col-xl-4 col-lg-6 col-md-6"
           >
             <div className="pricing-card-items">
               <div className="pricing-shape">
@@ -43,8 +42,7 @@ const Pricing = () => {
             </div>
           </div>
           <div
-            className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".1s"
+            className="col-xl-4 col-lg-6 col-md-6"
           >
             <div className="pricing-card-items active">
               <div className="pricing-shape">
@@ -75,8 +73,7 @@ const Pricing = () => {
             </div>
           </div>
           <div
-            className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".1s"
+            className="col-xl-4 col-lg-6 col-md-6"
           >
             <div className="pricing-card-items">
               <div className="pricing-shape">
@@ -119,19 +116,20 @@ export const Pricing2 = ({
 }) => {
   return (
     <section
-      className={`fix section-padding pt-${paddingTop} ${priceingClass}`}
-      id="pricing"
+      className={`fix section-padding pt-${paddingTop} ${priceingClass} aos-init aos-animate`}
+      data-aos="fade-up" data-aos-duration="600"
+      id="pricing" 
+              
     >
       <div className="container">
         <div className="section-title text-center">
-          <h2 className="wow fadeInUp" data-wow-delay=".1s">
+          <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
           Invest in Your Next Big Win
           </h2>
         </div>
         <div className="row">
           <div
-            className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".1s"
+            className="col-xl-4 col-lg-6 col-md-6"
           >
             <div className="pricing-card-items-2">
               <div className="pricing-header">
@@ -170,8 +168,7 @@ export const Pricing2 = ({
             </div>
           </div>
           <div
-            className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".1s"
+            className="col-xl-4 col-lg-6 col-md-6"
           >
            <div className="pricing-card-items-2 active">
             <div className="popular"> Most Popular</div>
@@ -219,8 +216,7 @@ export const Pricing2 = ({
             </div>
           </div>
           <div
-            className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".1s"
+            className="col-xl-4 col-lg-6 col-md-6"
           >
             <div className="pricing-card-items-2">
               <div className="pricing-header">

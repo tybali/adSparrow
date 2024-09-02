@@ -12,20 +12,19 @@ const page = () => {
               <div className="col-lg-6">
                 <div className="contact-content">
                   <div className="section-title">
-                    <span className="sub-content wow fadeInUp">
+                    <span className="sub-content aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
                       <img src="assets/img/bale.png" alt="img" />
                       Contact Us
                     </span>
-                    <h2 className="wow fadeInUp" data-wow-delay=".1s">
+                    <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     Let’s Chat &amp; Make It Happen!
                     </h2>
                   </div>
-                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".1s">
+                  <p className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                   Got a big idea or just want to say hi? We're all ears! Whether you're ready to kick off a project or need a creative nudge, drop us a line. <br />We’re here to turn your ideas into something epic—let’s make it happen!
                   </p>
                   <ul
-                    className="contact-list wow fadeInUp"
-                    data-wow-delay=".1s"
+                    className="contact-listaos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                   >
                     <li>
                       <a href="mailto:adsparrowllc@gmail.com">info@adsparrow.net</a>
@@ -39,8 +38,8 @@ const page = () => {
               </div>
               <div className="col-lg-6">
                 <div
-                  className="contact-right wow fadeInUp"
-                  data-wow-delay=".1s"
+                  className="contact-right aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                  
                 >
                   <h3>Send Us Message</h3>
                   <form

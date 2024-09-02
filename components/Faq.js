@@ -3,11 +3,11 @@ const Faq = () => {
     <section className="faq-section section-padding">
       <div className="container">
         <div className="section-title text-center">
-          <span className="sub-content wow fadeInUp">
+          <span className="sub-content aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
             <img src="assets/img/bale.png" alt="img" />
             Some Question
           </span>
-          <h2 className="wow fadeInUp" data-wow-delay=".1s">
+          <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
             Frequently Asked Questions
           </h2>
         </div>
@@ -17,8 +17,7 @@ const Faq = () => {
               <div className="faq-accordion">
                 <div className="accordion" id="accordion">
                   <div
-                    className="accordion-item wow fadeInUp"
-                    data-wow-delay=".1s"
+                    className="accordion-itemaos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                   >
                     <h4 className="accordion-header">
                       <button
@@ -46,8 +45,7 @@ const Faq = () => {
                     </div>
                   </div>
                   <div
-                    className="accordion-item wow fadeInUp"
-                    data-wow-delay=".1s"
+                    className="accordion-itemaos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                   >
                     <h4 className="accordion-header">
                       <button
@@ -75,8 +73,7 @@ const Faq = () => {
                     </div>
                   </div>
                   <div
-                    className="accordion-item wow fadeInUp"
-                    data-wow-delay=".1s"
+                    className="accordion-itemaos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                   >
                     <h4 className="accordion-header">
                       <button
@@ -104,8 +101,7 @@ const Faq = () => {
                     </div>
                   </div>
                   <div
-                    className="accordion-item wow fadeInUp"
-                    data-wow-delay=".1s"
+                    className="accordion-itemaos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                   >
                     <h4 className="accordion-header">
                       <button
@@ -133,8 +129,7 @@ const Faq = () => {
                     </div>
                   </div>
                   <div
-                    className="accordion-item wow fadeInUp"
-                    data-wow-delay=".1s"
+                    className="accordion-itemaos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                   >
                     <h4 className="accordion-header">
                       <button

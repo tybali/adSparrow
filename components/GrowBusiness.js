@@ -10,13 +10,13 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
           <div className="row g-4 justify-content-between">
             <div className="col-lg-5">
               <div
-                className="grow-business-image wow fadeInUp"
-                data-wow-delay=".1s"
+                className="grow-business-image aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                
               >
                 <img src="assets/img/grow/02.jpg" alt="img" />
                 <div
                   className="grap-shape float-bob-x wow fadeInLeft"
-                  data-wow-delay=".1s"
+                  
                 >
                   <img src="assets/img/grow/grap.png" alt="shape-img" />
                 </div>
@@ -25,15 +25,15 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
             <div className="col-lg-6">
               <div className="grow-business-content">
                 <div className="section-title">
-                  <span className="sub-content wow fadeInUp">
+                  <span className="sub-content aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
                     <img src="assets/img/bale.png" alt="img" />
                     Grow your Business
                   </span>
-                  <h2 className="wow fadeInUp" data-wow-delay=".1s">
+                  <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     Innovative Business Increase and Branding Solutions
                   </h2>
                 </div>
-                <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".1s">
+                <p className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                   accusantium doloremque laudantium, totam rem aperiam, eaque
                   ipsa quae ab illo inventore veritatis et quasi architecto
@@ -41,8 +41,7 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
                 </p>
                 <div className="grow-counting-area">
                   <div
-                    className="grow-counting-items wow fadeInUp"
-                    data-wow-delay=".1s"
+                    className="grow-counting-itemsaos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                   >
                     <h2>
                       <span className="count">
@@ -53,8 +52,7 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
                     <p>Increase Sales</p>
                   </div>
                   <div
-                    className="grow-counting-items wow fadeInUp"
-                    data-wow-delay=".1s"
+                    className="grow-counting-itemsaos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                   >
                     <h2>
                       <span className="count">
@@ -65,8 +63,7 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
                     <p>Reduced Losses</p>
                   </div>
                   <div
-                    className="grow-counting-items wow fadeInUp"
-                    data-wow-delay=".1s"
+                    className="grow-counting-itemsaos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                   >
                     <h2>
                       <span className="count">
@@ -96,15 +93,15 @@ export const GrowBusiness2 = ({ bg }) => {
             <div className="col-lg-6">
               <div className="grow-content">
                 <div className="section-title">
-                  <span className="sub-content wow fadeInUp">
+                  <span className="sub-content aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
                     <img src="assets/img/bale.png" alt="img" />
                     Grow your Business
                   </span>
-                  <h2 className="wow fadeInUp" data-wow-delay=".1s">
+                  <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                     Innovative Business Increase and Branding Solutions
                   </h2>
                 </div>
-                <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".1s">
+                <p className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                   accusantium doloremque laudantium, totam rem aperiam, eaque
                   ipsa quae ab illo inventore veritatis et quasi architecto
@@ -112,7 +109,7 @@ export const GrowBusiness2 = ({ bg }) => {
                 </p>
                 <div className="grow-percent-area">
                   <div className="row g-4">
-                    <div className="col-md-6 wow fadeInUp" data-wow-delay=".1s">
+                    <div className="col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                       <div className="grow-percent-items">
                         <h2>
                           <span className="count">
@@ -129,7 +126,7 @@ export const GrowBusiness2 = ({ bg }) => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-6 wow fadeInUp" data-wow-delay=".1s">
+                    <div className="col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
                       <div className="grow-percent-items">
                         <h2>
                           <span className="count">
@@ -150,7 +147,7 @@ export const GrowBusiness2 = ({ bg }) => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 wow fadeInUp" data-wow-delay=".1s">
+            <div className="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               <div className="grow-image-items">
                 <div className="grow-shape float-bob-y">
                   <img src="assets/img/grow/grow-shape.png" alt="shape-img" />

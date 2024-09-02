@@ -9,11 +9,11 @@ const page = () => {
       <section className="project-section fix section-padding">
         <div className="container">
           <div className="section-title text-center">
-            <span className="sub-content wow fadeInUp">
+            <span className="sub-content aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
               <img src="assets/img/bale.png" alt="img" />
               Work Gallery
             </span>
-            <h2 className="wow fadeInUp" data-wow-delay=".1s">
+            <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
               Explore Featured Projects
             </h2>
           </div>
@@ -21,8 +21,8 @@ const page = () => {
             <div className="col-lg-9">
               <div className="row justify-content-center">
                 <div
-                  className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                  data-wow-delay=".1s"
+                  className="col-xl-6 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                  
                 >
                   <div className="project-card-items">
                     <div className="project-image">
@@ -40,8 +40,8 @@ const page = () => {
                   </div>
                 </div>
                 <div
-                  className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                  data-wow-delay=".1s"
+                  className="col-xl-6 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                  
                 >
                   <div className="project-card-items">
                     <div className="project-image">
@@ -59,8 +59,8 @@ const page = () => {
                   </div>
                 </div>
                 <div
-                  className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                  data-wow-delay=".1s"
+                  className="col-xl-6 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                  
                 >
                   <div className="project-card-items">
                     <div className="project-image">
@@ -77,8 +77,8 @@ const page = () => {
                   </div>
                 </div>
                 <div
-                  className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                  data-wow-delay=".1s"
+                  className="col-xl-6 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                  
                 >
                   <div className="project-card-items">
                     <div className="project-image">
@@ -95,8 +95,8 @@ const page = () => {
                   </div>
                 </div>
                 <div
-                  className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                  data-wow-delay=".1s"
+                  className="col-xl-6 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                  
                 >
                   <div className="project-card-items">
                     <div className="project-image">
@@ -113,8 +113,8 @@ const page = () => {
                   </div>
                 </div>
                 <div
-                  className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                  data-wow-delay=".1s"
+                  className="col-xl-6 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                  
                 >
                   <div className="project-card-items">
                     <div className="project-image">
@@ -131,8 +131,8 @@ const page = () => {
                   </div>
                 </div>
                 <div
-                  className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                  data-wow-delay=".1s"
+                  className="col-xl-6 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                  
                 >
                   <div className="project-card-items">
                     <div className="project-image">
@@ -149,8 +149,8 @@ const page = () => {
                   </div>
                 </div>
                 <div
-                  className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                  data-wow-delay=".1s"
+                  className="col-xl-6 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                  
                 >
                   <div className="project-card-items">
                     <div className="project-image">

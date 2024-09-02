@@ -8,10 +8,10 @@ const Breadcrumb = ({ pageName = "Service Details", pageTitle }) => {
     >
       <div className="container">
         <div className="page-heading">
-          <h1 className="wow fadeInUp" style={{ color: "#fff" }} data-wow-delay=".1s">
+          <h1 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" style={{ color: "#fff" }} >
             {pageTitle ? pageTitle : pageName}
           </h1>
-          {/* <ul className="breadcrumb-items wow fadeInUp" data-wow-delay=".1s">
+          {/* <ul className="breadcrumb-items aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
             <li>
               <Link href="/">Home</Link>
             </li>

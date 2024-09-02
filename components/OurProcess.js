@@ -9,7 +9,7 @@ const OurProcess = () => {
     <section  className="working-process-section section-padding pt-0">
       <div className="container">
         <div className="section-title text-center">
-          <h2 className="wow fadeInUp" data-wow-delay=".1s">
+          <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
             How We Roll <br />
             <p className="sub-heading">
               {" "}
@@ -25,8 +25,7 @@ const OurProcess = () => {
             height={480}
             width={492}
             alt="digital marketing strategy"
-            className="resize-illustration wow fadeInUp"
-                    data-wow-delay=".1s"
+            className="resize-illustration aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
           />
 
           <div className="process-steps-column">
