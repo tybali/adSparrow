@@ -1,6 +1,7 @@
 import { Pricing2 } from "@/components/Pricing";
 import { TestimonialSlider3 } from "@/components/TestimonialSlider";
 import OurProcess from "@/components/OurProcess";
+import ServiceCards from "@/components/ServiceCards";
 import WhyChooseUS from "@/components/WhyChooseUs";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
@@ -14,11 +15,18 @@ import Testimonial3 from "@assets/img/testimonial/testimonial-card2.png";
 import { Appointments } from "@/components/Appointments";
 import Cover from "@assets/img/hero/cover.webp";
 
+export const metadata = {
+  title:
+    "Top Digital Marketing Agency - Boost Your Online Presence | AdSparrow",
+  description:
+    "AdSparrow is your go-to digital marketing agency. We specialize in web design, SEO, PPC, and social media marketing to ensure your business thrives online. Get your free consultation now!",
+};
+
 const page = () => {
   return (
     <NextLayout header={1} footer={4}>
       <section className="hero-section hero-1 bg-cover fix">
-      <div className="radialContainer" />
+        <div className="radialContainer" />
         <Image
           alt="Digital Marketing cover | Digital Marketing Strategy | Digital marketing company near me"
           src={Cover}
@@ -39,7 +47,11 @@ const page = () => {
           >
             <div className="col-lg-6">
               <div className="hero-content">
-                <h1 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
+                <h1
+                  className="aos-init aos-animate"
+                  data-aos="fade-up"
+                  data-aos-duration="600"
+                >
                   Look who is here! <br />
                   We have been keeping your spot warm. <br />
                 </h1>
@@ -49,12 +61,14 @@ const page = () => {
                   in the feed, and marketing strategies that miss the mark.
                   Struggles you treat like a fact of life. <br />
                   <br />
-                
                 </p>
-                  <p className="banner-detail" style={{ fontSize: 30, fontWeight: 800 }}>
-                    {" "}
-                    Well, They ain’t. AdSparrow got you covered.{" "}
-                  </p>
+                <p
+                  className="banner-detail"
+                  style={{ fontSize: 30, fontWeight: 800 }}
+                >
+                  {" "}
+                  Well, They ain’t. AdSparrow got you covered.{" "}
+                </p>
                 <div className="hero-button">
                   {/* <Link
                     href="service"
@@ -96,13 +110,17 @@ const page = () => {
               </div>
               <div className="col-lg-6">
                 <div className="about-content">
-                  <div className="section-title aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
-                    <h2>
-                      Leads Are Just the Beginning
-                    </h2>
+                  <div
+                    className="section-title aos-init aos-animate"
+                    data-aos="fade-up"
+                    data-aos-duration="600"
+                  >
+                    <h2>Leads Are Just the Beginning</h2>
                   </div>
                   <p
-                    className="mt-3 mt-md-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                    className="mt-3 mt-md-0 aos-init aos-animate"
+                    data-aos="fade-up"
+                    data-aos-duration="600"
                     style={{
                       lineHeight: "1.9rem",
                       fontSize: "1.3rem",
@@ -118,7 +136,9 @@ const page = () => {
                   </p>
 
                   <div
-                    className="about-author aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+                    className="about-author aos-init aos-animate"
+                    data-aos="fade-up"
+                    data-aos-duration="600"
                   >
                     <div className="about-button">
                       <Link href="/about" className="theme-btn">
@@ -166,151 +186,7 @@ const page = () => {
       <WhyChooseUS />
 
       {/* Service Section Start */}
-      <section
-        className="service-section-6 fix section-padding pt-0"
-        id="services"
-      >
-        <div className="container">
-          <div className="section-title text-center">
-            <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
-              The Fun Stuff We Do! <br />
-            </h2>
-          </div>
-          <div className="row">
-            <div
-              className="col-xl-4 col-lg-6 col-md-6"
-            >
-              <div className="popular-service-box-items aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
-                <div className="icon">
-                  <i className="flaticon-software-development" />
-                </div>
-                <div className="content">
-                  <h3>
-                    <Link href="service-details">
-                      Web Design &amp; Development
-                    </Link>
-                  </h3>
-
-                  <p className="service-card-description">
-                    Websites that don’t just look good—they work good.
-                    Functionality meets style, minus the fluff.
-                  </p>
-                  <Link href="service-details" className="link-btn read-more">
-                    Read More <i className="far fa-arrow-right" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-lg-6 col-md-6"
-            >
-              <div className="popular-service-box-items aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
-                <div className="icon">
-                  <i className="flaticon-keywords" />
-                </div>
-                <div className="content">
-                  <h3>
-                    <Link href="service-details">SEO</Link>
-                  </h3>
-                  <p className="service-card-description">
-                    Get found without the fuss. We’ll elevate your site to the
-                    top, where it belongs—front and center.
-                  </p>
-                  <Link href="service-details" className="link-btn read-more">
-                    Read More <i className="far fa-arrow-right" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-lg-6 col-md-6"
-            >
-              <div className="popular-service-box-items aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
-                <div className="icon">
-                  <i className="flaticon-vector-design" />
-                </div>
-                <div className="content">
-                  <h3>
-                    <Link href="service-details">
-                      Video Editing & Animation
-                    </Link>
-                  </h3>
-                  <p className="service-card-description">
-                    Turning raw clips into watch-worthy content. We keep it
-                    sharp, professional, and oh-so-smooth.
-                  </p>
-                  <Link href="service-details" className="link-btn read-more">
-                    Read More <i className="far fa-arrow-right" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-lg-6 col-md-6"
-            >
-              <div className="popular-service-box-items aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
-                <div className="icon">
-                  <i className="flaticon-social-media" />
-                </div>
-                <div className="content">
-                  <h3>
-                    <Link href="service-details">Social Media Marketing</Link>
-                  </h3>
-                  <p className="service-card-description">
-                    Engage, don’t enrage. We craft campaigns that make your
-                    brand irresistible—for all the right reasons.
-                  </p>
-                  <Link href="service-details" className="link-btn read-more">
-                    Read More <i className="far fa-arrow-right" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-lg-6 col-md-6"
-            >
-              <div className="popular-service-box-items aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
-                <div className="icon">
-                  <i className="flaticon-earning" />
-                </div>
-                <div className="content">
-                  <h3>
-                    <Link href="service-details">Pay Per Click (PPC)</Link>
-                  </h3>
-                  <p className="service-card-description">
-                    Clicks that count. We maximize your ROI with precise
-                    targeting, turning every click into a valuable conversion.
-                  </p>
-                  <Link href="service-details" className="link-btn read-more">
-                    Read More <i className="far fa-arrow-right" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-lg-6 col-md-6"
-            >
-              <div className="popular-service-box-items aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
-                <div className="icon">
-                  <i className="flaticon-price-tag" />
-                </div>
-                <div className="content">
-                  <h3>
-                    <Link href="service-details">Ecommerce Store</Link>
-                  </h3>
-                  <p className="service-card-description">
-                    Build stores that sell. We fix your e-commerce woes with
-                    seamless, tailored online store solutions.
-                  </p>
-                  <Link href="service-details" className="link-btn read-more">
-                    Read More <i className="far fa-arrow-right" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <ServiceCards />
 
       {/* Pricing Section Start */}
       <Pricing2 />
@@ -337,7 +213,11 @@ const page = () => {
               <div className="col-lg-6">
                 <TestimonialSlider3 />
               </div>
-              <div className="col-lg-5 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
+              <div
+                className="col-lg-5 aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-duration="600"
+              >
                 <div className="testimonial-image">
                   <Image src={Testimonial1} alt="img" />
                   <div className="card-shape-1 float-bob-x">

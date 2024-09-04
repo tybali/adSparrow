@@ -591,14 +591,11 @@ const Footer4 = () => {
                     <a href="#">
                       <i className="fab fa-facebook-f" />
                     </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
+                    <a href="https://www.instagram.com/adsparrowllc/" target="_blank">
+                      <i className="fab fa-instagram" />
                     </a>
-                    <a href="#">
-                      <i className="fab fa-vimeo-v" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-pinterest-p" />
+                    <a href="https://www.linkedin.com/company/adsparrowllc/" target="_blank">
+                      <i className="fab fa-linkedin" />
                     </a>
                   </div>
                 </div>

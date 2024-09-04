@@ -12,15 +12,6 @@ import { Toaster } from "react-hot-toast";
 import AOSProvider from '@/components/AOSProvider';
 // import Preloader from "@/layouts/Preloader";
 
-export const metadata = {
-  robots: {
-    index: true,
-    googleBot: {
-      index: true,
-    },
-  },
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

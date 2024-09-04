@@ -16,9 +16,14 @@ export const Appointments = () => {
       toast.success(
         "Thank you for connecting us! We will get back to you shortly."
       );
+      const data = { name, email, phone, message, formType: "consultation" };
+      setEmail("");
+      setName("");
+      setPhone("");
+      setMessage("");
       fetch("/api/appointments", {
         method: "POST",
-        body: JSON.stringify({ name, email, phone, message }),
+        body: JSON.stringify(data),
         headers: {
           "Content-type": "application/json; charset=UTF-8",
         },
@@ -28,10 +33,6 @@ export const Appointments = () => {
           // Handle the response data here
           if (data?.message === "success") {
             console.log("Success 200");
-            setEmail("");
-            setName("");
-            setPhone("");
-            setMessage("");
           } else console.log("Something went wrong!");
         })
         .catch((error) => {
@@ -42,7 +43,12 @@ export const Appointments = () => {
   };
 
   return (
-    <div className="col-xxl-4 col-lg-5 col-md-8 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"  style={{ zIndex: 1000 }}>
+    <div
+      className="col-xxl-4 col-lg-5 col-md-8 aos-init aos-animate"
+      data-aos="fade-up"
+      data-aos-duration="600"
+      style={{ zIndex: 1000 }}
+    >
       <div className="hero-contact-box">
         <h4>Let's Talk</h4>
         <p style={{ fontSize: 14, marginTop: 5 }}>
@@ -90,7 +96,6 @@ export const Appointments = () => {
             <div className="col-lg-12">
               <div className="form-clt">
                 <textarea
-                
                   type="text"
                   name="business message"
                   id="message"

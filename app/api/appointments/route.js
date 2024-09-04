@@ -29,6 +29,8 @@ export async function POST(request) {
       Email: body.email,
       Phone: body.phone,
       Message: body.message,
+      FormType: body.formType,
+      Service: body?.service ?? "-"
     });
 
     await sheet.addRow(row);
