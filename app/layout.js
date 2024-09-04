@@ -9,26 +9,36 @@ import "@css/swiper-bundle.min.css";
 import "./globals.css";
 import Head from "next/head";
 import { Toaster } from "react-hot-toast";
-import AOSProvider from '@/components/AOSProvider';
+import AOSProvider from "@/components/AOSProvider";
 // import Preloader from "@/layouts/Preloader";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <title>
-          The Ultimate Guide to Choosing the Best Digital Marketing Company for
-          Your Business
-        </title>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-P1CLG235SD"
+        ></script>
+
+        <script strategy="lazyOnload">
+          {` window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-P1CLG235SD');
+          `}
+        </script>
+        
         <meta name="robots" content="all" />
         <meta name="googlebot" content="all" />
         <link rel="canonical" href="https://www.adsparrow.net/" />
       </Head>
       <body>
         <AOSProvider>
-        {/* <Preloader /> */}
-        <Toaster position="bottom-center" />
-        {children}
+          {/* <Preloader /> */}
+          <Toaster position="bottom-center" />
+          {children}
         </AOSProvider>
       </body>
     </html>
