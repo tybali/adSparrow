@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "@assets/img/logo/adsparrow-logo.png";
+import Shape1 from "@assets//img/footer-color-shape.png";
+import Shape2 from "@assets//img/footer-color-shape-2.png";
+
 
 const Footer = ({ footer }) => {
   switch (footer) {
@@ -564,10 +567,10 @@ const Footer4 = () => {
   return (
     <footer className="footer-section footer-bg fix">
       <div className="color-shape">
-        <img src="assets/img/footer-color-shape.png" alt="shape-img" />
+        <Image src={Shape1} alt="website footer" />
       </div>
       <div className="color-shape-2">
-        <img src="assets/img/footer-color-shape-2.png" alt="shape-img" />
+        <Image src={Shape2} alt="website footer" />
       </div>
       <div className="container">
         <div className="footer-widgets-wrapper">

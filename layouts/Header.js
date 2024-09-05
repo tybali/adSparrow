@@ -469,7 +469,7 @@ const MobileMenu = ({ single, menu }) => {
                   <Link href="about">About</Link>
                 </li>
                 <li>
-                  <a href="#" onClick={() => activeMenuSet("Services")}>
+                  <a href="" onClick={() => activeMenuSet("Services")}>
                     Services
                     <i className="fas fa-angle-down" />
                   </a>

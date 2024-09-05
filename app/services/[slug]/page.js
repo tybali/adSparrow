@@ -14,7 +14,7 @@ const page = ({ params }) => {
   
   ]
   const service = servicesSlugs.find((elem) => elem.slug === params.slug)
-  console.log(servicesSlugs, params.slug)
+ 
   return (
     <NextLayout header={1} footer={4}>
       <Breadcrumb pageName={service?.title} />
