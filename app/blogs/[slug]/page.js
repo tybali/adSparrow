@@ -3,7 +3,7 @@ import NextLayout from "@/layouts/NextLayout";
 import { getClient } from "@/lib/client";
 import { GET_POST_BY_SLUG } from "@/lib/queries";
 import moment from "moment";
-import Link from "next/link";
+import readingTime from "reading-time";
 
 const page = async ({ params }) => {
   const { data } = await getClient().query({
@@ -37,6 +37,10 @@ const page = async ({ params }) => {
                         className="post-meta mt-3 "
                         style={{ marginBottom: 30 }}
                       >
+                        <span>
+                            <i className="fal fa-clock" />
+                            {readingTime(data?.postBy?.content)?.text}
+                          </span>
                         <span>
                           <i className="fal fa-user" />
                           Iqra Khalid

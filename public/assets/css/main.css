@@ -9049,6 +9049,10 @@ textarea:focus {
 .blog-wrapper h6 {
   font-weight: 600;
 }
+
+.blog-post-details a {
+  color: var(--theme);
+}
 .blog-wrapper .single-blog-post {
   margin-bottom: 40px;
   position: relative;
