@@ -47,16 +47,6 @@ const page = () => {
                     className="mt-3 mt-md-0aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                     style={{ fontSize: "1.4rem", marginBottom: 18 }}
                   >
-                    At AdSparrow, we turn digital dreams into bold, standout
-                    realities. We’re not just another agency—we’re the misfit
-                    geniuses who thrive on making the impossible, well,
-                    possible. Think of us as your secret weapon against digital
-                    dullness.
-                  </p>
-                  <p
-                    className="mt-3 mt-md-0aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
-                    style={{ fontSize: "1.4rem", marginBottom: 18 }}
-                  >
                     Our team? We’re a quirky bunch of data nerds, design gurus,
                     and content wizards who love a good challenge. We don’t do
                     cookie-cutter solutions—every strategy we craft is as unique

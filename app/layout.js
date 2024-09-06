@@ -18,24 +18,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        {/* <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-P1CLG235SD"
-        ></script>
-
-        <script strategy="lazyOnload">
-          {` window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-P1CLG235SD');
-          `}
-          GTM-NQW6CKGZ
-        </script> */}
-
         <meta name="robots" content="all" />
         <meta name="googlebot" content="all" />
-        <link rel="canonical" href="https://www.adsparrow.net/" key="canonical" />
+        <link
+          rel="canonical"
+          href="https://www.adsparrow.net/"
+          key="canonical"
+        />
       </Head>
       <GoogleTagManager gtmId="GTM-NQW6CKGZ" />
       <GoogleAnalytics gaId="G-P1CLG235SD" />

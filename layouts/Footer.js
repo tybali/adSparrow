@@ -591,7 +591,7 @@ const Footer4 = () => {
 
                   </p>
                   <div className="social-icon d-flex align-items-center">
-                    <a href="#">
+                    <a href="https://www.facebook.com/people/AdSparrow/61564962947506/">
                       <i className="fab fa-facebook-f" />
                     </a>
                     <a href="https://www.instagram.com/adsparrowllc/" target="_blank">
@@ -664,7 +664,7 @@ const Footer4 = () => {
                     </div>
                     <div className="content">
                       <h4>
-                        <a href="tel:00012345688">+000 (123) 456 88</a>
+                        <a href="tel:+923135991176">+92 313 599 1176</a>
                       </h4>
                     </div>
                   </div>

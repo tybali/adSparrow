@@ -391,20 +391,12 @@ const Menu = ({ single, menu }) => {
                 </li>
               </ul>
             </li> */}
-            {/* <li>
-              <Link href="news">
-                Blog
+            <li>
+              <Link href="blogs">
+                Blogs
                 <i className="fas fa-angle-down" />
               </Link>
-              <ul className="submenu">
-                <li>
-                  <Link href="news">Blog </Link>
-                </li>
-                <li>
-                  <Link href="news-details">Blog Details</Link>
-                </li>
-              </ul>
-            </li> */}
+            </li>
             <li>
               <Link href="contact">Contact</Link>
             </li>
@@ -683,7 +675,7 @@ const Header1 = ({ single }) => {
                   >
                     Free Audit
                   </Link>
-                <div className="header__hamburger d-xl-block my-auto">
+                <div className="header__hamburger d-md-block d-lg-none my-auto">
                   <div
                     className="sidebar__toggle"
                     onClick={() => setSidebarToggle(true)}
