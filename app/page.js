@@ -14,6 +14,7 @@ import Testimonial2 from "@assets/img/testimonial/testimonial-card1.png";
 import Testimonial3 from "@assets/img/testimonial/testimonial-card2.png";
 import { Appointments } from "@/components/Appointments";
 import Cover from "@assets/img/hero/cover.webp";
+import FeaturedBlogs from "@/components/FeaturedBlogs";
 
 export const metadata = {
   title:
@@ -233,93 +234,7 @@ const page = () => {
         </div>
       </section>
       {/* News Section Start */}
-      {/* <section className="news-section section-padding pt-50">
-        <div className="container">
-          <div className="section-title text-center">
-            <span className="sub-content aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
-              <Image src={Bell} alt="img" />
-              News &amp; Blog
-            </span>
-            <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
-              Explore Our Latest News &amp; Blog
-            </h2>
-          </div>
-          <div className="row">
-            <div
-              className="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
-              
-            >
-              <div className="news-box-items">
-                <div className="news-content">
-                  <p>November 25, 2024</p>
-                  <h4>
-                    <Link href="news-details">
-                      Revealing Images With Animations Gradients, Blend Modes
-                      Cool
-                    </Link>
-                  </h4>
-                  <Link className="link-btn" href="news-details">
-                    Read More
-                    <i className="far fa-arrow-right" />
-                  </Link>
-                </div>
-                <div
-                  className="news-image bg-cover"
-                  style={{ backgroundImage: 'url("assets/img/news/01.jpg")' }}
-                />
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
-              
-            >
-              <div className="news-box-items">
-                <div className="news-content">
-                  <p>November 25, 2024</p>
-                  <h4>
-                    <Link href="news-details">
-                      List of 5 ways Generating Real Time Audio Sentiment
-                      Analysis
-                    </Link>
-                  </h4>
-                  <Link className="link-btn" href="news-details">
-                    Read More
-                    <i className="far fa-arrow-right" />
-                  </Link>
-                </div>
-                <div
-                  className="news-image bg-cover"
-                  style={{ backgroundImage: 'url("assets/img/news/02.jpg")' }}
-                />
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-lg-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
-              
-            >
-              <div className="news-box-items">
-                <div className="news-content">
-                  <p>November 25, 2024</p>
-                  <h4>
-                    <Link href="news-details">
-                      Revealing Images With Animations Gradients, Blend Modes
-                      Cool
-                    </Link>
-                  </h4>
-                  <Link className="link-btn" href="news-details">
-                    Read More
-                    <i className="far fa-arrow-right" />
-                  </Link>
-                </div>
-                <div
-                  className="news-image bg-cover"
-                  style={{ backgroundImage: 'url("assets/img/news/03.jpg")' }}
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
+      <FeaturedBlogs />
     </NextLayout>
   );
 };

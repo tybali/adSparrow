@@ -394,7 +394,6 @@ const Menu = ({ single, menu }) => {
             <li>
               <Link href="blogs">
                 Blogs
-                <i className="fas fa-angle-down" />
               </Link>
             </li>
             <li>
