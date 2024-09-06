@@ -9053,6 +9053,20 @@ textarea:focus {
 .blog-post-details a {
   color: var(--theme);
 }
+
+.tagcloud span {
+  background-color: var(--theme);
+    color: var(--white);
+    display: inline-block;
+    padding: 11px 26px;
+    line-height: 1;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 10px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    cursor:default;
+}
 .blog-wrapper .single-blog-post {
   margin-bottom: 40px;
   position: relative;

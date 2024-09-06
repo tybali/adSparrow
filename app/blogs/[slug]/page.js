@@ -3,6 +3,7 @@ import NextLayout from "@/layouts/NextLayout";
 import { getClient } from "@/lib/client";
 import { GET_POST_BY_SLUG } from "@/lib/queries";
 import moment from "moment";
+import Link from "next/link";
 import readingTime from "reading-time";
 
 const page = async ({ params }) => {
@@ -57,6 +58,11 @@ const page = async ({ params }) => {
                       />
                     </div>
                   </div>
+
+                  <div className="tagcloud">
+                      {data?.postBy?.tags?.nodes?.map((tag) => (
+                      <span>{tag?.name}</span>))}
+                    </div>
 
                   {/* comments section wrap start */}
                   {/* <div className="comments-section-wrap">
