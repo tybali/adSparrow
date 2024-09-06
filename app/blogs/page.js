@@ -168,17 +168,17 @@ const page = async () => {
                     <div className="widget_categories">
                       <ul>
                         <li>
-                          <Link href="news">
+                          <Link href="">
                             Digital Marketing <span>01</span>
                           </Link>
                         </li>
                         <li>
-                          <Link href="news">
+                          <Link href="">
                             Social Media Marketing <span>01</span>
                           </Link>
                         </li>
                         <li>
-                          <Link href="news">
+                          <Link href="">
                             AI <span>01</span>
                           </Link>
                         </li>
@@ -222,12 +222,11 @@ const page = async () => {
                       </a>
                     </div>
                   </div>
-                  <div className="single-sidebar-widget">
+                  {/* <div className="single-sidebar-widget">
                     <div className="wid-title">
                       <h3>Popular Tags</h3>
                     </div>
                     <div className="tagcloud">
-                      {/* {{BLOGS[0]?.map((blog) => (} */}
                       <Link href="news-details">Marketing</Link>
                       <Link href="news-details">Product</Link>
                       <Link href="news-details">Social Media</Link>
@@ -235,7 +234,7 @@ const page = async () => {
                       <Link href="news-details">Content</Link>
                       <Link href="news-details">Design</Link>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
