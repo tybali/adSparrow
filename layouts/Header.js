@@ -324,7 +324,7 @@ const Menu = ({ single, menu }) => {
               <Link href="/about">About</Link>
             </li>
             <li>
-              <Link href="service-details">
+              <Link href="">
                 Services
                 <i className="fas fa-angle-down" />
               </Link>
@@ -392,12 +392,12 @@ const Menu = ({ single, menu }) => {
               </ul>
             </li> */}
             <li>
-              <Link href="blogs">
+              <Link href="/blogs">
                 Blogs
               </Link>
             </li>
             <li>
-              <Link href="contact">Contact</Link>
+              <Link href="/contact">Contact</Link>
             </li>
           </ul>
         </nav>

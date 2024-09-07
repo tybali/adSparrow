@@ -35,6 +35,7 @@ const page = () => {
           quality={100}
           fill
           priority
+          className="banner-img"
           sizes="100vw"
           style={{
             objectFit: "cover",
@@ -210,8 +211,8 @@ const page = () => {
       >
         <div className="container">
           <div className="testimonial-wrapper-2">
-            <div className="row justify-content-between align-items-center g-4">
-              <div className="col-lg-6">
+            <div className="row  align-items-center g-4 testimonial-flexbox">
+              <div className="col-lg-6 col-md-10">
                 <TestimonialSlider3 />
               </div>
               <div

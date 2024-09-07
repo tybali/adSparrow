@@ -8071,7 +8071,18 @@ textarea:focus {
   border-radius: 10px;
   margin-bottom: 30px;
 }
+.testimonial-flexbox {
+  justify-content: space-between;
+}
+
 @media (max-width: 991px) {
+  .testimonial-flexbox {
+    justify-content: center !important;
+    margin: auto;
+  }
+  .testimonial-image {
+    display: none;
+  }
   .testimonial-wrapper-2 .testimonial-content .author-image {
     text-align: center;
     -webkit-box-pack: center;
@@ -8138,9 +8149,13 @@ textarea:focus {
   }
 }
 .testimonial-wrapper-2 .testimonial-content .star {
-  font-size: 14px;
+  padding: 10px;
+  font-size: 21px;
   color: var(--white);
   margin-top: 20px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
 }
 .testimonial-wrapper-2 .testimonial-image {
   max-width: 440px;
@@ -11512,6 +11527,15 @@ p.sticky-label {
 @media (max-width: 350px) {
   .pricing-card-items-2 {
     height: max-content;
+  }
+}
+
+@media (max-width: 537px) {
+  .banner-img {
+    display: none;
+  }
+  .radialContainer {
+    background-image: linear-gradient(to right top, #000556, #1b2372, #32408d, #495ea8, #627dc3, #588ccf, #509bd9, #4baae0, #00aad2, #00a9be, #00a6a4, #0ba188);
   }
 }
 

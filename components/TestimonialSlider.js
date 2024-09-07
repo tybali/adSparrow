@@ -233,7 +233,6 @@ export const TestimonialSlider3 = () => {
         <SwiperSlide className="swiper-slide">
           <div className="testimonial-content">
             <div className="author-image">
-              <img src="assets/img/testimonial/client.png" alt="author-img" />
               <div className="content">
                 <h5>
                   Teona Swift / <span>CO Founder</span>
