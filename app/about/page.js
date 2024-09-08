@@ -5,6 +5,11 @@ import NextLayout from "@/layouts/NextLayout";
 import Image from "next/image";
 import AboutusImg from "@assets/img/about/about.webp";
 
+export const metaData = {
+  title: "Unleash Bold Digital Solutions | AdSparrow Marketing Agency",
+  description: "AdSparrow transforms your brand with creative, data-driven strategies. Stand out, dominate the market, and turn your digital marketing dreams into reality."
+}
+
 const page = () => {
   return (
     <NextLayout header={1} footer={4}>

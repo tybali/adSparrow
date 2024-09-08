@@ -4,6 +4,12 @@ import Breadcrumb from "@/components/Breadcrumb";
 import NextLayout from "@/layouts/NextLayout";
 import { useState } from "react";
 import { toast } from "react-hot-toast";
+
+export const metaData = {
+  title: "Contact Us - Let's Bring Your Ideas to Life | AdSparrow",
+  description: "Get in touch with AdSparrow for creative solutions. Whether you need a project kickoff or a fresh idea, we're here to help. Let's chat and make it happen!"
+}
+
 const page = () => {
   const [openDropdown, setOpenDrodown] = useState(false);
   const [values, setValues] = useState({

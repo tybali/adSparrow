@@ -3,7 +3,7 @@ import { nextUtility } from "@/utility";
 import Link from "next/link";
 import Logo from "@assets/img/logo/adsparrow-logo.png";
 import { Fragment, useEffect, useState } from "react";
-import {useScrollDirection} from "@/utility/useScrollDirection";
+import { useScrollDirection } from "@/utility/useScrollDirection";
 import Image from "next/image";
 
 const Header = ({ header, single }) => {
@@ -11,20 +11,7 @@ const Header = ({ header, single }) => {
     nextUtility.stickyNav();
   }, []);
 
-  switch (header) {
-    case 1:
-      return <Header1 single={single} />;
-    case 2:
-      return <Header2 single={single} />;
-    case 3:
-      return <Header3 single={single} />;
-    case 5:
-      return <Header5 single={single} />;
-    case 6:
-      return <Header6 single={single} />;
-    default:
-      return <Header6 single={single} />;
-  }
+  return <Header1 single={single} />;
 };
 export default Header;
 
@@ -43,9 +30,7 @@ const Menu = ({ single, menu }) => {
         <nav id="mobile-menu" className="d-none d-xl-block">
           <ul>
             <li className="has-dropdown active menu-thumb">
-              <Link href="/">
-                Home
-              </Link>
+              <Link href="/">Home</Link>
             </li>
             {singleMenu.map((menu) => (
               <li key={menu.id}>
@@ -180,19 +165,29 @@ const Menu = ({ single, menu }) => {
               </Link>
               <ul className="submenu">
                 <li>
-                  <Link href="/services/website-design-and-development">Website Design <br/> &amp; Development</Link>
+                  <Link href="/services/website-design-and-development">
+                    Website Design <br /> &amp; Development
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/services/search-engine-optimization">Serach Engine Optimization (SEO)</Link>
+                  <Link href="/services/search-engine-optimization">
+                    Serach Engine Optimization (SEO)
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/services/video-editing-and-animation">Vide Editing <br /> &amp; Animation</Link>
+                  <Link href="/services/video-editing-and-animation">
+                    Vide Editing <br /> &amp; Animation
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/services/social-media-marketing">Social Media Marketing</Link>
+                  <Link href="/services/social-media-marketing">
+                    Social Media Marketing
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/services/pay-per-click">Pay Per Click (PPC)</Link>
+                  <Link href="/services/pay-per-click">
+                    Pay Per Click (PPC)
+                  </Link>
                 </li>
                 <li>
                   <Link href="/services/ecommerce-store">Ecommerse Stores</Link>
@@ -242,9 +237,7 @@ const Menu = ({ single, menu }) => {
               </ul>
             </li> */}
             <li>
-              <Link href="/blogs">
-                Blogs
-              </Link>
+              <Link href="/blogs">Blogs</Link>
             </li>
             <li>
               <Link href="/contact">Contact</Link>
@@ -315,24 +308,36 @@ const MobileMenu = ({ single, menu }) => {
                     <i className="fas fa-angle-down" />
                   </a>
                   <ul className="submenu" style={activeLi("Services")}>
-                  <li>
-                  <Link href="/services/website-design-and-development">Website Design <br/> &amp; Development</Link>
-                </li>
-                <li>
-                  <Link href="/services/search-engine-optimization">Serach Engine Optimization (SEO)</Link>
-                </li>
-                <li>
-                  <Link href="/services/video-editing-and-animation">Vide Editing <br /> &amp; Animation</Link>
-                </li>
-                <li>
-                  <Link href="/services/social-media-marketing">Social Media Marketing</Link>
-                </li>
-                <li>
-                  <Link href="/services/pay-per-click">Pay Per Click (PPC)</Link>
-                </li>
-                <li>
-                  <Link href="/services/ecommerce-store">Ecommerse Stores</Link>
-                </li>
+                    <li>
+                      <Link href="/services/website-design-and-development">
+                        Website Design <br /> &amp; Development
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/search-engine-optimization">
+                        Serach Engine Optimization (SEO)
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/video-editing-and-animation">
+                        Vide Editing <br /> &amp; Animation
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/social-media-marketing">
+                        Social Media Marketing
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/pay-per-click">
+                        Pay Per Click (PPC)
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/ecommerce-store">
+                        Ecommerse Stores
+                      </Link>
+                    </li>
                   </ul>
                   <a
                     className="mean-expand"
@@ -385,7 +390,12 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
               <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                 <div className="offcanvas__logo">
                   <Link href="/">
-                    <Image src={Logo} alt="Digital marketing agency" height= {60} width={184} />
+                    <Image
+                      src={Logo}
+                      alt="Digital marketing agency"
+                      height={60}
+                      width={184}
+                    />
                   </Link>
                 </div>
                 <div className="offcanvas__close" onClick={() => close()}>
@@ -474,12 +484,16 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
 };
 
 const Header1 = ({ single }) => {
-  
   const scrollDirection = useScrollDirection();
   const [sidebarToggle, setSidebarToggle] = useState(false);
   return (
     <Fragment>
-      <header id="header-sticky" className={`header-1 sticky ${scrollDirection === "down" ? "top-24" : "top-0"} h-24 bg-blue-200 transition-all duration-500`}>
+      <header
+        id="header-sticky"
+        className={`header-1 sticky ${
+          scrollDirection === "down" ? "top-24" : "top-0"
+        } h-24 bg-blue-200 transition-all duration-500`}
+      >
         <div className="container">
           <div className="mega-menu-wrapper">
             <div className="header-main">
@@ -489,11 +503,18 @@ const Header1 = ({ single }) => {
                     src={Logo}
                     alt="logo-img"
                     className="logo-1"
-                    height= {64} width={192} 
+                    height={64}
+                    width={192}
                   />
                 </Link>
                 <Link href="/">
-                <Image src={Logo} alt="logo-img" className="logo-2"  height= {64} width={192} />
+                  <Image
+                    src={Logo}
+                    alt="logo-img"
+                    className="logo-2"
+                    height={64}
+                    width={192}
+                  />
                 </Link>
               </div>
               <div className="header-left">
@@ -516,14 +537,14 @@ const Header1 = ({ single }) => {
                   </div>
                 </div> */}
                 <Link
-                    href="/"
-                    className="theme-btn hover-white audit-btn aos-init aos-animate"
-                    data-aos="fade-up" data-aos-duration="600"
-                    style={{ backgroundColor: "#202369"}}
-                    
-                  >
-                    Free Audit
-                  </Link>
+                  href="/"
+                  className="theme-btn hover-white audit-btn aos-init aos-animate"
+                  data-aos="fade-up"
+                  data-aos-duration="600"
+                  style={{ backgroundColor: "#202369" }}
+                >
+                  Free Audit
+                </Link>
                 <div className="header__hamburger d-md-block d-lg-none my-auto">
                   <div
                     className="sidebar__toggle"
@@ -545,4 +566,3 @@ const Header1 = ({ single }) => {
     </Fragment>
   );
 };
-

@@ -18,8 +18,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
+      <meta charset="UTF-8"/>
         <meta name="robots" content="all" />
         <meta name="googlebot" content="all" />
+        <meta name="author" content="AdSparrow" />
         <link
           rel="canonical"
           href="https://www.adsparrow.net/"
