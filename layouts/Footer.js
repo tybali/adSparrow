@@ -42,7 +42,7 @@ const Footer1 = () => {
             <h2>
               Let’s Discussed About <span>Your Projects</span>
             </h2>
-            <Link href="contact" className="theme-btn hover-white">
+            <Link href="/contact" className="theme-btn hover-white">
               Get Started <i className="far fa-arrow-right" />
             </Link>
           </div>
@@ -95,7 +95,7 @@ const Footer1 = () => {
                     <Link href="team-details">Team Member</Link>
                   </li>
                   <li>
-                    <Link href="contact">Privacy &amp; Setting</Link>
+                    <Link href="/contact">Privacy &amp; Setting</Link>
                   </li>
                   <li>
                     <Link href="pricing">Pricing Package</Link>
@@ -204,10 +204,10 @@ const Footer1 = () => {
                   <Link href="faq">FAQs</Link>
                 </li>
                 <li>
-                  <Link href="about">Company</Link>
+                  <Link href="/about">Company</Link>
                 </li>
                 <li>
-                  <Link href="contact">Privacy</Link>
+                  <Link href="/contact">Privacy</Link>
                 </li>
               </ul>
               <a
@@ -283,7 +283,7 @@ const Footer2 = () => {
                     <Link href="team-details">Team Member</Link>
                   </li>
                   <li>
-                    <Link href="contact">Privacy &amp; Setting</Link>
+                    <Link href="/contact">Privacy &amp; Setting</Link>
                   </li>
                   <li>
                     <Link href="pricing">Pricing Package</Link>
@@ -347,13 +347,13 @@ const Footer2 = () => {
                     <Link href="service-details">Terms &amp; Conditions</Link>
                   </li>
                   <li>
-                    <Link href="contact">Privacy Policy</Link>
+                    <Link href="/contact">Privacy Policy</Link>
                   </li>
                   <li>
                     <Link href="pricing">Pricing Plan</Link>
                   </li>
                   <li>
-                    <Link href="contact">Contact us</Link>
+                    <Link href="/contact">Contact us</Link>
                   </li>
                 </ul>
               </div>
@@ -390,10 +390,10 @@ const Footer2 = () => {
                 <Link href="faq">FAQs</Link>
               </li>
               <li>
-                <Link href="about">Company</Link>
+                <Link href="/about">Company</Link>
               </li>
               <li>
-                <Link href="contact">Privacy</Link>
+                <Link href="/contact">Privacy</Link>
               </li>
             </ul>
             <a href="#" id="scrollUp" className="scroll-icon">
@@ -463,7 +463,7 @@ const Footer3 = () => {
                     <Link href="team-details">Team Member</Link>
                   </li>
                   <li>
-                    <Link href="contact">Privacy &amp; Setting</Link>
+                    <Link href="/contact">Privacy &amp; Setting</Link>
                   </li>
                   <li>
                     <Link href="pricing">Pricing Package</Link>
@@ -544,10 +544,10 @@ const Footer3 = () => {
                 <Link href="faq">FAQs</Link>
               </li>
               <li>
-                <Link href="about">Company</Link>
+                <Link href="/about">Company</Link>
               </li>
               <li>
-                <Link href="contact">Privacy</Link>
+                <Link href="/contact">Privacy</Link>
               </li>
             </ul>
             <a href="#" id="scrollUp" className="scroll-icon">
@@ -620,7 +620,7 @@ const Footer4 = () => {
                     <Link href="team-details">Team Member</Link>
                   </li>
                   <li>
-                    <Link href="contact">Privacy &amp; Setting</Link>
+                    <Link href="/contact">Privacy &amp; Setting</Link>
                   </li>
                   <li>
                     <Link href="pricing">Pricing Package</Link>
@@ -701,10 +701,10 @@ const Footer4 = () => {
                 <Link href="faq">FAQs</Link>
               </li>
               <li>
-                <Link href="about">Company</Link>
+                <Link href="/about">Company</Link>
               </li>
               <li>
-                <Link href="contact">Privacy</Link>
+                <Link href="/contact">Privacy</Link>
               </li>
             </ul>
             <a href="#" id="scrollUp" className="scroll-icon">
@@ -740,7 +740,7 @@ const Footer6 = () => {
             <h2>
               Let’s Discussed About <span>Your Projects</span>
             </h2>
-            <Link href="contact" className="theme-btn hover-white">
+            <Link href="/contact" className="theme-btn hover-white">
               Get Started <i className="far fa-arrow-right" />
             </Link>
           </div>
@@ -793,7 +793,7 @@ const Footer6 = () => {
                     <Link href="team-details">Team Member</Link>
                   </li>
                   <li>
-                    <Link href="contact">Privacy &amp; Setting</Link>
+                    <Link href="/contact">Privacy &amp; Setting</Link>
                   </li>
                   <li>
                     <Link href="pricing">Pricing Package</Link>
@@ -902,10 +902,10 @@ const Footer6 = () => {
                   <Link href="faq">FAQs</Link>
                 </li>
                 <li>
-                  <Link href="about">Company</Link>
+                  <Link href="/about">Company</Link>
                 </li>
                 <li>
-                  <Link href="contact">Privacy</Link>
+                  <Link href="/contact">Privacy</Link>
                 </li>
               </ul>
               <a

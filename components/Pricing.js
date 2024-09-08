@@ -35,7 +35,7 @@ const Pricing = () => {
                 <p>For Small Businesses</p>
               </div>
               <div className="pricing-button">
-                <Link href="contact" className="theme-btn style-transparent">
+                <Link href="/contact" className="theme-btn style-transparent">
                   Choose Package
                 </Link>
               </div>
@@ -66,7 +66,7 @@ const Pricing = () => {
                 <p>For Small Businesses</p>
               </div>
               <div className="pricing-button">
-                <Link href="contact" className="theme-btn style-transparent">
+                <Link href="/contact" className="theme-btn style-transparent">
                   Choose Package
                 </Link>
               </div>
@@ -97,7 +97,7 @@ const Pricing = () => {
                 <p>For Small Businesses</p>
               </div>
               <div className="pricing-button">
-                <Link href="contact" className="theme-btn style-transparent">
+                <Link href="/contact" className="theme-btn style-transparent">
                   Choose Package
                 </Link>
               </div>
@@ -140,7 +140,7 @@ export const Pricing2 = ({
                 <span>per month</span>
               </div>
               <div className="pricing-button">
-                <Link href="contact" className="theme-btn bg-header">
+                <Link href="/contact" className="theme-btn bg-header">
                   Choose Package
                 </Link>
               </div>
@@ -180,7 +180,7 @@ export const Pricing2 = ({
                 <span>per month</span>
               </div>
               <div className="pricing-button">
-                <Link href="contact" className="theme-btn bg-header">
+                <Link href="/contact" className="theme-btn bg-header">
                   Choose Package
                 </Link>
               </div>
@@ -227,7 +227,7 @@ export const Pricing2 = ({
                 <span>per month</span>
               </div>
               <div className="pricing-button">
-                <Link href="contact" className="theme-btn bg-header">
+                <Link href="/contact" className="theme-btn bg-header">
                   Choose Package
                 </Link>
               </div>

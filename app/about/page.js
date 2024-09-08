@@ -105,7 +105,7 @@ const page = () => {
                     </div>
                   </div>
                   <Link
-                    href="about"
+                    href="/about"
                     className="theme-btn mt-50aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
                   >
                     Learn More Us

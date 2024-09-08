@@ -30,7 +30,7 @@ const page = () => {
         email: values.email,
         phone: values.phone,
         message: values.message,
-        formType: "contact",
+        formType: "/contact",
       }
       setValues({
         name: "",

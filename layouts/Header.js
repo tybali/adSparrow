@@ -32,7 +32,7 @@ const Menu = ({ single, menu }) => {
   const singleMenu = menu
     ? menu
     : [
-        { id: 1, href: "about", title: "About" },
+        { id: 1, href: "/about", title: "/about" },
         { id: 2, href: "services", title: "Services" },
         { id: 3, href: "team", title: "Team" },
         { id: 4, href: "blog", title: "Blog" },
@@ -45,136 +45,7 @@ const Menu = ({ single, menu }) => {
             <li className="has-dropdown active menu-thumb">
               <Link href="/">
                 Home
-                <i className="fas fa-angle-down" />
               </Link>
-              <ul className="submenu has-homemenu">
-                <li className="border-none">
-                  <div className="row g-4">
-                    <div className="col-xl-2 homemenu">
-                      <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-1.jpg" alt="img" />
-                        <div className="demo-button">
-                          <Link href="/" className="theme-btn">
-                            Multi Page
-                          </Link>
-                          <a href="index-one-page.html" className="theme-btn">
-                            One Page
-                          </a>
-                        </div>
-                      </div>
-                      <div className="homemenu-content text-center">
-                        <h4 className="homemenu-title">Home 01</h4>
-                      </div>
-                    </div>
-                    <div className="col-xl-2  homemenu">
-                      <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-2.jpg" alt="img" />
-                        <div className="demo-button">
-                          <Link href="index-2" className="theme-btn">
-                            Multi Page
-                          </Link>
-                          <Link href="index-two-page" className="theme-btn">
-                            One Page
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="homemenu-content text-center">
-                        <h4 className="homemenu-title">Home 02</h4>
-                      </div>
-                    </div>
-                    <div className="col-xl-2 homemenu">
-                      <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-3.jpg" alt="img" />
-                        <div className="demo-button">
-                          <Link href="index-3" className="theme-btn">
-                            Multi Page
-                          </Link>
-                          <Link href="index-three-page" className="theme-btn">
-                            One Page
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="homemenu-content text-center">
-                        <h4 className="homemenu-title">Home 03</h4>
-                      </div>
-                    </div>
-                    <div className="col-xl-2 homemenu">
-                      <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-4.jpg" alt="img" />
-                        <div className="demo-button">
-                          <Link href="index-4" className="theme-btn">
-                            Multi Page
-                          </Link>
-                          <Link href="index-four-page" className="theme-btn">
-                            One Page
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="homemenu-content text-center">
-                        <h4 className="homemenu-title">Home 04</h4>
-                      </div>
-                    </div>
-                    <div className="col-xl-2 homemenu">
-                      <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-5.jpg" alt="img" />
-                        <div className="demo-button">
-                          <Link href="index-5" className="theme-btn">
-                            Multi Page
-                          </Link>
-                          <Link href="index-five-page" className="theme-btn">
-                            One Page
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="homemenu-content text-center">
-                        <h4 className="homemenu-title">Home 05</h4>
-                      </div>
-                    </div>
-                    <div className="col-xl-2 homemenu">
-                      <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-6.jpg" alt="img" />
-                        <div className="demo-button">
-                          <Link href="index-6" className="theme-btn">
-                            Multi Page
-                          </Link>
-                          <Link href="index-six-page" className="theme-btn">
-                            One Page
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="homemenu-content text-center">
-                        <h4 className="homemenu-title">Home 06</h4>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </li>
-            <li className="has-dropdown active d-xl-none">
-              <Link href="/" className="border-none">
-                Home
-                <i className="fas fa-angle-down" />
-              </Link>
-              <ul className="submenu">
-                <li>
-                  <Link href="/">Home 01</Link>
-                </li>
-                <li>
-                  <Link href="index-2">Home 02</Link>
-                </li>
-                <li>
-                  <Link href="index-3">Home 03</Link>
-                </li>
-                <li>
-                  <Link href="index-4">Home 04</Link>
-                </li>
-                <li>
-                  <Link href="index-5">Home 05</Link>
-                </li>
-                <li>
-                  <Link href="index-6">Home 06</Link>
-                </li>
-              </ul>
             </li>
             {singleMenu.map((menu) => (
               <li key={menu.id}>
@@ -297,28 +168,7 @@ const Menu = ({ single, menu }) => {
             <li className="has-dropdown active d-xl-none">
               <Link href="/" className="border-none">
                 Home
-                <i className="fas fa-angle-down" />
               </Link>
-              <ul className="submenu">
-                <li>
-                  <Link href="/">Home 01</Link>
-                </li>
-                <li>
-                  <Link href="index-2">Home 02</Link>
-                </li>
-                <li>
-                  <Link href="index-3">Home 03</Link>
-                </li>
-                <li>
-                  <Link href="index-4">Home 04</Link>
-                </li>
-                <li>
-                  <Link href="index-5">Home 05</Link>
-                </li>
-                <li>
-                  <Link href="index-6">Home 06</Link>
-                </li>
-              </ul>
             </li>
             <li>
               <Link href="/about">About</Link>
@@ -420,7 +270,7 @@ const MobileMenu = ({ single, menu }) => {
   const singleMenu = menu
     ? menu
     : [
-        { id: 1, href: "about", title: "About" },
+        { id: 1, href: "/about", title: "/about" },
         { id: 2, href: "services", title: "Services" },
         { id: 3, href: "team", title: "Team" },
         { id: 4, href: "blog", title: "Blog" },
@@ -439,7 +289,7 @@ const MobileMenu = ({ single, menu }) => {
           <ul>
             <li className="has-dropdown active d-xl-none">
               <a
-                href="#"
+                href="/"
                 className="border-none"
                 onClick={() => activeMenuSet("home")}
               >
@@ -457,7 +307,7 @@ const MobileMenu = ({ single, menu }) => {
             ) : (
               <Fragment>
                 <li>
-                  <Link href="about">About</Link>
+                  <Link href="/about">About</Link>
                 </li>
                 <li>
                   <a href="" onClick={() => activeMenuSet("Services")}>
@@ -514,7 +364,7 @@ const MobileMenu = ({ single, menu }) => {
                   </a>
                 </li> */}
                 <li className="mean-last">
-                  <Link href="contact">Contact</Link>
+                  <Link href="/contact">Contact</Link>
                 </li>
               </Fragment>
             )}
@@ -592,7 +442,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                   </li>
                 </ul> */}
                 <div className="header-button mt-4">
-                  <Link href="contact" className="theme-btn text-center">
+                  <Link href="/contact" className="theme-btn text-center">
                     Free Audit
                   </Link>
                 </div>
@@ -696,232 +546,3 @@ const Header1 = ({ single }) => {
   );
 };
 
-const Header2 = ({ single }) => {
-  const singleMenu = [
-    { id: 1, href: "about", title: "About" },
-    { id: 2, href: "services", title: "Services" },
-    { id: 3, href: "projects", title: "Projects" },
-    { id: 4, href: "testimonial", title: "Testimonial" },
-  ];
-
-  const [sidebarToggle, setSidebarToggle] = useState(false);
-  return (
-    <Fragment>
-      <header id="header-sticky" className="header-2">
-        <div className="container">
-          <div className="mega-menu-wrapper">
-            <div className="header-main">
-              <div className="sticky-logo">
-                <Link href="/">
-                <Image src={Logo} alt="logo-img" className="logo-2" height= {57} width={130} />
-                </Link>
-              </div>
-              <div className="header-left">
-                <div className="mean__menu-wrapper">
-                  <div className="main-menu">
-                    <Menu single={single} menu={singleMenu} />
-                  </div>
-                </div>
-              </div>
-              <div className="header-right d-flex justify-content-end align-items-center">
-                <div className="header-button">
-                  <Link href="contact" className="theme-btn bg-2">
-                    Get A Quote
-                  </Link>
-                </div>
-                <div className="header__hamburger d-xl-none my-auto">
-                  <div
-                    className="sidebar__toggle"
-                    onClick={() => setSidebarToggle(true)}
-                  >
-                    <i className="far fa-bars" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-      <Sidebar
-        sidebarToggle={sidebarToggle}
-        close={() => setSidebarToggle(false)}
-        single={single}
-        menu={singleMenu}
-      />
-    </Fragment>
-  );
-};
-
-const Header3 = ({ single }) => {
-  const [sidebarToggle, setSidebarToggle] = useState(false);
-  const singleMenu = [
-    { id: 2, href: "services", title: "Services" },
-    { id: 1, href: "about", title: "About" },
-    { id: 3, href: "team", title: "Team" },
-    { id: 4, href: "testimonial", title: "Testimonial" },
-    { id: 4, href: "blog", title: "Blog" },
-  ];
-  return (
-    <Fragment>
-      <header id="header-sticky" className="header-2">
-        <div className="container">
-          <div className="mega-menu-wrapper">
-            <div className="header-main">
-              <div className="sticky-logo">
-                <Link href="/">
-                <Image src={Logo} alt="logo-img" className="logo-2" height= {57} width={130} />
-                </Link>
-              </div>
-              <div className="header-left">
-                <div className="mean__menu-wrapper">
-                  <div className="main-menu">
-                    <Menu single={single} menu={singleMenu} />
-                  </div>
-                </div>
-              </div>
-              <div className="header-right d-flex justify-content-end align-items-center">
-                <div className="icon-items">
-                  <div className="icon">
-                    <i className="fas fa-phone-alt" />
-                  </div>
-                  <div className="content">
-                    <p>Make A Call</p>
-                    <h4>
-                      <a href="tel:+00012345688">+000 (123) 456 88</a>
-                    </h4>
-                  </div>
-                </div>
-                <div className="header-button">
-                  <Link href="contact" className="theme-btn bg-2">
-                    Get A Quote
-                  </Link>
-                </div>
-                <div className="header__hamburger d-xl-none my-auto">
-                  <div
-                    className="sidebar__toggle"
-                    onClick={() => setSidebarToggle(true)}
-                  >
-                    <i className="far fa-bars" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-      <Sidebar
-        sidebarToggle={sidebarToggle}
-        close={() => setSidebarToggle(false)}
-        single={single}
-        menu={singleMenu}
-      />
-    </Fragment>
-  );
-};
-
-const Header5 = ({ single }) => {
-  const [sidebarToggle, setSidebarToggle] = useState(false);
-  const singleMenu = [
-    { id: 1, href: "about", title: "About" },
-    { id: 2, href: "services", title: "Services" },
-    { id: 3, href: "projects", title: "Projects" },
-    { id: 4, href: "contact", title: "Contact" },
-  ];
-  return (
-    <Fragment>
-      <header id="header-sticky" className="header-6">
-        <div className="container">
-          <div className="mega-menu-wrapper">
-            <div className="header-main">
-              <div className="sticky-logo">
-                <Link href="/" className="logo-1">
-                  <Image src={Logo} alt="logo-img" height= {57} width={130}  />
-                </Link>
-                <Link href="/" className="logo-2">
-                <Image src={Logo} alt="logo-img" className="logo-2" height= {57} width={130} />
-                </Link>
-              </div>
-              <div className="header-left">
-                <div className="mean__menu-wrapper">
-                  <div className="main-menu">
-                    <Menu single={single} menu={singleMenu} />
-                  </div>
-                </div>
-              </div>
-              <div className="header-right d-flex justify-content-end align-items-center">
-                <div className="header__hamburger d-xl-block my-auto">
-                  <div
-                    className="sidebar__toggle"
-                    onClick={() => setSidebarToggle(true)}
-                  >
-                    <i className="far fa-bars" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-      <Sidebar
-        sidebarToggle={sidebarToggle}
-        close={() => setSidebarToggle(false)}
-        single={single}
-        menu={singleMenu}
-      />
-    </Fragment>
-  );
-};
-
-const Header6 = ({ single }) => {
-  const [sidebarToggle, setSidebarToggle] = useState(false);
-  const singleMenu = [
-    { id: 2, href: "services", title: "Services" },
-    { id: 3, href: "feature", title: "Feature" },
-    { id: 4, href: "pricing", title: "Pricing" },
-  ];
-  return (
-    <Fragment>
-      <header id="header-sticky" className="header-3">
-        <div className="container">
-          <div className="mega-menu-wrapper">
-            <div className="header-main">
-              <div className="sticky-logo">
-                <Link href="/">
-                <Image src={Logo} alt="logo-img" className="logo-2" height= {57} width={130} />
-                </Link>
-              </div>
-              <div className="header-left">
-                <div className="mean__menu-wrapper">
-                  <div className="main-menu">
-                    <Menu single={single} menu={singleMenu} />
-                  </div>
-                </div>
-              </div>
-              <div className="header-right d-flex justify-content-end align-items-center">
-                <div className="header-button">
-                  <Link href="contact" className="theme-btn bg-2">
-                    Get A Quote
-                  </Link>
-                </div>
-                <div className="header__hamburger d-xl-block my-auto">
-                  <div
-                    className="sidebar__toggle"
-                    onClick={() => setSidebarToggle(true)}
-                  >
-                    <i className="far fa-bars" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-      <Sidebar
-        sidebarToggle={sidebarToggle}
-        close={() => setSidebarToggle(false)}
-        single={single}
-        menu={singleMenu}
-      />
-    </Fragment>
-  );
-};
