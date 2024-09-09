@@ -11530,13 +11530,5 @@ p.sticky-label {
   }
 }
 
-@media (max-width: 537px) {
-  .banner-img {
-    display: none;
-  }
-  .radialContainer {
-    background-image: linear-gradient(to right top, #000556, #1b2372, #32408d, #495ea8, #627dc3, #588ccf, #509bd9, #4baae0, #00aad2, #00a9be, #00a6a4, #0ba188);
-  }
-}
 
 /*# sourceMappingURL=main.css.map */
