@@ -157,7 +157,7 @@ const page = () => {
                       </svg>
                       <div className="contact-info">
                         <a href="mailto:adsparrowllc@gmail.com">
-                          info@adsparrow.net
+                          adsparrowllc@gmail.com
                         </a>
                       </div>
                     </li>

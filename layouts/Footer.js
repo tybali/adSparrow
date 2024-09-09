@@ -102,7 +102,7 @@ const Footer4 = () => {
                     </div>
                     <div className="content">
                       <a href="mailto:adsparrowllc@gmail.com" className="link">
-                        info@adsparrow.net
+                        adsparrowllc@gmail.com
                       </a>
                     </div>
                   </div>
