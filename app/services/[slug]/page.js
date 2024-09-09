@@ -3,48 +3,91 @@ import NextLayout from "@/layouts/NextLayout";
 import slugify from "slugify";
 import Services from "@/components/Services";
 
-export async function generateMetadata({ params }, parent) {
+export async function generateMetadata({ params }) {
   // read route params
-  const slug = params.slug
- 
+  const slug = params.slug;
   // optionally access and extend (rather than replace) parent metadata
-  const previousImages = (await parent).openGraph?.images || []
- const getMeta = () => {
-  switch (slug){
+  switch (slug) {
     case "website-design-and-development":
-    return {
-      title: "",
-      meta: ""
-    }
-  }
- }
-  return {
-    title: product.title,
-    openGraph: {
-      images: ['/some-specific-page-image.jpg', ...previousImages],
-    },
+      return {
+        title: "Custom Website Design & Development Services | AdSparrow",
+        desscription:
+          "Elevate your online presence with AdSparrow's expert website design and development. From WordPress to security, we craft stunning, secure, and high-performing sites.",
+      };
+    case "search-engine-optimization":
+      return {
+        title: "Turbocharge Your Rankings with AdSparrow's SEO Services",
+        desscription:
+          "Boost your visibility and conversions with AdSparrow’s tailored SEO strategies. From audits to content and link building, we drive results that matter.",
+      };
+
+    case "video-editing-and-animation":
+      return {
+        title: "Professional Video Editing & Animation Services | AdSparrow",
+        desscription:
+          "Transform raw footage into captivating stories with AdSparrow's expert video editing & animation. Engage your audience with high-quality, impactful visual content.",
+      };
+
+    case "social-media-marketing":
+      return {
+        title: "Boost Your ROI with Expert Social Media Marketing",
+        desscription:
+          "Unlock social media success with AdSparrow's ROI-focused strategies. Captivating content, expert algorithms, and optimized campaigns drive real results.",
+      };
+
+    case "pay-per-click":
+      return {
+        title:
+          "Boost Revenue with AdSparrow’s PPC Services | Clicks That Convert",
+        desscription:
+          "Drive conversions with AdSparrow's budget-smart PPC campaigns. Target the right audience, maximize ROI, and watch your business soar. Contact us today!",
+      };
+
+    case "ecommerce-store":
+      return {
+        title: "Build a Captivating Ecommerce Store with AdSparrow",
+        desscription:
+          "Create an engaging eCommerce store that attracts and converts. From seamless checkout to mobile-friendly design, AdSparrow builds digital marketplaces that thrive.",
+      };
+
+    default:
+      return {
+        title: "",
+        desscription: "",
+      };
   }
 }
 
 const page = ({ params }) => {
   const servicesSlugs = [
-    {slug: slugify("website design & development"), title: "Website Design & Development"},
-    {slug: slugify("search engine optimization"), title: "Search Engine Optimization (SEO)"},
-    {slug: slugify("video editing & animation"), title: "Video Editing & Animation"},
-    {slug: slugify("social media marketing"), title: "Social Media Marketing"},
-    {slug: slugify("pay per click"), title: "Pay Per Click (PPC)"},
-    {slug: slugify("ecommerce store"), title: "Ecommerce Store"},
-  
-  ]
-  const service = servicesSlugs.find((elem) => elem.slug === params.slug)
- 
+    {
+      slug: slugify("website design & development"),
+      title: "Website Design & Development",
+    },
+    {
+      slug: slugify("search engine optimization"),
+      title: "Search Engine Optimization (SEO)",
+    },
+    {
+      slug: slugify("video editing & animation"),
+      title: "Video Editing & Animation",
+    },
+    {
+      slug: slugify("social media marketing"),
+      title: "Social Media Marketing",
+    },
+    { slug: slugify("pay per click"), title: "Pay Per Click (PPC)" },
+    { slug: slugify("ecommerce store"), title: "Ecommerce Store" },
+  ];
+  const service = servicesSlugs.find((elem) => elem.slug === params.slug);
+
   return (
     <NextLayout header={1} footer={4}>
       <Breadcrumb pageName={service?.title} />
       {/* About Section Start */}
 
       <Services slug={params.slug} />
-   
+
       {/* Service Video Section Start 
        <section className="service-video-section fix section-padding">
         <div className="container">
