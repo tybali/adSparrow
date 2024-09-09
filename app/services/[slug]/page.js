@@ -3,6 +3,29 @@ import NextLayout from "@/layouts/NextLayout";
 import slugify from "slugify";
 import Services from "@/components/Services";
 
+export async function generateMetadata({ params }, parent) {
+  // read route params
+  const slug = params.slug
+ 
+  // optionally access and extend (rather than replace) parent metadata
+  const previousImages = (await parent).openGraph?.images || []
+ const getMeta = () => {
+  switch (slug){
+    case "website-design-and-development":
+    return {
+      title: "",
+      meta: ""
+    }
+  }
+ }
+  return {
+    title: product.title,
+    openGraph: {
+      images: ['/some-specific-page-image.jpg', ...previousImages],
+    },
+  }
+}
+
 const page = ({ params }) => {
   const servicesSlugs = [
     {slug: slugify("website design & development"), title: "Website Design & Development"},
