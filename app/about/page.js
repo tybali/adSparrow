@@ -14,7 +14,7 @@ const page = () => {
   return (
     <NextLayout header={1} footer={4}>
       {/*<< Breadcrumb Section Start >>*/}
-      <Breadcrumb />
+      <Breadcrumb title="Who We Are" />
       {/* About Section Start */}
       <section className="about-section fix section-padding">
         <div className="container">

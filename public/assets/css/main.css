@@ -10625,7 +10625,7 @@ p.sticky-label {
   margin-top: 30px;
 }
 .contact-wrapper .contact-content .contact-list li {
-  padding: 20px;
+  padding: 20px 0px;
   border: none;
   width: 100%;
   text-align: center;
@@ -10649,7 +10649,7 @@ p.sticky-label {
 .contact-wrapper .contact-content .contact-list li a {
   color: var(--header);
   text-align: left;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .contact-info {

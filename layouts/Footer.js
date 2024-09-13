@@ -141,7 +141,7 @@ const Footer4 = () => {
       <div className="footer-bottom style-2">
         <div className="container">
           <div className="footer-wrapper d-flex align-items-center justify-content-between pb-0">
-            <ul className="footer-menu">
+            {/* <ul className="footer-menu">
               <li>
                 <Link href="faq">FAQs</Link>
               </li>
@@ -151,7 +151,7 @@ const Footer4 = () => {
               <li>
                 <Link href="/contact">Privacy</Link>
               </li>
-            </ul>
+            </ul> */}
             <a href="#" id="scrollUp" className="scroll-icon">
               <i className="far fa-angle-double-up" />
             </a>

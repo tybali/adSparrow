@@ -162,11 +162,11 @@ const page = () => {
                       </div>
                     </li>
                     {/* <li>55 Main Street, 2nd block, Malborne, Australia</li> */}
-                    <li style={{ gap: 45 }}>
+                    <li>
                       <svg
-                        width="55"
-                        height="55"
-                        viewBox="0 0 55 55"
+                          width="72"
+                          height="72"
+                          viewBox="0 0 72 72"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
                       >

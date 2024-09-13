@@ -19,7 +19,7 @@ const Menu = ({ single, menu }) => {
   const singleMenu = menu
     ? menu
     : [
-        { id: 1, href: "/about", title: "/about" },
+        { id: 1, href: "/about", title: "Who We Are" },
         { id: 2, href: "services", title: "Services" },
         { id: 3, href: "team", title: "Team" },
         { id: 4, href: "blog", title: "Blog" },
@@ -156,7 +156,7 @@ const Menu = ({ single, menu }) => {
               </Link>
             </li>
             <li>
-              <Link href="/about">About</Link>
+              <Link href="/about">Who We Are</Link>
             </li>
             <li>
               <Link href="">
@@ -263,7 +263,7 @@ const MobileMenu = ({ single, menu }) => {
   const singleMenu = menu
     ? menu
     : [
-        { id: 1, href: "/about", title: "/about" },
+        { id: 1, href: "/about", title: "Who We Are" },
         { id: 2, href: "services", title: "Services" },
         { id: 3, href: "team", title: "Team" },
         { id: 4, href: "blog", title: "Blog" },
@@ -300,7 +300,7 @@ const MobileMenu = ({ single, menu }) => {
             ) : (
               <Fragment>
                 <li>
-                  <Link href="/about">About</Link>
+                  <Link href="/about">Who We Are</Link>
                 </li>
                 <li>
                   <a href="" onClick={() => activeMenuSet("Services")}>
