@@ -29,7 +29,7 @@ Version: 1.0.0
 }
 
 strong {
-  font-weight: unset !important;
+  font-weight: 600 !important;
 }
 
 .theme-btn {
@@ -9462,7 +9462,7 @@ textarea:focus {
 .blog-wrapper .single-blog-post .post-content h2 a:hover {
   color: var(--theme);
 }
-.blog-wrapper .single-blog-post .post-content p {
+.blog-wrapper .single-blog-post .post-content p, .blog-wrapper .single-blog-post .post-content ol  {
   font-size: 18px;
 }
 @media (max-width: 767px) {
