@@ -9463,7 +9463,7 @@ textarea:focus {
   color: var(--theme);
 }
 .blog-wrapper .single-blog-post .post-content p, .blog-wrapper .single-blog-post .post-content ol  {
-  font-size: 18px;
+  font-size: 20px;
 }
 @media (max-width: 767px) {
   .blog-wrapper .single-blog-post .post-content {
