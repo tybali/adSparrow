@@ -10707,8 +10707,24 @@ p.sticky-label {
   width: 100%;
   font-size: 14px;
   border-bottom: 0.5px solid var(--border);
-  height: 50px;
-  padding: 20px;
+  height: 46px;
+  padding: 8px 20px;
+}
+
+.select-option:hover {
+  color: var(--theme);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
 .show-dropdown {
@@ -11528,6 +11544,18 @@ p.sticky-label {
   .pricing-card-items-2 {
     height: max-content;
   }
+}
+
+.book-a-call-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.call-form-description {
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 

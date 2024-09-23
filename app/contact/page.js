@@ -219,7 +219,7 @@ const page = () => {
                       <div className="col-lg-6">
                         <div className="form-clt">
                           <input
-                            type="text"
+                            type="number"
                             name="phone"
                             id="phone"
                             placeholder="Phone"

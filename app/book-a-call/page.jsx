@@ -1,12 +1,15 @@
-"use client"
+"use client";
 
-import Calender from "@/components/Calender";
+import Breadcrumb from "@/components/Breadcrumb";
+import MeetingInfo from "@/components/MeetingInfo";
+import NextLayout from "@/layouts/NextLayout";
 
 const BookACall = () => {
   return (
-    <div className="">
-      <Calender />
-    </div>
+    <NextLayout header={1} footer={4}>
+      <Breadcrumb pageTitle={"Stop Guessing. Start Growing with Data-Driven Marketing!"} />
+      <MeetingInfo />
+    </NextLayout>
   );
 };
 

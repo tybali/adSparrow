@@ -23,7 +23,7 @@ const Cta = ({ offer = "", title="" }) => {
                {offer}
               </p>
               <Link
-                href="/contact"
+                href="/book-a-call"
                 className="theme-btn bg-2"
                 style={{ textTransform: "capitalize" }}
               >
