@@ -52,11 +52,11 @@ export const Appointments = () => {
       <div className="hero-contact-box">
         <h4>Let's Talk</h4>
         <p style={{ fontSize: 14, marginTop: 5 }}>
-          Free Consultation: “ We’ll turn your online hiccups into smooth
+          Free 1:1 Consultation: “ We’ll turn your online hiccups into smooth
           sailing—no sweat!”
         </p>
         <div id="contact-form" className="contact-form-item">
-          <div className="row g-4">
+          <div className="row" style={{ gap: 10 }}>
             <div className="col-lg-12">
               <div className="form-clt">
                 <input

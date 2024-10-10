@@ -6,7 +6,7 @@ import { Fragment, useEffect } from 'react';
     
 const AOSProvider = ({ children }) => {
    useEffect(() => {
-     AOS.init({ offset: -200 });
+     AOS.init({ offset: -500,  });
    }, []);
 
    return <Fragment>{children}</Fragment>;

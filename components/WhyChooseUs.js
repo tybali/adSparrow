@@ -5,7 +5,7 @@ import { Check } from "./Check";
 
 const WhyChooseUs = () => {
   return (
-    <section className="working-process-section section-padding">
+    <section className="working-process-section section-padding pt-0">
       <div className="container">
         
         <div className="process-container">
@@ -14,21 +14,21 @@ const WhyChooseUs = () => {
             height={560}
             width={540}
             alt="which digital marketing agency is the best"
-            className="resize-illustration aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+            className="resize-illustration aos-init aos-animate" data-aos="fade-up" data-aos-duration="200"
           />
 
           <div className="process-steps-column" style={{ gap: 10 }}>
-          <div className="section-title text-center">
-          <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" style={{ textAlign: "left"}}>
+          <div className="section-title">
+          <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="200">
             Why Choose Us? Because Mediocre is for the Other Guys <br />
           </h2>
         </div>
-            <p className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
+            <p className="why-choose-us-text aos-init aos-animate sub-section-intro" data-aos="fade-up" data-aos-duration="200">
               Ever wonder why some agencies are all talk and no results? That’s
               not us. At Adsprarrow, we do things differently:
             </p>
             <ul>
-              <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
+              <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="200">
                 <Check />{" "}
                 <div>
                   <span style={{ fontWeight: 600 }}>We Make Results, Not Excuses:</span> You want results? We deliver.
@@ -37,35 +37,35 @@ const WhyChooseUs = () => {
                 </div>
               </li>
 
-              <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
+              <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="200">
                 <Check />{" "}
                 <div>
                 <span style={{ fontWeight: 600 }}>Data Nerds with a Purpose:</span> We treat data like gold. Clean, precise, and ready to make your campaigns shine.
                 </div>
               </li>
 
-              <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
+              <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="200">
                 <Check />{" "}
                 <div>
                 <span style={{ fontWeight: 600 }}>Marketing Magic with a Smile:</span> Forget the fluff. We focus on what works, and we sprinkle in some fun while we’re at it.
                 </div>
               </li>
 
-              <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
+              <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="200">
                 <Check />{" "}
                 <div>
                 <span style={{ fontWeight: 600 }}>Optimize Like a Boss:</span> We don’t just tweak; we obsess. If something’s not working, we fix it—fast.
                 </div>
               </li>
 
-              <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
+              <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="200">
                 <Check />{" "}
                 <div>
                 <span style={{ fontWeight: 600 }}>Plain English, No Jargon:</span> We talk your language. No tech speak—just clear, actionable advice.
                 </div>
               </li>
 
-              <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
+              <li className="why-choose-us-text aos-init aos-animate" data-aos="fade-up" data-aos-duration="200">
                 <Check />{" "}
                 <div>
                 <span style={{ fontWeight: 600 }}>Your Goals, Our Mission:</span> We’re not just a service; we’re your partner in crime. Your success is our win.

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Image from "next/image";
 import Illustration from "@assets/img/working-process/illustration.jpeg";
@@ -6,16 +6,21 @@ import RoundFillAnimation from "./RoundFillAnimation";
 
 const OurProcess = () => {
   return (
-    <section  className="working-process-section section-padding pt-0">
+    <section className="working-process-section section-padding pt-0">
       <div className="container">
         <div className="section-title text-center">
-          <h2 className="aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" >
+          <h2
+            className="aos-init aos-animate"
+            data-aos="fade-up"
+            data-aos-duration="600"
+          >
             How We Roll <br />
             <p className="sub-heading">
               {" "}
-              SPARKing your brand from ignition to evolution,{" "}
-              <span style={{ color: "#f06057" }}>winning results </span> along
-              the way with flair and precision.
+              Igniting your brand’s potential with tailored digital marketing
+              services, guiding you from{" "}
+              <span style={{ color: "#f06057" }}>SPARK to growth</span> with
+              precision and impactful results.
             </p>
           </h2>
         </div>
@@ -24,14 +29,16 @@ const OurProcess = () => {
             src={Illustration}
             height={480}
             width={492}
-            alt="digital marketing strategy"
-            className="resize-illustration aos-init aos-animate" data-aos="fade-up" data-aos-duration="600"
+            alt="digital marketing services | digital marketing company | marketing agency usa"
+            className="resize-illustration aos-init aos-animate"
+            data-aos="fade-up"
+            data-aos-duration="600"
           />
 
           <div className="process-steps-column">
             <div className="process-step">
               <RoundFillAnimation character={"S"} />
-              <div className="process-step-content" style = {{ marginTop: 20 }}>
+              <div className="process-step-content" style={{ marginTop: 20 }}>
                 <h3>Spark – IGNITE | ENVISION</h3>
                 <h5 style={{ marginTop: 6, fontWeight: "normal" }}>
                   We light the fuse by understanding your brand's unique vibe
@@ -41,7 +48,7 @@ const OurProcess = () => {
             </div>
 
             <div className="process-step">
-            <RoundFillAnimation character={"P"} />
+              <RoundFillAnimation character={"P"} />
               <div className="process-step-content">
                 <h3>Pulse – PLAN | STRATEGIZE</h3>
                 <h5 style={{ marginTop: 6, fontWeight: "normal" }}>
@@ -52,7 +59,7 @@ const OurProcess = () => {
             </div>
 
             <div className="process-step">
-            <RoundFillAnimation character={"A"} />
+              <RoundFillAnimation character={"A"} />
               <div className="process-step-content">
                 <h3>Amplify – EXECUTE | BOOST</h3>
                 <h5 style={{ marginTop: 6, fontWeight: "normal" }}>
@@ -63,7 +70,7 @@ const OurProcess = () => {
             </div>
 
             <div className="process-step">
-            <RoundFillAnimation character={"R"} />
+              <RoundFillAnimation character={"R"} />
               <div className="process-step-content">
                 <h3>Refine – TWEAK | POLISH</h3>
                 <h5 style={{ marginTop: 6, fontWeight: "normal" }}>
@@ -74,7 +81,7 @@ const OurProcess = () => {
             </div>
 
             <div className="process-step">
-            <RoundFillAnimation character={"K"} />
+              <RoundFillAnimation character={"K"} />
               <div className="process-step-content">
                 <h3>Keep – MEASURE | EVOLVE</h3>
                 <h5 style={{ marginTop: 6, fontWeight: "normal" }}>

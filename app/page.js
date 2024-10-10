@@ -18,9 +18,9 @@ import FeaturedBlogs from "@/components/FeaturedBlogs";
 
 export const metadata = {
   title:
-    "Top Digital Marketing Agency - Boost Your Online Presence | AdSparrow",
+    "AdSparrow Digital Marketing Agency | Expert Digital Marketing Services",
   description:
-    "AdSparrow is your go-to digital marketing agency. We specialize in web design, SEO, PPC, and social media marketing to ensure your business thrives online. Get your free consultation now!",
+    "AdSparrow is a leading digital marketing agency. We offer digital marketing services including web design, SEO, PPC, and social media marketing and more",
 };
 
 const page = () => {
@@ -29,7 +29,7 @@ const page = () => {
       <section className="hero-section hero-1 bg-cover fix">
         <div className="radialContainer" />
         <Image
-          alt="Digital Marketing cover | Digital Marketing Strategy | Digital marketing company near me"
+          alt="Digital Marketing services | Digital Marketing Agency | Digital marketing company near me"
           src={Cover}
           placeholder="blur"
           quality={100}
@@ -50,26 +50,18 @@ const page = () => {
             <div className="col-lg-6">
               <div className="hero-content">
                 <h1
-                  className="aos-init aos-animate"
                   data-aos="fade-up"
                   data-aos-duration="600"
-                >
-                  Look who is here! <br />
-                  We have been keeping your spot warm. <br />
-                </h1>
-                <p className="banner-detail">
-                  You are struggling to stand out online, with website that
-                  blend into the background, social media content that gets lost
-                  in the feed, and marketing strategies that miss the mark.
-                  Struggles you treat like a fact of life. <br />
-                  <br />
-                </p>
-                <p
-                  className="banner-detail"
+                  className="banner-detail aos-init aos-animate"
                   style={{ fontSize: 30, fontWeight: 800 }}
                 >
-                  {" "}
-                  Well, They ain’t. AdSparrow got you covered.{" "}
+                  Marketing Agency <br /> Built on <br />{" "}
+                  <span>PARTNERSHIPS</span> & <br /> Powered by{" "}
+                  <span>RESULTS</span>
+                </h1>
+                <p className="banner-one-liner">
+                  At AdSparrow, we don’t just market; we create meaningful
+                  impact and transform businesses for the better.
                 </p>
                 <div className="hero-button">
                   {/* <Link
@@ -95,6 +87,26 @@ const page = () => {
           </div>
         </div>
       </section>
+
+      {/** Pain Point Detective */}
+      <section
+        className="about-section fix section-padding"
+        style={{ paddingBottom: 0 }}
+      >
+        <div className="container">
+          <h2 className=" intro-quotation">
+            “We're not your typical digital agency—we're{" "}
+            <span style={{ fontWeight: 600 }}>Pain Point Detectives!</span>{" "}
+            While others rely on cookie-cutter tactics, we delve into the unique
+            aspects of your brand, transforming obstacles into achievements.
+            Forget about one-size-fits-all solutions; our tailored digital
+            marketing services are designed to make you shine and achieve
+            success. Ready for a marketing makeover that truly stands out? Let’s
+            tackle your distinctive challenges together!”
+          </h2>
+        </div>
+      </section>
+
       {/* Service Section Start */}
 
       <section className="about-section fix section-padding">
@@ -129,12 +141,11 @@ const page = () => {
                       color: "#000",
                     }}
                   >
-                    Most agencies stop at a lead and pat themselves on the back.
-                    Not us. We’re in it for the long haul, tracking every step
-                    from initial click to final conversion—and beyond. While
-                    others are busy celebrating a click, we’re already mapping
-                    out the next steps to turn that lead into loyal customers,
-                    higher revenue, and world domination (or close to it).
+                    Generating leads is just the beginning of our digital
+                    marketing services. While many agencies celebrate a secured
+                    lead, we take a long-term approach. We track every step from
+                    click to conversion, strategizing to transform leads into
+                    loyal customers and drive sustained growth.
                   </p>
 
                   <div
@@ -167,24 +178,6 @@ const page = () => {
       {/* Process */}
       <OurProcess />
 
-      {/** Pain Point Detective */}
-      <section
-        className="about-section fix section-padding"
-        style={{ paddingBottom: 0 }}
-      >
-        <div className="container">
-          <p className=" intro-quotation">
-            “We're not your average digital agency—we're{" "}
-            <span style={{ fontWeight: 600 }}>Pain Point Detectives!</span>{" "}
-            While others use cookie-cutter tactics, we dive deep into your
-            brand’s quirks, turning obstacles into triumphs. Forget
-            one-size-fits-all solutions; we craft bespoke strategies that make
-            you shine and succeed. Ready for a marketing makeover that stands
-            out? Let’s tackle your unique challenges together!”
-          </p>
-        </div>
-      </section>
-
       <WhyChooseUS />
 
       {/* Service Section Start */}
@@ -196,10 +189,7 @@ const page = () => {
       {/* Cta Video Section Start */}
       <Cta
         title={"Free Audit: Our Treat!"}
-        offer={`Get a behind-the-scenes look at your digital health—no
-            strings attached, no hidden fees, just pure value. Go ahead,
-            challenge us. Request your free audit today and watch us
-            work our magic.`}
+        offer={`Get a free digital marketing audit—no fees, no strings attached. Whether it's boosting your strategy or improving your digital marketing services, we’re ready to help. Request your free audit today and see the difference.`}
         imageSrc={Illustrtation}
       />
 

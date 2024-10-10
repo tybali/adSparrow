@@ -35,7 +35,7 @@ const Cta = ({ offer = "", title="" }) => {
             <div className="video-image">
               <Image
                 src={Illustrtation}
-                alt="img"
+                alt="digital marketing company offering FREE marketing services for small businesses"
                 className="offer-illustration"
               />
             </div>
