@@ -1,8 +1,10 @@
 ## 🔮 Roadmap 🚀
 
-- [x] Build website with next.js
+- [x] Build a website with next.js
 - [ ] Seo optimization
 - [ ] Launch
+- [ ] Marketing
+- [ ] Monitoring & Analaysis
 
 
 ## 🙏 Acknowledgments 
