@@ -2,9 +2,24 @@ import Breadcrumb from "@/components/Breadcrumb";
 import NextLayout from "@/layouts/NextLayout";
 import { getClient } from "@/lib/client";
 import { GET_POST_BY_SLUG } from "@/lib/queries";
+import { nextUtility } from "@/utility";
 import moment from "moment";
 import Link from "next/link";
 import readingTime from "reading-time";
+
+
+
+
+export async function generateMetadata({ params }) {
+  // read route params
+
+  const title =  nextUtility.toTitleCase(params.slug.toString().replaceAll('-',' '))
+  return {
+    title: title?`${title} - AdSparrow`:'AdSparrow',
+    desscription: title?`A comprehensive blog on Topic: "${title}".`:'',
+  };
+
+}
 
 const page = async ({ params }) => {
   const { data } = await getClient().query({
@@ -15,6 +30,7 @@ const page = async ({ params }) => {
   });
 
   return (
+    <>
     <NextLayout header={1} footer={4}>
       <section className="blog-wrapper news-wrapper section-padding">
         <div className="container">
@@ -182,6 +198,7 @@ const page = async ({ params }) => {
         </div>
       </section>
     </NextLayout>
+    </>
   );
 };
 export default page;

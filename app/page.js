@@ -18,7 +18,7 @@ import FeaturedBlogs from "@/components/FeaturedBlogs";
 
 export const metadata = {
   title:
-    "Top Digital Marketing Agency - Boost Your Online Presence | AdSparrow",
+    "Goal-Oriented Digital Marketing Company - AdSparrow",
   description:
     "AdSparrow is your go-to digital marketing agency. We specialize in web design, SEO, PPC, and social media marketing to ensure your business thrives online. Get your free consultation now!",
 };

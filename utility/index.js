@@ -1,4 +1,12 @@
 export const nextUtility = {
+
+  toTitleCase(str) {
+    return str
+      .toLowerCase() 
+      .split(' ') 
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ');
+  },
   stickyNav() {
     // const header = document.getElementById("header-sticky");
 

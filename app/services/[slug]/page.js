@@ -10,27 +10,27 @@ export async function generateMetadata({ params }) {
   switch (slug) {
     case "website-design-and-development":
       return {
-        title: "Custom Website Design & Development Services | AdSparrow",
+        title: "Custom Website Design & Development Services - AdSparrow",
         desscription:
           "Elevate your online presence with AdSparrow's expert website design and development. From WordPress to security, we craft stunning, secure, and high-performing sites.",
       };
     case "search-engine-optimization":
       return {
-        title: "Turbocharge Your Rankings with AdSparrow's SEO Services",
+        title: "Turbocharge Your Rankings with SEO Services - AdSparrow",
         desscription:
           "Boost your visibility and conversions with AdSparrow’s tailored SEO strategies. From audits to content and link building, we drive results that matter.",
       };
 
     case "video-editing-and-animation":
       return {
-        title: "Professional Video Editing & Animation Services | AdSparrow",
+        title: "Professional Video Editing & Animation Services - AdSparrow",
         desscription:
           "Transform raw footage into captivating stories with AdSparrow's expert video editing & animation. Engage your audience with high-quality, impactful visual content.",
       };
 
     case "social-media-marketing":
       return {
-        title: "Boost Your ROI with Expert Social Media Marketing",
+        title: "Boost Your ROI with Expert Social Media Marketing - AdSparrow",
         desscription:
           "Unlock social media success with AdSparrow's ROI-focused strategies. Captivating content, expert algorithms, and optimized campaigns drive real results.",
       };
@@ -38,14 +38,14 @@ export async function generateMetadata({ params }) {
     case "pay-per-click":
       return {
         title:
-          "Boost Revenue with AdSparrow’s PPC Services | Clicks That Convert",
+          "Boost Revenue with PPC Services - AdSparrow",
         desscription:
           "Drive conversions with AdSparrow's budget-smart PPC campaigns. Target the right audience, maximize ROI, and watch your business soar. Contact us today!",
       };
 
     case "ecommerce-store":
       return {
-        title: "Build a Captivating Ecommerce Store with AdSparrow",
+        title: "Build a Captivating Ecommerce Store - AdSparrow",
         desscription:
           "Create an engaging eCommerce store that attracts and converts. From seamless checkout to mobile-friendly design, AdSparrow builds digital marketplaces that thrive.",
       };

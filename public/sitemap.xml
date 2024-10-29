@@ -1,68 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
   <url>
-    <loc>https://adsparrow.net</loc>
-    <lastmod>2024-09-08T15:02:24.021Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1</priority>
+    <loc>https://www.adsparrow.net</loc>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
   </url>
+
+  <!-- Main Pages -->
   <url>
-    <loc>https://adsparrow.net/about</loc>
-    <lastmod>2024-09-08T15:02:24.021Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-    <url>
-    <loc>https://adsparrow.net/contact</loc>
-    <lastmod>2024-09-08T15:02:24.021Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-    <url>
-    <loc>https://adsparrow.net/blogs</loc>
-    <lastmod>2024-09-08T15:02:24.021Z</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://www.adsparrow.net/about</loc>
     <priority>0.8</priority>
-  </url>
-    <url>
-    <loc>https://adsparrow.net/services</loc>
-    <lastmod>2024-09-08T15:02:24.021Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-    <url>
-    <loc>https://adsparrow.net/services/website-design-and-development</loc>
-    <lastmod>2024-09-08T15:02:24.021Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://adsparrow.net/services/search-engine-optimization</loc>
-    <lastmod>2024-09-08T15:02:24.021Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://www.adsparrow.net/contact</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
-   <url>
-    <loc>https://adsparrow.net/services/video-editing-and-animation</loc>
-    <lastmod>2024-09-08T15:02:24.021Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+  <url>
+    <loc>https://www.adsparrow.net/book-a-call</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
-   <url>
-    <loc>https://adsparrow.net/services/social-media-marketing</loc>
-    <lastmod>2024-09-08T15:02:24.021Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+
+  <!-- Service Pages -->
+  <url>
+    <loc>https://www.adsparrow.net/services/website-design-and-development</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
   </url>
-   <url>
-    <loc>https://adsparrow.net/services/pay-per-click</loc>
-    <lastmod>2024-09-06T15:02:24.021Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+  <url>
+    <loc>https://www.adsparrow.net/services/search-engine-optimization</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
   </url>
-   <url>
-    <loc>https://adsparrow.net/services/ecommerce-store</loc>
-    <lastmod>2024-09-06T15:02:24.021Z</lastmod>
+  <url>
+    <loc>https://www.adsparrow.net/services/video-editing-and-animation</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.adsparrow.net/services/social-media-marketing</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.adsparrow.net/services/pay-per-click</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.adsparrow.net/services/ecommerce-store</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Blog Section -->
+  <url>
+    <loc>https://www.adsparrow.net/blogs</loc>
+    <priority>0.7</priority>
     <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+  </url>
+
+  <!-- Blog Posts -->
+  <url>
+    <loc>https://www.adsparrow.net/blogs/how-to-conduct-a-ppc-competitor-analysis</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.adsparrow.net/blogs/digital-marketing-unveiled-types-benefits-and-strategy-tips</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.adsparrow.net/blogs/how-chatgpt-can-help-you-scale-your-business-through-digital-marketing</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.adsparrow.net/blogs/best-social-media-tools-maximizing-your-online-presence-in-2024</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
   </url>
 </urlset>

@@ -6,10 +6,14 @@ import readingTime from "reading-time";
 import { getClient } from "@/lib/client";
 import { GET_ALL_POSTS } from "@/lib/queries";
 
-export const metaData = {
-  title:"Top Social Media Tools for Boosting Your Online Presence in 2024",
-  description: "Discover how ChatGPT transforms digital marketing. Automate tasks, generate content, and engage customers with AI for business growth and competitive advantage."
+
+export async function generateMetadata({ params }) {
+  return {
+    title:"Top Social Media Tools for Boosting Your Online Presence in 2024 - AdSparrow",
+    description: "Discover how ChatGPT transforms digital marketing. Automate tasks, generate content, and engage customers with AI for business growth and competitive advantage."
+    };
 }
+
 
 const page = async () => {
   const { data } = await getClient().query({ query: GET_ALL_POSTS });
